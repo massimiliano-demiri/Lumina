@@ -15,33 +15,40 @@ import Lottie from "react-lottie";
 import loadingAnimation from "./libri.json"; // Importa l'animazione Lottie
 import bookData from "./book.json"; // Importa il file JSON con i dati dei libri
 
-// Generi con i nomi in inglese per fare l'associazione con il JSON
+// Generi con nomi italiani per le card e nomi inglesi per la mappatura JSON
 const genres = [
-  { id: 1, name: "Fantasy", emoji: "🧙‍♂️" },
-  { id: 2, name: "Horror", emoji: "👻" },
-  { id: 3, name: "Mystery", emoji: "🕵️‍♂️" },
-  { id: 4, name: "Romance", emoji: "💖" },
-  { id: 5, name: "Science Fiction", emoji: "🚀" },
-  { id: 6, name: "Historical", emoji: "🏰" },
-  { id: 7, name: "Adventure", emoji: "🏞️" },
-  { id: 8, name: "Non-fiction", emoji: "📚" },
-  { id: 9, name: "Poetry", emoji: "📜" },
-  { id: 10, name: "Random", emoji: "🎲" },
+  { id: 1, name: "Fantasy", displayName: "Fantasia", emoji: "🧙‍♂️" },
+  { id: 2, name: "Horror", displayName: "Orrore", emoji: "👻" },
+  { id: 3, name: "Mystery", displayName: "Mistero", emoji: "🕵️‍♂️" },
+  { id: 4, name: "Romance", displayName: "Romantico", emoji: "💖" },
+  { id: 5, name: "Science Fiction", displayName: "Fantascienza", emoji: "🚀" },
+  { id: 6, name: "Historical", displayName: "Storico", emoji: "🏰" },
+  { id: 7, name: "Adventure", displayName: "Avventura", emoji: "🏞️" },
+  { id: 8, name: "Non-fiction", displayName: "Non-fiction", emoji: "📚" },
+  { id: 9, name: "Poetry", displayName: "Poesia", emoji: "📜" },
+  { id: 10, name: "Random", displayName: "Casuale", emoji: "🎲" },
 ];
 
-// Simulazione di un'API che restituisce ID dei libri
+// Funzione che restituisce gli ID dei libri per i generi selezionati
 const fetchBookIdsByGenres = async (selectedGenres) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      // Estrai gli ID dei libri per i generi selezionati
-      const bookIds = selectedGenres.flatMap((genre) => {
-        // Se esiste il genere nel JSON, estrai gli ID
-        if (bookData[genre]) {
-          return bookData[genre].map((book) => book.id); // Estrarre solo gli ID
-        }
-        return [];
-      });
-      resolve(bookIds); // Restituisci solo gli ID
+      if (selectedGenres.includes("Random")) {
+        // Se "Random" è selezionato, restituisci tutti gli ID dei libri dal JSON
+        const allBookIds = Object.values(bookData)
+          .flat()
+          .map((book) => book.id);
+        resolve(allBookIds);
+      } else {
+        // Altrimenti, estrai gli ID dei libri solo per i generi selezionati
+        const bookIds = selectedGenres.flatMap((genre) => {
+          if (bookData[genre]) {
+            return bookData[genre].map((book) => book.id); // Estrai solo gli ID
+          }
+          return [];
+        });
+        resolve(bookIds);
+      }
     }, 2000); // Simula un ritardo per il fetch
   });
 };
@@ -55,12 +62,14 @@ const SelectGenre = () => {
   // Gestione del click sul genere
   const handleGenreClick = (genre) => {
     if (genre === "Random") {
+      // Se si seleziona "Random", deseleziona tutti gli altri generi
       if (selectedGenres.includes("Random")) {
-        setSelectedGenres([]);
+        setSelectedGenres([]); // Deseleziona "Random"
       } else {
-        setSelectedGenres(["Random"]);
+        setSelectedGenres(["Random"]); // Seleziona solo "Random"
       }
     } else {
+      // Se un altro genere è selezionato e "Random" non è selezionato
       if (!selectedGenres.includes("Random")) {
         setSelectedGenres((prevGenres) =>
           prevGenres.includes(genre)
@@ -133,37 +142,14 @@ const SelectGenre = () => {
               zIndex: -1,
               overflow: "hidden",
             }}
-          >
-            {/* Sfondo dinamico con particelle */}
-            <motion.div
-              initial={{ scale: 1 }}
-              animate={{ scale: 1.05 }}
-              transition={{
-                yoyo: Infinity,
-                duration: 2,
-                ease: "easeInOut",
-              }}
-              style={{
-                position: "absolute",
-                width: "200%",
-                height: "200%",
-                background:
-                  "radial-gradient(circle at center, rgba(255,255,255,0.2), transparent 60%)",
-                top: "-50%",
-                left: "-50%",
-                zIndex: -2,
-                opacity: 0.3,
-              }}
-            />
-          </motion.div>
-
+          />
           <Box
             sx={{
               display: "flex",
-              alignItems: "center", // Centra verticalmente
-              justifyContent: "center", // Centra orizzontalmente
-              height: "100vh", // Imposta l'altezza dell'intera viewport
-              width: "100%", // Assicura che occupi tutta la larghezza
+              alignItems: "center",
+              justifyContent: "center",
+              height: "100vh",
+              width: "100%",
             }}
           >
             <Lottie
@@ -238,8 +224,6 @@ const SelectGenre = () => {
                     }}
                   >
                     <CardContent sx={{ padding: "8px" }}>
-                      {" "}
-                      {/* Riduci il padding */}
                       <motion.div
                         initial={{ scale: 1 }}
                         animate={{
@@ -247,15 +231,15 @@ const SelectGenre = () => {
                         }}
                       >
                         <Typography
-                          variant="subtitle1" // Riduci la dimensione del testo
+                          variant="subtitle1"
                           sx={{
                             color: "#fff",
                             fontWeight: "bold",
                             letterSpacing: "0.05em",
-                            fontSize: "0.9rem", // Riduci la dimensione del font
+                            fontSize: "0.9rem",
                           }}
                         >
-                          {genre.emoji} {genre.name}
+                          {genre.emoji} {genre.displayName}
                         </Typography>
                       </motion.div>
                     </CardContent>
