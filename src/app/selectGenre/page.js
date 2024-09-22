@@ -15,17 +15,17 @@ import Lottie from "react-lottie";
 import loadingAnimation from "./libri.json"; // Importa l'animazione Lottie
 import bookData from "./book.json"; // Importa il file JSON con i dati dei libri
 
-// Generi con la traduzione in italiano
+// Generi con i nomi in inglese per fare l'associazione con il JSON
 const genres = [
   { id: 1, name: "Fantasy", emoji: "🧙‍♂️" },
   { id: 2, name: "Horror", emoji: "👻" },
-  { id: 3, name: "Mistero", emoji: "🕵️‍♂️" },
-  { id: 4, name: "Romanzo rosa", emoji: "💖" },
-  { id: 5, name: "Fantascienza", emoji: "🚀" },
-  { id: 6, name: "Romanzo storico", emoji: "🏰" },
-  { id: 7, name: "Avventura", emoji: "🏞️" },
-  { id: 8, name: "Saggistica", emoji: "📚" },
-  { id: 9, name: "Poesia", emoji: "📜" },
+  { id: 3, name: "Mystery", emoji: "🕵️‍♂️" },
+  { id: 4, name: "Romance", emoji: "💖" },
+  { id: 5, name: "Science Fiction", emoji: "🚀" },
+  { id: 6, name: "Historical", emoji: "🏰" },
+  { id: 7, name: "Adventure", emoji: "🏞️" },
+  { id: 8, name: "Non-fiction", emoji: "📚" },
+  { id: 9, name: "Poetry", emoji: "📜" },
   { id: 10, name: "Random", emoji: "🎲" },
 ];
 
@@ -71,7 +71,6 @@ const SelectGenre = () => {
     }
   };
 
-  // Funzione per iniziare il viaggio
   // Funzione per iniziare il viaggio
   const handleStartJourney = async () => {
     setIsLoading(true);
