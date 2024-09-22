@@ -165,7 +165,7 @@ const SelectGenre = () => {
                 transform: "rotate(-10deg)",
               }}
             >
-              "Prepariamo il tuo viaggio..."
+              &quot;Prepariamo il tuo viaggio...&quot;{" "}
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }}
@@ -182,7 +182,7 @@ const SelectGenre = () => {
                 transform: "rotate(5deg)",
               }}
             >
-              "Attendi un momento..."
+              &quot;Attendi un momento...&quot;{" "}
             </motion.div>
 
             {/* Emoji selezionate in rotazione ellittica sotto Lottie */}
