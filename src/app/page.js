@@ -8,6 +8,7 @@ import { Button, Typography, Box, IconButton, Link } from "@mui/material";
 import { useRouter } from "next/navigation"; // Importa useRouter per il routing
 import GitHubIcon from "@mui/icons-material/GitHub"; // Icona GitHub
 import CoffeeIcon from "@mui/icons-material/Coffee"; // Icona per BuyMeACoffee
+import Head from "next/head";
 
 export default function Home() {
   const router = useRouter(); // Inizializza il router
@@ -19,6 +20,40 @@ export default function Home() {
 
   return (
     <ParallaxEffect>
+      <Head>
+        <title>Lumina - Suggeriscimi un libro</title>
+        <meta
+          name="description"
+          content="Scopri storie mai narrate e immergiti in un viaggio letterario senza precedenti. Quale sarà la tua storia in Lumina?"
+        />
+        <meta
+          name="keywords"
+          content="storie, letteratura, libri, esplorazione"
+        />
+        <meta name="author" content="Massimiliano Demiri" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        {/* Open Graph per i social */}
+        <meta property="og:title" content="Lumina - Esplora Storie Uniche" />
+        <meta
+          property="og:description"
+          content="Scopri storie mai narrate e immergiti in un viaggio letterario senza precedenti."
+        />
+        <meta property="og:image" content="/path/to/your-image.jpg" />
+        <meta property="og:url" content="https://lumina.ovh" />
+
+        {/* Twitter card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Lumina - Esplora Storie Uniche" />
+        <meta
+          name="twitter:description"
+          content="Esplora nuove storie in Lumina."
+        />
+        <meta name="twitter:image" content="/path/to/your-image.jpg" />
+
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </Head>
       <div
         style={{
           position: "relative",
