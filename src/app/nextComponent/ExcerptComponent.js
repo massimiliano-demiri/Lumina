@@ -5,10 +5,11 @@ import { useSearchParams, useRouter } from "next/navigation";
 import Lottie from "react-lottie";
 import AIcon from "@mui/icons-material/TextIncrease";
 import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
-import loadingAnimation from "./alien.json";
-import bookDataJson from "./bookData"; // Inserisci qui il percorso corretto del file JSON
+import loadingAnimation from "./alien.json"; // Animation for loading new excerpts
+import transitionAnimation from "./max.json"; // Animation for transitioning to book details
+import bookDataJson from "./bookData";
 import "./transitionStyles.css";
-import { useMediaQuery } from "@mui/material"; // Importa useMediaQuery
+import { useMediaQuery } from "@mui/material";
 
 const fetchBookAndDetails = async (bookId) => {
   const proxyUrl =
@@ -74,7 +75,6 @@ const getSignificantParagraph = (text) => {
   return selectedParagraph.trim() || null;
 };
 
-// Funzione per trovare il cover_src e amazon_link dal JSON
 const fetchCoverAndAmazonLink = (bookId) => {
   for (const genre in bookDataJson) {
     const book = bookDataJson[genre].find((book) => book.id === bookId);
@@ -93,20 +93,21 @@ const ExcerptComponent = () => {
   const router = useRouter();
   const idsQuery = searchParams.get("ids");
   const [bookData, setBookData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true); // Loading excerpts
   const [fontSize, setFontSize] = useState(18);
   const [darkMode, setDarkMode] = useState(true);
   const [blurActive, setBlurActive] = useState(true);
   const [bookId, setBookId] = useState(null);
+  const [isTransitioning, setIsTransitioning] = useState(false); // Transitioning to book details
 
-  const isMobile = useMediaQuery("(max-width:600px)"); // Verifica se è un dispositivo mobile
+  const isMobile = useMediaQuery("(max-width:600px)");
 
   const bookIds = idsQuery ? idsQuery.split(",") : [];
 
   const lottieOptions = {
     loop: true,
     autoplay: true,
-    animationData: loadingAnimation,
+    animationData: isTransitioning ? transitionAnimation : loadingAnimation, // Switch between animations
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -114,20 +115,23 @@ const ExcerptComponent = () => {
 
   const revealBookDetails = () => {
     if (bookData && bookId) {
-      // Ottieni il cover_src dal JSON
-      const { cover_src, amazon_link } = fetchCoverAndAmazonLink(bookId) || {};
+      setIsTransitioning(true); // Trigger the transition animation
 
-      const queryParams = new URLSearchParams({
-        title: bookData.title,
-        author: bookData.author,
-        paragraph: bookData.paragraph,
-        bookId: bookId,
-        cover_src: cover_src || "", // Aggiungi cover_src
-        amazon_link: amazon_link || "", // Aggiungi amazon_link
-        ids: bookIds.join(","),
-      }).toString();
+      setTimeout(() => {
+        const { cover_src, amazon_link } =
+          fetchCoverAndAmazonLink(bookId) || {};
+        const queryParams = new URLSearchParams({
+          title: bookData.title,
+          author: bookData.author,
+          paragraph: bookData.paragraph,
+          bookId: bookId,
+          cover_src: cover_src || "",
+          amazon_link: amazon_link || "",
+          ids: bookIds.join(","),
+        }).toString();
 
-      router.push(`/book-details?${queryParams}`);
+        router.push(`/book-details?${queryParams}`);
+      }, 2000); // Delay the transition to allow animation
     }
   };
 
@@ -140,9 +144,10 @@ const ExcerptComponent = () => {
   };
 
   const extractBook = async (id = null) => {
-    setLoading(true);
+    setLoading(true); // Show loading animation
     setBlurActive(true);
     setBookData(null);
+    setIsTransitioning(false); // Reset transition state
 
     let found = false;
     let selectedBookId = id || getRandomBookData();
@@ -165,7 +170,7 @@ const ExcerptComponent = () => {
       if (!id) selectedBookId = getRandomBookData();
     }
 
-    setLoading(false);
+    setLoading(false); // Stop loading animation
   };
 
   useEffect(() => {
@@ -222,7 +227,7 @@ const ExcerptComponent = () => {
         maxWidth: "100vw",
       }}
     >
-      {/* Sezione con le icone in alto */}
+      {/* Icon section */}
       <div
         style={{
           display: "flex",
@@ -275,7 +280,7 @@ const ExcerptComponent = () => {
         </button>
       </div>
 
-      {loading ? (
+      {loading || isTransitioning ? (
         <div
           style={{
             display: "flex",
@@ -301,7 +306,7 @@ const ExcerptComponent = () => {
             {renderBlurredText(bookData.paragraph)}
           </div>
 
-          {/* Pulsanti in fondo */}
+          {/* Improved buttons */}
           <div
             style={{
               display: "flex",
@@ -317,17 +322,19 @@ const ExcerptComponent = () => {
             <button
               onClick={() => extractBook()}
               style={{
-                padding: isMobile ? "0.7rem" : "1rem", // Riduci il padding su mobile
+                padding: isMobile ? "0.7rem" : "1rem",
                 backgroundColor: "#FF9800",
                 color: "#fff",
-                borderRadius: "50%",
+                borderRadius: "12px",
                 cursor: "pointer",
                 border: "none",
-                fontSize: isMobile ? "20px" : "24px", // Riduci il font su mobile
+                fontSize: isMobile ? "20px" : "24px",
                 boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
                 transition: "transform 0.3s ease",
-                width: isMobile ? "50px" : "60px", // Riduci la larghezza su mobile
-                height: isMobile ? "50px" : "60px", // Riduci l'altezza su mobile
+                width: isMobile ? "50px" : "60px",
+                height: isMobile ? "50px" : "60px",
+                fontWeight: "bold",
+                letterSpacing: "1px",
               }}
               onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
               onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
@@ -338,17 +345,19 @@ const ExcerptComponent = () => {
             <button
               onClick={revealBookDetails}
               style={{
-                padding: isMobile ? "0.7rem" : "1rem", // Riduci il padding su mobile
+                padding: isMobile ? "0.7rem" : "1rem",
                 backgroundColor: "#FF1744",
                 color: "#fff",
-                borderRadius: "50%",
+                borderRadius: "12px",
                 cursor: "pointer",
                 border: "none",
-                fontSize: isMobile ? "20px" : "24px", // Riduci il font su mobile
+                fontSize: isMobile ? "20px" : "24px",
                 boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
                 transition: "transform 0.3s ease",
-                width: isMobile ? "50px" : "60px", // Riduci la larghezza su mobile
-                height: isMobile ? "50px" : "60px", // Riduci l'altezza su mobile
+                width: isMobile ? "50px" : "60px",
+                height: isMobile ? "50px" : "60px",
+                fontWeight: "bold",
+                letterSpacing: "1px",
               }}
               onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
               onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
