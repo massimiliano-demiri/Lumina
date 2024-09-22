@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
 
 // Frasi letterarie brevi
 const phrases = [
-  "Tutti i grandi sono stati bambini una volta.",
+  "Effy.",
   "Chiamatemi Ismaele.",
   "L'essenziale è invisibile agli occhi.",
   "Era un mattino freddo e luminoso.",

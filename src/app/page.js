@@ -1,12 +1,20 @@
-"use client"; // Aggiungi questa direttiva per indicare che il componente è client-side
+"use client";
 
 import React from "react";
-import ParticlesComponent from "./ParticleComponents"; // Sfondo delle particelle
-import AnimatedText from "./AnimatedText"; // Testo animato
-import ParallaxEffect from "./ParallaxEffect"; // Effetto parallasse
-import { Button, Typography, Box } from "@mui/material"; // Usa Material UI
+import ParticlesComponent from "./ParticleComponents";
+import AnimatedText from "./AnimatedText";
+import ParallaxEffect from "./ParallaxEffect";
+import { Button, Typography, Box } from "@mui/material";
+import { useRouter } from "next/navigation"; // Importa useRouter per il routing
 
 export default function Home() {
+  const router = useRouter(); // Inizializza il router
+
+  // Funzione che viene chiamata quando si clicca "Inizia a esplorare"
+  const handleExploreClick = () => {
+    router.push("/selectGenre"); // Fai il push al componente di selezione del genere
+  };
+
   return (
     <ParallaxEffect>
       <div
@@ -19,7 +27,7 @@ export default function Home() {
           justifyContent: "center",
         }}
       >
-        <ParticlesComponent /> {/* Sfondo delle pagine fluttuanti */}
+        <ParticlesComponent />
         <Box
           sx={{
             zIndex: 1,
@@ -45,16 +53,13 @@ export default function Home() {
               color: "#ffffff",
               marginBottom: "16px",
               letterSpacing: "0.05em",
-              animation: "fadeIn 1s ease-out forwards",
             }}
           >
-            Benvenuto in Lumina {/* Testo statico in italiano */}
+            Benvenuto in Lumina
           </Typography>
 
-          {/* Testo animato con frasi che cambiano */}
           <AnimatedText />
 
-          {/* Descrizione in piccolo, non dominante */}
           <Typography
             variant="body1"
             sx={{
@@ -67,14 +72,14 @@ export default function Home() {
             }}
           >
             I frammenti del tempo nascondono storie mai narrate. Quale sarà la
-            tua? {/* Testo statico in italiano */}
+            tua?
           </Typography>
 
-          {/* Pulsante per esplorare */}
+          {/* Pulsante per iniziare l'esplorazione */}
           <Button
             variant="contained"
             size="large"
-            href="/explore"
+            onClick={handleExploreClick} // Chiama la funzione al click
             sx={{
               backgroundColor: "#90caf9",
               color: "#121212",
@@ -83,15 +88,12 @@ export default function Home() {
               borderRadius: "30px",
               boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)",
               transition: "all 0.3s ease",
-              transform: "translateY(0)",
               "&:hover": {
                 backgroundColor: "#5a9bd4",
-                transform: "translateY(-4px)",
-                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.3)",
               },
             }}
           >
-            Inizia a esplorare {/* Testo statico in italiano */}
+            Inizia a esplorare
           </Button>
         </Box>
       </div>
