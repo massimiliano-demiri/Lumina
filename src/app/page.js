@@ -23,7 +23,6 @@ export default function Home() {
         style={{
           position: "relative",
           height: "100vh",
-          overflow: "hidden", // Impedisce lo scorrimento
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between", // Distribuisce lo spazio tra gli elementi
