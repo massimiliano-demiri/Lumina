@@ -4,8 +4,10 @@ import React from "react";
 import ParticlesComponent from "./ParticleComponents";
 import AnimatedText from "./AnimatedText";
 import ParallaxEffect from "./ParallaxEffect";
-import { Button, Typography, Box } from "@mui/material";
+import { Button, Typography, Box, IconButton, Link } from "@mui/material";
 import { useRouter } from "next/navigation"; // Importa useRouter per il routing
+import GitHubIcon from "@mui/icons-material/GitHub"; // Icona GitHub
+import CoffeeIcon from "@mui/icons-material/Coffee"; // Icona per BuyMeACoffee (puoi usare un'icona simile)
 
 export default function Home() {
   const router = useRouter(); // Inizializza il router
@@ -25,6 +27,7 @@ export default function Home() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          flexDirection: "column",
         }}
       >
         <ParticlesComponent />
@@ -95,6 +98,46 @@ export default function Home() {
           >
             Inizia a esplorare
           </Button>
+        </Box>
+
+        {/* Footer con nome e icone */}
+        <Box
+          sx={{
+            position: "absolute",
+            bottom: "20px",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            color: "#ccc",
+            textAlign: "center",
+            gap: "8px",
+          }}
+        >
+          <Typography variant="body2" sx={{ fontSize: "14px", color: "#888" }}>
+            by [Massimiliano Demiri]
+          </Typography>
+          <Box sx={{ display: "flex", gap: "16px" }}>
+            {/* Icona GitHub */}
+            <IconButton
+              component={Link}
+              href="https://github.com/massimiliano-demiri"
+              target="_blank"
+              sx={{ color: "#fff", "&:hover": { color: "#90caf9" } }}
+            >
+              <GitHubIcon fontSize="medium" />
+            </IconButton>
+
+            {/* Icona BuyMeACoffee */}
+            <IconButton
+              component={Link}
+              href="https://buymeacoffee.com/massimiliaf"
+              target="_blank"
+              sx={{ color: "#fff", "&:hover": { color: "#FFDD00" } }}
+            >
+              <CoffeeIcon fontSize="medium" />
+            </IconButton>
+          </Box>
         </Box>
       </div>
     </ParallaxEffect>
