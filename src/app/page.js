@@ -50,6 +50,7 @@ export default function Home() {
             flex: 1, // Occupa lo spazio disponibile tra il footer e la parte superiore
             transform: "translate(var(--parallax-x), var(--parallax-y))",
             transition: "transform 0.1s ease-out",
+            marginBottom: "20px", // Aggiunto margine per dare più spazio al footer
           }}
         >
           <Typography
@@ -108,17 +109,17 @@ export default function Home() {
         <Box
           sx={{
             zIndex: 1,
-            paddingBottom: "20px", // Padding per dare spazio sotto il footer
+            paddingBottom: "10px", // Ridotto per avvicinare il footer
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "8px",
+            gap: "4px", // Ridotto lo spazio tra gli elementi del footer
           }}
         >
           <Typography variant="body2" sx={{ fontSize: "14px", color: "#888" }}>
-            by [Massimiliano Demiri]
+            by Massimiliano Demiri
           </Typography>
-          <Box sx={{ display: "flex", gap: "16px" }}>
+          <Box sx={{ display: "flex", gap: "12px" }}>
             {/* Icona GitHub */}
             <IconButton
               component={Link}
