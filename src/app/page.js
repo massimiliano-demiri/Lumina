@@ -23,18 +23,22 @@ export default function Home() {
         style={{
           position: "relative",
           height: "100vh",
-          overflow: "hidden",
+          overflow: "hidden", // Impedisce lo scorrimento
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
+          justifyContent: "space-between", // Distribuisce lo spazio tra gli elementi
           flexDirection: "column",
+          padding: "0 20px",
+          boxSizing: "border-box",
         }}
       >
+        {/* Particelle animate */}
         <ParticlesComponent />
+
+        {/* Contenuto principale centrato */}
         <Box
           sx={{
             zIndex: 1,
-            position: "relative",
             color: "#fff",
             textAlign: "center",
             display: "flex",
@@ -42,8 +46,8 @@ export default function Home() {
             alignItems: "center",
             justifyContent: "center",
             gap: "24px",
-            padding: "0 20px",
             width: "100%",
+            flex: 1, // Occupa lo spazio disponibile tra il footer e la parte superiore
             transform: "translate(var(--parallax-x), var(--parallax-y))",
             transition: "transform 0.1s ease-out",
           }}
@@ -103,14 +107,11 @@ export default function Home() {
         {/* Footer con nome e icone */}
         <Box
           sx={{
-            position: "absolute",
-            bottom: "20px",
+            zIndex: 1,
+            paddingBottom: "20px", // Padding per dare spazio sotto il footer
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            justifyContent: "center",
-            color: "#ccc",
-            textAlign: "center",
             gap: "8px",
           }}
         >

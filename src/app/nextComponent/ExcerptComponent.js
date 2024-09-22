@@ -6,10 +6,12 @@ import Lottie from "react-lottie";
 import AIcon from "@mui/icons-material/TextIncrease";
 import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
 import loadingAnimation from "./alien.json";
+import bookDataJson from "./bookData"; // Inserisci qui il percorso corretto del file JSON
 import "./transitionStyles.css";
 
 const fetchBookAndDetails = async (bookId) => {
-  const proxyUrl = "https://thingproxy.freeboard.io/fetch/";
+  const proxyUrl =
+    "https://api.scraperapi.com?api_key=57e9398e9ab6a85b25af676d55e25278&url=";
   const url = `https://www.gutenberg.org/cache/epub/${bookId}/pg${bookId}.txt`;
 
   try {
@@ -71,6 +73,20 @@ const getSignificantParagraph = (text) => {
   return selectedParagraph.trim() || null;
 };
 
+// Funzione per trovare il cover_src e amazon_link dal JSON
+const fetchCoverAndAmazonLink = (bookId) => {
+  for (const genre in bookDataJson) {
+    const book = bookDataJson[genre].find((book) => book.id === bookId);
+    if (book) {
+      return {
+        cover_src: book.cover_src,
+        amazon_link: book.amazon_link,
+      };
+    }
+  }
+  return null;
+};
+
 const ExcerptComponent = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -95,11 +111,16 @@ const ExcerptComponent = () => {
 
   const revealBookDetails = () => {
     if (bookData && bookId) {
+      // Ottieni il cover_src dal JSON
+      const { cover_src, amazon_link } = fetchCoverAndAmazonLink(bookId) || {};
+
       const queryParams = new URLSearchParams({
         title: bookData.title,
         author: bookData.author,
         paragraph: bookData.paragraph,
         bookId: bookId,
+        cover_src: cover_src || "", // Aggiungi cover_src
+        amazon_link: amazon_link || "", // Aggiungi amazon_link
         ids: bookIds.join(","),
       }).toString();
 
