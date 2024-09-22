@@ -7,7 +7,7 @@ import ParallaxEffect from "./ParallaxEffect";
 import { Button, Typography, Box, IconButton, Link } from "@mui/material";
 import { useRouter } from "next/navigation"; // Importa useRouter per il routing
 import GitHubIcon from "@mui/icons-material/GitHub"; // Icona GitHub
-import CoffeeIcon from "@mui/icons-material/Coffee"; // Icona per BuyMeACoffee (puoi usare un'icona simile)
+import CoffeeIcon from "@mui/icons-material/Coffee"; // Icona per BuyMeACoffee
 
 export default function Home() {
   const router = useRouter(); // Inizializza il router
@@ -25,7 +25,7 @@ export default function Home() {
           height: "100vh",
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-between", // Distribuisce lo spazio tra gli elementi
+          justifyContent: "center",
           flexDirection: "column",
           padding: "0 20px",
           boxSizing: "border-box",
@@ -46,10 +46,8 @@ export default function Home() {
             justifyContent: "center",
             gap: "24px",
             width: "100%",
-            flex: 1, // Occupa lo spazio disponibile tra il footer e la parte superiore
             transform: "translate(var(--parallax-x), var(--parallax-y))",
             transition: "transform 0.1s ease-out",
-            marginBottom: "20px", // Aggiunto margine per dare più spazio al footer
           }}
         >
           <Typography
@@ -73,7 +71,7 @@ export default function Home() {
               fontFamily: "'Roboto', sans-serif",
               fontSize: "18px",
               color: "#ccc",
-              marginBottom: "40px",
+              marginBottom: "20px", // Spazio inferiore ridotto
               maxWidth: "600px",
               lineHeight: "1.5",
             }}
@@ -90,10 +88,10 @@ export default function Home() {
             sx={{
               backgroundColor: "#90caf9",
               color: "#121212",
-              padding: "14px 36px",
+              padding: "12px 30px", // Adattato per dispositivi mobile
               fontSize: "16px",
               borderRadius: "30px",
-              boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)",
+              boxShadow: "0px 8px 20px rgba(0, 0, 0, 0.2)",
               transition: "all 0.3s ease",
               "&:hover": {
                 backgroundColor: "#5a9bd4",
@@ -102,42 +100,45 @@ export default function Home() {
           >
             Inizia a esplorare
           </Button>
-        </Box>
 
-        {/* Footer con nome e icone */}
-        <Box
-          sx={{
-            zIndex: 1,
-            paddingBottom: "10px", // Ridotto per avvicinare il footer
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "4px", // Ridotto lo spazio tra gli elementi del footer
-          }}
-        >
-          <Typography variant="body2" sx={{ fontSize: "14px", color: "#888" }}>
-            by Massimiliano Demiri
-          </Typography>
-          <Box sx={{ display: "flex", gap: "12px" }}>
-            {/* Icona GitHub */}
-            <IconButton
-              component={Link}
-              href="https://github.com/massimiliano-demiri"
-              target="_blank"
-              sx={{ color: "#fff", "&:hover": { color: "#90caf9" } }}
+          {/* Footer con nome e icone subito sotto il pulsante */}
+          <Box
+            sx={{
+              zIndex: 1,
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "center",
+              marginTop: "12px", // Spazio tra il pulsante e il footer
+              gap: "4px",
+            }}
+          >
+            <Typography
+              variant="body2"
+              sx={{ fontSize: "14px", color: "#888" }}
             >
-              <GitHubIcon fontSize="medium" />
-            </IconButton>
-
-            {/* Icona BuyMeACoffee */}
-            <IconButton
-              component={Link}
-              href="https://buymeacoffee.com/massimiliaf"
-              target="_blank"
-              sx={{ color: "#fff", "&:hover": { color: "#FFDD00" } }}
-            >
-              <CoffeeIcon fontSize="medium" />
-            </IconButton>
+              by Massimiliano Demiri
+            </Typography>
+            <Box sx={{ display: "flex", gap: "10px" }}>
+              {/* Icona GitHub */}
+              <IconButton
+                component={Link}
+                href="https://github.com/massimiliano-demiri"
+                target="_blank"
+                sx={{ color: "#fff", "&:hover": { color: "#90caf9" } }}
+              >
+                <GitHubIcon fontSize="small" />
+              </IconButton>
+              {/* Icona BuyMeACoffee */}
+              <IconButton
+                component={Link}
+                href="https://buymeacoffee.com/massimiliaf"
+                target="_blank"
+                sx={{ color: "#fff", "&:hover": { color: "#FFDD00" } }}
+              >
+                <CoffeeIcon fontSize="small" />
+              </IconButton>
+            </Box>
           </Box>
         </Box>
       </div>

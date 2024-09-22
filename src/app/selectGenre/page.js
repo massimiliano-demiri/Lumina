@@ -2,7 +2,14 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Box, Typography, Grid, Card, CardContent } from "@mui/material";
+import {
+  Box,
+  Typography,
+  Grid,
+  Card,
+  CardContent,
+  useMediaQuery,
+} from "@mui/material";
 import { motion } from "framer-motion";
 import Lottie from "react-lottie";
 import loadingAnimation from "./libri.json"; // Importa l'animazione Lottie
@@ -43,6 +50,7 @@ const SelectGenre = () => {
   const [selectedGenres, setSelectedGenres] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
+  const isMobile = useMediaQuery("(max-width:600px)");
 
   // Gestione del click sul genere
   const handleGenreClick = (genre) => {
@@ -148,80 +156,23 @@ const SelectGenre = () => {
                 opacity: 0.3,
               }}
             />
-
-            {/* Frasi animate di sfondo */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 0.2 }}
-              transition={{ duration: 2 }}
-              style={{
-                position: "absolute",
-                fontSize: "5rem",
-                fontWeight: "bold",
-                top: "10%",
-                left: "15%",
-                color: "#fff",
-                zIndex: -1,
-                transform: "rotate(-10deg)",
-              }}
-            ></motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 0.1 }}
-              transition={{ duration: 3 }}
-              style={{
-                position: "absolute",
-                fontSize: "4rem",
-                fontWeight: "bold",
-                top: "60%",
-                right: "20%",
-                color: "#fff",
-                zIndex: -1,
-                transform: "rotate(5deg)",
-              }}
-            ></motion.div>
-
-            {/* Emoji selezionate in rotazione ellittica sotto Lottie */}
-            {selectedGenres.length > 0 && (
-              <motion.div
-                style={{
-                  position: "absolute",
-                  width: "300px",
-                  height: "300px",
-                  top: "60%",
-                  left: "50%",
-                  transform: "translateX(-50%)",
-                  display: "flex",
-                  justifyContent: "space-around",
-                  alignItems: "center",
-                  borderRadius: "50%",
-                  perspective: 800,
-                }}
-                variants={orbitAnimation}
-                initial="initial"
-                animate="animate"
-              >
-                {selectedGenres.map((genre, index) => (
-                  <motion.div
-                    key={index}
-                    style={{
-                      fontSize: "2rem",
-                      transform: `rotateY(${index * 40}deg) translateZ(100px)`,
-                    }}
-                  >
-                    {genres.find((g) => g.name === genre)?.emoji}
-                  </motion.div>
-                ))}
-              </motion.div>
-            )}
           </motion.div>
 
-          <Lottie
-            options={defaultOptions}
-            height={400}
-            width={400}
-            style={{ marginTop: "20px" }}
-          />
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center", // Centra verticalmente
+              justifyContent: "center", // Centra orizzontalmente
+              height: "100vh", // Imposta l'altezza dell'intera viewport
+              width: "100%", // Assicura che occupi tutta la larghezza
+            }}
+          >
+            <Lottie
+              options={defaultOptions}
+              height={isMobile ? 200 : 400}
+              width={isMobile ? 200 : 400}
+            />
+          </Box>
         </>
       )}
 
@@ -260,7 +211,7 @@ const SelectGenre = () => {
             </Typography>
           </motion.div>
 
-          <Grid container spacing={3} justifyContent="center">
+          <Grid container spacing={2} justifyContent="center">
             {genres.map((genre) => (
               <Grid item key={genre.id} xs={6} sm={4} md={3}>
                 <motion.div
@@ -273,7 +224,7 @@ const SelectGenre = () => {
                   <Card
                     onClick={() => handleGenreClick(genre.name)}
                     sx={{
-                      height: 110,
+                      height: 80, // Altezza ridotta del riquadro
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -287,7 +238,9 @@ const SelectGenre = () => {
                         : "0px 6px 12px rgba(0, 0, 0, 0.5)",
                     }}
                   >
-                    <CardContent>
+                    <CardContent sx={{ padding: "8px" }}>
+                      {" "}
+                      {/* Riduci il padding */}
                       <motion.div
                         initial={{ scale: 1 }}
                         animate={{
@@ -295,11 +248,12 @@ const SelectGenre = () => {
                         }}
                       >
                         <Typography
-                          variant="h6"
+                          variant="subtitle1" // Riduci la dimensione del testo
                           sx={{
                             color: "#fff",
                             fontWeight: "bold",
-                            letterSpacing: "0.1em",
+                            letterSpacing: "0.05em",
+                            fontSize: "0.9rem", // Riduci la dimensione del font
                           }}
                         >
                           {genre.emoji} {genre.name}

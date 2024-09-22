@@ -8,6 +8,7 @@ import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
 import loadingAnimation from "./alien.json";
 import bookDataJson from "./bookData"; // Inserisci qui il percorso corretto del file JSON
 import "./transitionStyles.css";
+import { useMediaQuery } from "@mui/material"; // Importa useMediaQuery
 
 const fetchBookAndDetails = async (bookId) => {
   const proxyUrl =
@@ -97,6 +98,8 @@ const ExcerptComponent = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [blurActive, setBlurActive] = useState(true);
   const [bookId, setBookId] = useState(null);
+
+  const isMobile = useMediaQuery("(max-width:600px)"); // Verifica se è un dispositivo mobile
 
   const bookIds = idsQuery ? idsQuery.split(",") : [];
 
@@ -314,15 +317,17 @@ const ExcerptComponent = () => {
             <button
               onClick={() => extractBook()}
               style={{
-                padding: "1rem",
+                padding: isMobile ? "0.7rem" : "1rem", // Riduci il padding su mobile
                 backgroundColor: "#FF9800",
                 color: "#fff",
                 borderRadius: "50%",
                 cursor: "pointer",
                 border: "none",
-                fontSize: "24px",
+                fontSize: isMobile ? "20px" : "24px", // Riduci il font su mobile
                 boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
                 transition: "transform 0.3s ease",
+                width: isMobile ? "50px" : "60px", // Riduci la larghezza su mobile
+                height: isMobile ? "50px" : "60px", // Riduci l'altezza su mobile
               }}
               onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
               onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
@@ -333,15 +338,17 @@ const ExcerptComponent = () => {
             <button
               onClick={revealBookDetails}
               style={{
-                padding: "1rem",
+                padding: isMobile ? "0.7rem" : "1rem", // Riduci il padding su mobile
                 backgroundColor: "#FF1744",
                 color: "#fff",
                 borderRadius: "50%",
                 cursor: "pointer",
                 border: "none",
-                fontSize: "24px",
+                fontSize: isMobile ? "20px" : "24px", // Riduci il font su mobile
                 boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
                 transition: "transform 0.3s ease",
+                width: isMobile ? "50px" : "60px", // Riduci la larghezza su mobile
+                height: isMobile ? "50px" : "60px", // Riduci l'altezza su mobile
               }}
               onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
               onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
