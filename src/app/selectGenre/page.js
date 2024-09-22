@@ -164,9 +164,7 @@ const SelectGenre = () => {
                 zIndex: -1,
                 transform: "rotate(-10deg)",
               }}
-            >
-              &quot;Prepariamo il tuo viaggio...&quot;{" "}
-            </motion.div>
+            ></motion.div>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 0.1 }}
@@ -181,9 +179,7 @@ const SelectGenre = () => {
                 zIndex: -1,
                 transform: "rotate(5deg)",
               }}
-            >
-              &quot;Attendi un momento...&quot;{" "}
-            </motion.div>
+            ></motion.div>
 
             {/* Emoji selezionate in rotazione ellittica sotto Lottie */}
             {selectedGenres.length > 0 && (
