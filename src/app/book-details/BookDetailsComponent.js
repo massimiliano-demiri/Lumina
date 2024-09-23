@@ -14,10 +14,13 @@ const BookDetailsComponent = () => {
   // Otteniamo i valori dalla query string
   const title = searchParams.get("title");
   const author = searchParams.get("author");
-  const description = searchParams.get("description");
+  const initialDescription = searchParams.get("description"); // Descrizione passata tramite query
   const coverImage = searchParams.get("cover_src");
 
   const [isLoaded, setIsLoaded] = useState(false);
+  const [isbn, setIsbn] = useState(""); // Stato per memorizzare l'ISBN
+  const [affiliateLink, setAffiliateLink] = useState("");
+  const [description, setDescription] = useState(initialDescription || ""); // Stato per la descrizione
 
   // Simulazione di un tempo di caricamento per la copertina
   useEffect(() => {
@@ -25,26 +28,102 @@ const BookDetailsComponent = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // Funzione per tornare al componente precedente
-  const goBack = () => {
-    const genres = searchParams.get("genres"); // Recupera i generi dalla query
-    const ids = searchParams.get("ids"); // Recupera gli ID dalla query
+  // Funzione per cercare la trama (descrizione) tramite Google Books API
+  const fetchDescriptionFromGoogleBooks = async (title, author, lang) => {
+    try {
+      // Pulisci il titolo e autore da caratteri speciali
+      const cleanTitle = title.replace(/[^\w\s]/gi, "").trim();
+      const cleanAuthor = author.replace(/[^\w\s]/gi, "").trim();
 
-    // Decodifica la stringa degli ID
-    const decodedIds = decodeURIComponent(ids);
+      // Usa intitle e inauthor per migliorare la precisione
+      const query = `intitle:${cleanTitle} inauthor:${cleanAuthor}&langRestrict=${lang}`;
+      const response = await fetch(
+        `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(
+          query
+        )}`
+      );
+      const data = await response.json();
 
-    setTimeout(() => {
-      if (genres) {
-        router.push(
-          `/nextComponent?genres=${encodeURIComponent(
-            genres
-          )}&ids=${decodedIds}`
+      if (data.items && data.items.length > 0) {
+        const bookInfo = data.items[0].volumeInfo;
+
+        // Recupera l'ISBN
+        const industryIdentifiers = bookInfo.industryIdentifiers || [];
+        const isbnObject = industryIdentifiers.find(
+          (identifier) =>
+            identifier.type === "ISBN_13" || identifier.type === "ISBN_10"
         );
-      } else {
-        router.push(`/nextComponent?ids=${decodedIds}`);
+        if (isbnObject) {
+          setIsbn(isbnObject.identifier);
+          setAffiliateLink(
+            `https://www.amazon.it/dp/${isbnObject.identifier}?tag=luminaid-21`
+          );
+        } else {
+          // Fallback: usa un link di ricerca generico su Amazon
+          const genericAmazonLink = `https://www.amazon.it/s?k=${encodeURIComponent(
+            title + " " + author
+          )}`;
+          setAffiliateLink(genericAmazonLink);
+        }
+
+        // Recupera la descrizione del libro
+        if (bookInfo.description) {
+          const fetchedDescription = bookInfo.description;
+
+          // Verifica se la descrizione sembra essere una trama o un testo di valore
+          if (fetchedDescription.length > 50) {
+            setDescription(fetchedDescription);
+          } else {
+            setDescription("Trama non disponibile.");
+          }
+        }
       }
-    }, 300); // Ritardo per sincronizzare l'animazione
+    } catch (error) {
+      console.error(
+        "Errore nel recuperare i dettagli del libro da Google Books API:",
+        error
+      );
+    }
   };
+
+  // Funzione per cercare la descrizione tramite Open Library API come fallback
+  const fetchDescriptionFromOpenLibrary = async (title, author) => {
+    try {
+      const response = await fetch(
+        `https://openlibrary.org/search.json?title=${encodeURIComponent(
+          title
+        )}&author=${encodeURIComponent(author)}`
+      );
+      const data = await response.json();
+
+      if (data.docs && data.docs.length > 0) {
+        const doc = data.docs[0];
+        if (doc.first_publish_year) {
+          setDescription(`Publicato nel ${doc.first_publish_year}`);
+        }
+      }
+    } catch (error) {
+      console.error("Errore nel recuperare i dettagli da Open Library:", error);
+    }
+  };
+
+  // Logica a cascata: cerca in italiano, poi in inglese e infine traduci se necessario
+  useEffect(() => {
+    if (title && author) {
+      // Prima ricerca in italiano
+      fetchDescriptionFromGoogleBooks(title, author, "it").then(() => {
+        if (!description || description === "Trama non disponibile.") {
+          // Se la descrizione non è trovata o è breve, cerca in inglese
+          fetchDescriptionFromGoogleBooks(title, author, "en").then(() => {
+            if (!description || description === "Trama non disponibile.") {
+              // Se fallisce, cerca su Open Library
+              fetchDescriptionFromOpenLibrary(title, author);
+            }
+          });
+        }
+      });
+    }
+  }, [title, author]);
 
   return (
     <div
@@ -183,36 +262,38 @@ const BookDetailsComponent = () => {
             }}
           >
             <p style={{ fontStyle: "italic", fontSize: "1.2rem" }}>
-              {description}
+              {description || "Trama non disponibile."}
             </p>
           </div>
 
           {/* Pulsante di acquisto su Amazon */}
-          <button
-            style={{
-              padding: "0.8rem 1.5rem",
-              backgroundColor: "#FF9900",
-              color: "#fff",
-              borderRadius: "10px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginTop: "2rem",
-              cursor: "pointer",
-              border: "none",
-              fontSize: "16px",
-              boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
-              transition: "background-color 0.3s ease",
-            }}
-            onClick={() => window.open("https://www.amazon.it", "_blank")}
-          >
-            <AmazonIcon style={{ marginRight: "10px" }} />
-            Acquista su Amazon
-          </button>
+          {affiliateLink && (
+            <button
+              style={{
+                padding: "0.8rem 1.5rem",
+                backgroundColor: "#FF9900",
+                color: "#fff",
+                borderRadius: "10px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: "2rem",
+                cursor: "pointer",
+                border: "none",
+                fontSize: "16px",
+                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
+                transition: "background-color 0.3s ease",
+              }}
+              onClick={() => window.open(affiliateLink, "_blank")}
+            >
+              <AmazonIcon style={{ marginRight: "10px" }} />
+              Acquista su Amazon
+            </button>
+          )}
 
           {/* Pulsante minimal per tornare indietro */}
           <div
-            onClick={goBack}
+            onClick={() => router.back()}
             style={{
               position: "absolute",
               bottom: "20px",

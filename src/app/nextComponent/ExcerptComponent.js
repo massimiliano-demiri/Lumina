@@ -94,6 +94,8 @@ const ExcerptComponent = () => {
   const router = useRouter();
   const idsQuery = searchParams.get("ids");
   const [bookData, setBookData] = useState(null);
+  const [displayBook, setDisplayBook] = useState(0);
+
   const [loading, setLoading] = useState(true); // Loading excerpts
   const [fontSize, setFontSize] = useState(18);
   const [darkMode, setDarkMode] = useState(true);
@@ -129,6 +131,7 @@ const ExcerptComponent = () => {
           cover_src: cover_src || "",
           amazon_link: amazon_link || "",
           ids: bookIds.join(","),
+          id_libro: displayBook,
         }).toString();
 
         router.push(`/book-details?${queryParams}`);
@@ -139,6 +142,7 @@ const ExcerptComponent = () => {
   const getRandomBookData = () => {
     if (bookIds.length > 0) {
       const randomIndex = Math.floor(Math.random() * bookIds.length);
+      setDisplayBook(randomIndex);
       return bookIds[randomIndex];
     }
     return null;
