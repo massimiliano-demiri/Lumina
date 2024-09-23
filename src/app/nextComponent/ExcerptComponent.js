@@ -2,15 +2,17 @@
 
 import React, { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
+import SwipeableViews from "react-swipeable-views"; // For swipe pagination
 import Lottie from "react-lottie";
 import AIcon from "@mui/icons-material/TextIncrease";
+import TextDecreaseOutlined from "@mui/icons-material/TextDecreaseOutlined";
 import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
-import loadingAnimation from "./alien.json"; // Animation for loading new excerpts
-import transitionAnimation from "./max.json"; // Animation for transitioning to book details
+import loadingAnimation from "./alien.json";
+import transitionAnimation from "./max.json";
 import bookDataJson from "./bookData";
-import "./transitionStyles.css";
 import { useMediaQuery } from "@mui/material";
 
+// Helper function to fetch the book details
 const fetchBookAndDetails = async (bookId) => {
   const proxyUrl =
     "https://api.scraperapi.com?api_key=57e9398e9ab6a85b25af676d55e25278&url=";
@@ -43,6 +45,7 @@ const fetchBookAndDetails = async (bookId) => {
   }
 };
 
+// Function to extract a significant paragraph from the text
 const getSignificantParagraph = (text) => {
   const startIdx = Math.floor(text.length / 8);
   const limitedText = text.slice(startIdx);
@@ -93,21 +96,20 @@ const ExcerptComponent = () => {
   const router = useRouter();
   const idsQuery = searchParams.get("ids");
   const [bookData, setBookData] = useState(null);
-  const [loading, setLoading] = useState(true); // Loading excerpts
+  const [loading, setLoading] = useState(true);
   const [fontSize, setFontSize] = useState(18);
   const [darkMode, setDarkMode] = useState(true);
   const [blurActive, setBlurActive] = useState(true);
   const [bookId, setBookId] = useState(null);
-  const [isTransitioning, setIsTransitioning] = useState(false); // Transitioning to book details
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   const isMobile = useMediaQuery("(max-width:600px)");
-
   const bookIds = idsQuery ? idsQuery.split(",") : [];
 
   const lottieOptions = {
     loop: true,
     autoplay: true,
-    animationData: isTransitioning ? transitionAnimation : loadingAnimation, // Switch between animations
+    animationData: isTransitioning ? transitionAnimation : loadingAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -115,7 +117,7 @@ const ExcerptComponent = () => {
 
   const revealBookDetails = () => {
     if (bookData && bookId) {
-      setIsTransitioning(true); // Trigger the transition animation
+      setIsTransitioning(true);
 
       setTimeout(() => {
         const { cover_src, amazon_link } =
@@ -131,7 +133,7 @@ const ExcerptComponent = () => {
         }).toString();
 
         router.push(`/book-details?${queryParams}`);
-      }, 2000); // Delay the transition to allow animation
+      }, 2000);
     }
   };
 
@@ -144,10 +146,10 @@ const ExcerptComponent = () => {
   };
 
   const extractBook = async (id = null) => {
-    setLoading(true); // Show loading animation
+    setLoading(true);
     setBlurActive(true);
     setBookData(null);
-    setIsTransitioning(false); // Reset transition state
+    setIsTransitioning(false);
 
     let found = false;
     let selectedBookId = id || getRandomBookData();
@@ -170,7 +172,7 @@ const ExcerptComponent = () => {
       if (!id) selectedBookId = getRandomBookData();
     }
 
-    setLoading(false); // Stop loading animation
+    setLoading(false);
   };
 
   useEffect(() => {
@@ -186,31 +188,15 @@ const ExcerptComponent = () => {
     setFontSize((prevSize) => (increase ? prevSize + 2 : prevSize - 2));
   };
 
-  const renderBlurredText = (text) => {
-    const sentences = text.split(" ");
-    const visibleSentences = sentences
-      .slice(0, Math.floor(sentences.length * 0.8))
-      .join(" ");
-    const blurredSentences = sentences
-      .slice(Math.floor(sentences.length * 0.8))
-      .join(" ");
-
-    return (
-      <p style={{ fontSize: `${fontSize}px`, textAlign: "justify" }}>
-        {visibleSentences}{" "}
-        <span
-          style={{
-            filter: blurActive ? "blur(5px)" : "none",
-            transition: "filter 0.5s ease-in-out",
-            backgroundColor: blurActive ? "rgba(0, 0, 0, 0.2)" : "transparent",
-            padding: "2px 4px",
-            borderRadius: "4px",
-          }}
-        >
-          {blurredSentences}
-        </span>
-      </p>
-    );
+  // Split paragraph into pages
+  const splitTextIntoPages = (text) => {
+    const words = text.split(" ");
+    const wordsPerPage = isMobile ? 150 : 300;
+    const pages = [];
+    for (let i = 0; i < words.length; i += wordsPerPage) {
+      pages.push(words.slice(i, i + wordsPerPage).join(" "));
+    }
+    return pages;
   };
 
   return (
@@ -258,7 +244,7 @@ const ExcerptComponent = () => {
             border: "none",
           }}
         >
-          <AIcon
+          <TextDecreaseOutlined
             fontSize="large"
             style={{ color: darkMode ? "#fff" : "#000" }}
           />
@@ -293,18 +279,24 @@ const ExcerptComponent = () => {
         </div>
       ) : bookData ? (
         <>
-          <div
-            style={{
-              flex: 1,
-              overflowY: "auto",
-              padding: "0.5rem",
-              marginBottom: "60px",
-              maxHeight: "calc(100vh - 130px)",
-              overflow: "hidden",
-            }}
-          >
-            {renderBlurredText(bookData.paragraph)}
-          </div>
+          <SwipeableViews enableMouseEvents>
+            {splitTextIntoPages(bookData.paragraph).map((page, index) => (
+              <div
+                key={index}
+                style={{
+                  flex: 1,
+                  overflowY: "auto",
+                  padding: "0.5rem",
+                  marginBottom: "60px",
+                  fontSize: `${fontSize}px`,
+                  maxHeight: "calc(100vh - 130px)",
+                  textAlign: "justify",
+                }}
+              >
+                {page}
+              </div>
+            ))}
+          </SwipeableViews>
 
           {/* Improved buttons */}
           <div
@@ -339,7 +331,7 @@ const ExcerptComponent = () => {
               onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
               onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
             >
-              🤮
+              ↻
             </button>
 
             <button
@@ -362,7 +354,7 @@ const ExcerptComponent = () => {
               onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
               onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
             >
-              ❤️
+              ℹ️
             </button>
           </div>
         </>
