@@ -237,45 +237,49 @@ const ExcerptComponent = () => {
           gap: "15px",
           marginBottom: "0.5rem",
         }}
-      >
+      >{
+        bookData &&
+          <>
+            <button
+                onClick={() => adjustFontSize(true)}
+                style={{
+                  cursor: "pointer",
+                  backgroundColor: "transparent",
+                  border: "none",
+                }}
+            >
+              <AIcon
+                  fontSize="large"
+                  style={{color: darkMode ? "#fff" : "#000"}}
+              />
+            </button>
+            <button
+                onClick={() => adjustFontSize(false)}
+                style={{
+                  cursor: "pointer",
+                  backgroundColor: "transparent",
+                  border: "none",
+                }}
+            >
+              <AIcon
+                  fontSize="large"
+                  style={{color: darkMode ? "#fff" : "#000"}}
+              />
+            </button>
+          </>
+      }
         <button
-          onClick={() => adjustFontSize(true)}
-          style={{
-            cursor: "pointer",
-            backgroundColor: "transparent",
-            border: "none",
-          }}
-        >
-          <AIcon
-            fontSize="large"
-            style={{ color: darkMode ? "#fff" : "#000" }}
-          />
-        </button>
-        <button
-          onClick={() => adjustFontSize(false)}
-          style={{
-            cursor: "pointer",
-            backgroundColor: "transparent",
-            border: "none",
-          }}
-        >
-          <AIcon
-            fontSize="large"
-            style={{ color: darkMode ? "#fff" : "#000" }}
-          />
-        </button>
-        <button
-          onClick={toggleTheme}
-          style={{
-            cursor: "pointer",
-            backgroundColor: "transparent",
-            border: "none",
-            transition: "transform 0.5s ease",
-            transform: darkMode ? "rotate(0deg)" : "rotate(180deg)",
-          }}
+            onClick={toggleTheme}
+            style={{
+              cursor: "pointer",
+              backgroundColor: "transparent",
+              border: "none",
+              transition: "transform 0.5s ease",
+              transform: darkMode ? "rotate(0deg)" : "rotate(180deg)",
+            }}
         >
           <WbIncandescentIcon
-            fontSize="large"
+              fontSize="large"
             style={{ color: darkMode ? "#fff" : "#000" }}
           />
         </button>
@@ -301,6 +305,7 @@ const ExcerptComponent = () => {
               padding: "0.5rem",
               marginBottom: "60px",
               maxHeight: "calc(100vh - 140px)",
+              scrollbarWidth: 'none',
             }}
             className={'overflow-auto'}
           >
