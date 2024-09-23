@@ -25,3 +25,9 @@ body {
     text-wrap: balance;
   }
 }
+div::-webkit-scrollbar {
+  display: none;
+}
+div{
+  -ms-overflow-style: none;
+}

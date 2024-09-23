@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useSearchParams, useRouter} from "next/navigation";
 import Lottie from "react-lottie";
 import AIcon from "@mui/icons-material/TextIncrease";
 import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
@@ -10,6 +10,7 @@ import transitionAnimation from "./max.json"; // Animation for transitioning to 
 import bookDataJson from "./bookData";
 import "./transitionStyles.css";
 import { useMediaQuery } from "@mui/material";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 const fetchBookAndDetails = async (bookId) => {
   const proxyUrl =
@@ -286,41 +287,71 @@ const ExcerptComponent = () => {
       </div>
 
       {loading || isTransitioning ? (
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            height: "60vh",
-          }}
-        >
-          <Lottie options={lottieOptions} height={200} width={200} />
-        </div>
-      ) : bookData ? (
-        <>
           <div
-            style={{
-              flex: 1,
-              overflowY: "auto",
-              padding: "0.5rem",
-              marginBottom: "60px",
-              maxHeight: "calc(100vh - 140px)",
-              scrollbarWidth: 'none',
-            }}
-            className={'overflow-auto'}
+              className={'flex flex-col gap-6 items-center h-[80vh] justify-between'}
           >
-            {renderBlurredText(bookData.paragraph)}
+            <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  height: "60vh",
+                }}
+            >
+              <Lottie options={lottieOptions} height={200} width={200}/>
+            </div>
+            {loading &&
+              <div
+                  onClick={()=> router.push("/selectGenre")}
+                  style={{
+                    position: "absolute",
+                    bottom: "20px",
+                    cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    padding: "0.8rem 1.5rem",
+                    borderRadius: "30px",
+                    backgroundColor: "#282828",
+                    color: "#fff",
+                    fontSize: "1rem",
+                    fontWeight: "500",
+                    transition: "background-color 0.3s ease, transform 0.3s ease",
+                  }}
+                  onMouseEnter={(e) => (e.target.style.transform = "scale(1.05)")}
+                  onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+              >
+                <ArrowBackIcon style={{marginRight: "8px"}}/>
+                Torna alle preferenze
+              </div>
+            }
           </div>
 
-          {/* Improved buttons */}
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              gap: "30px",
-              position: "fixed",
-              bottom: "20px",
-              left: "50%",
+      ) : bookData ? (
+          <>
+            <div
+                style={{
+                  flex: 1,
+                  overflowY: "auto",
+                  padding: "0.5rem",
+                  marginBottom: "60px",
+                  maxHeight: "calc(100vh - 140px)",
+                  scrollbarWidth: 'none',
+                }}
+                className={'overflow-auto'}
+            >
+              {renderBlurredText(bookData.paragraph)}
+            </div>
+
+            {/* Improved buttons */}
+            <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  gap: "30px",
+                  position: "fixed",
+                  bottom: "20px",
+                  left: "50%",
               transform: "translateX(-50%)",
               zIndex: 1,
             }}
