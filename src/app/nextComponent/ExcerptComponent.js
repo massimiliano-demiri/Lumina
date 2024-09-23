@@ -2,17 +2,16 @@
 
 import React, { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import SwipeableViews from "react-swipeable-views"; // For swipe pagination
 import Lottie from "react-lottie";
 import AIcon from "@mui/icons-material/TextIncrease";
-import TextDecreaseOutlined from "@mui/icons-material/TextDecreaseOutlined";
 import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
-import loadingAnimation from "./alien.json";
-import transitionAnimation from "./max.json";
+import loadingAnimation from "./alien.json"; // Animation for loading new excerpts
+import transitionAnimation from "./max.json"; // Animation for transitioning to book details
 import bookDataJson from "./bookData";
+import "./transitionStyles.css";
 import { useMediaQuery } from "@mui/material";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
-// Helper function to fetch the book details
 const fetchBookAndDetails = async (bookId) => {
   const proxyUrl =
     "https://api.scraperapi.com?api_key=57e9398e9ab6a85b25af676d55e25278&url=";
@@ -45,7 +44,6 @@ const fetchBookAndDetails = async (bookId) => {
   }
 };
 
-// Function to extract a significant paragraph from the text
 const getSignificantParagraph = (text) => {
   const startIdx = Math.floor(text.length / 8);
   const limitedText = text.slice(startIdx);
@@ -96,20 +94,21 @@ const ExcerptComponent = () => {
   const router = useRouter();
   const idsQuery = searchParams.get("ids");
   const [bookData, setBookData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true); // Loading excerpts
   const [fontSize, setFontSize] = useState(18);
   const [darkMode, setDarkMode] = useState(true);
   const [blurActive, setBlurActive] = useState(true);
   const [bookId, setBookId] = useState(null);
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false); // Transitioning to book details
 
   const isMobile = useMediaQuery("(max-width:600px)");
+
   const bookIds = idsQuery ? idsQuery.split(",") : [];
 
   const lottieOptions = {
     loop: true,
     autoplay: true,
-    animationData: isTransitioning ? transitionAnimation : loadingAnimation,
+    animationData: isTransitioning ? transitionAnimation : loadingAnimation, // Switch between animations
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -117,7 +116,7 @@ const ExcerptComponent = () => {
 
   const revealBookDetails = () => {
     if (bookData && bookId) {
-      setIsTransitioning(true);
+      setIsTransitioning(true); // Trigger the transition animation
 
       setTimeout(() => {
         const { cover_src, amazon_link } =
@@ -133,7 +132,7 @@ const ExcerptComponent = () => {
         }).toString();
 
         router.push(`/book-details?${queryParams}`);
-      }, 2000);
+      }, 2000); // Delay the transition to allow animation
     }
   };
 
@@ -146,10 +145,10 @@ const ExcerptComponent = () => {
   };
 
   const extractBook = async (id = null) => {
-    setLoading(true);
+    setLoading(true); // Show loading animation
     setBlurActive(true);
     setBookData(null);
-    setIsTransitioning(false);
+    setIsTransitioning(false); // Reset transition state
 
     let found = false;
     let selectedBookId = id || getRandomBookData();
@@ -172,7 +171,7 @@ const ExcerptComponent = () => {
       if (!id) selectedBookId = getRandomBookData();
     }
 
-    setLoading(false);
+    setLoading(false); // Stop loading animation
   };
 
   useEffect(() => {
@@ -185,18 +184,42 @@ const ExcerptComponent = () => {
   };
 
   const adjustFontSize = (increase) => {
-    setFontSize((prevSize) => (increase ? prevSize + 2 : prevSize - 2));
+    setFontSize((prevSize) =>
+      increase
+        ? prevSize < 26
+          ? prevSize + 2
+          : prevSize
+        : prevSize > 12
+        ? prevSize - 2
+        : prevSize
+    );
   };
 
-  // Split paragraph into pages
-  const splitTextIntoPages = (text) => {
-    const words = text.split(" ");
-    const wordsPerPage = isMobile ? 150 : 300;
-    const pages = [];
-    for (let i = 0; i < words.length; i += wordsPerPage) {
-      pages.push(words.slice(i, i + wordsPerPage).join(" "));
-    }
-    return pages;
+  const renderBlurredText = (text) => {
+    const sentences = text.split(" ");
+    const visibleSentences = sentences
+      .slice(0, Math.floor(sentences.length * 0.8))
+      .join(" ");
+    const blurredSentences = sentences
+      .slice(Math.floor(sentences.length * 0.8))
+      .join(" ");
+
+    return (
+      <p style={{ fontSize: `${fontSize}px`, textAlign: "justify" }}>
+        {visibleSentences}{" "}
+        <span
+          style={{
+            filter: blurActive ? "blur(5px)" : "none",
+            transition: "filter 0.5s ease-in-out",
+            backgroundColor: blurActive ? "rgba(0, 0, 0, 0.2)" : "transparent",
+            padding: "2px 4px",
+            borderRadius: "4px",
+          }}
+        >
+          {blurredSentences}
+        </span>
+      </p>
+    );
   };
 
   return (
@@ -212,6 +235,7 @@ const ExcerptComponent = () => {
         flexDirection: "column",
         maxWidth: "100vw",
       }}
+      className={"overflow-hidden"}
     >
       {/* Icon section */}
       <div
@@ -222,33 +246,42 @@ const ExcerptComponent = () => {
           gap: "15px",
           marginBottom: "0.5rem",
         }}
+        className={"relative"}
       >
-        <button
-          onClick={() => adjustFontSize(true)}
-          style={{
-            cursor: "pointer",
-            backgroundColor: "transparent",
-            border: "none",
-          }}
-        >
-          <AIcon
-            fontSize="large"
-            style={{ color: darkMode ? "#fff" : "#000" }}
-          />
-        </button>
-        <button
-          onClick={() => adjustFontSize(false)}
-          style={{
-            cursor: "pointer",
-            backgroundColor: "transparent",
-            border: "none",
-          }}
-        >
-          <TextDecreaseOutlined
-            fontSize="large"
-            style={{ color: darkMode ? "#fff" : "#000" }}
-          />
-        </button>
+        {bookData && !loading && !isTransitioning && (
+          <>
+            <ArrowBackIcon
+              className={"absolute top-1 left-1"}
+              onClick={() => router.push("/selectGenre")}
+            />
+            <button
+              onClick={() => adjustFontSize(true)}
+              style={{
+                cursor: "pointer",
+                backgroundColor: "transparent",
+                border: "none",
+              }}
+            >
+              <AIcon
+                fontSize="large"
+                style={{ color: darkMode ? "#fff" : "#000" }}
+              />
+            </button>
+            <button
+              onClick={() => adjustFontSize(false)}
+              style={{
+                cursor: "pointer",
+                backgroundColor: "transparent",
+                border: "none",
+              }}
+            >
+              <AIcon
+                fontSize="large"
+                style={{ color: darkMode ? "#fff" : "#000" }}
+              />
+            </button>
+          </>
+        )}
         <button
           onClick={toggleTheme}
           style={{
@@ -268,35 +301,61 @@ const ExcerptComponent = () => {
 
       {loading || isTransitioning ? (
         <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            height: "60vh",
-          }}
+          className={
+            "flex flex-col gap-6 items-center h-[80vh] justify-between"
+          }
         >
-          <Lottie options={lottieOptions} height={200} width={200} />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "60vh",
+            }}
+          >
+            <Lottie options={lottieOptions} height={200} width={200} />
+          </div>
+          {loading && (
+            <div
+              onClick={() => router.push("/selectGenre")}
+              style={{
+                position: "absolute",
+                bottom: "20px",
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "0.8rem 1.5rem",
+                borderRadius: "30px",
+                backgroundColor: "#282828",
+                color: "#fff",
+                fontSize: "1rem",
+                fontWeight: "500",
+                transition: "background-color 0.3s ease, transform 0.3s ease",
+              }}
+              onMouseEnter={(e) => (e.target.style.transform = "scale(1.05)")}
+              onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+            >
+              <ArrowBackIcon style={{ marginRight: "8px" }} />
+              Torna alle preferenze
+            </div>
+          )}
         </div>
       ) : bookData ? (
         <>
-          <SwipeableViews enableMouseEvents>
-            {splitTextIntoPages(bookData.paragraph).map((page, index) => (
-              <div
-                key={index}
-                style={{
-                  flex: 1,
-                  overflowY: "auto",
-                  padding: "0.5rem",
-                  marginBottom: "60px",
-                  fontSize: `${fontSize}px`,
-                  maxHeight: "calc(100vh - 130px)",
-                  textAlign: "justify",
-                }}
-              >
-                {page}
-              </div>
-            ))}
-          </SwipeableViews>
+          <div
+            style={{
+              flex: 1,
+              overflowY: "auto",
+              padding: "0.5rem",
+              marginBottom: "60px",
+              maxHeight: "calc(100vh - 140px)",
+              scrollbarWidth: "none",
+            }}
+            className={"overflow-auto"}
+          >
+            {renderBlurredText(bookData.paragraph)}
+          </div>
 
           {/* Improved buttons */}
           <div
@@ -331,7 +390,7 @@ const ExcerptComponent = () => {
               onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
               onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
             >
-              ↻
+              🤮
             </button>
 
             <button
@@ -354,7 +413,7 @@ const ExcerptComponent = () => {
               onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
               onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
             >
-              ℹ️
+              ❤️
             </button>
           </div>
         </>
