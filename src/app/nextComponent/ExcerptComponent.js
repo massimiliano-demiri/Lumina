@@ -238,9 +238,12 @@ const ExcerptComponent = () => {
           gap: "15px",
           marginBottom: "0.5rem",
         }}
-      >{
-        bookData &&
+        className={'relative'}
+      >
+        {
+        bookData && !loading && !isTransitioning &&
           <>
+            <ArrowBackIcon className={'absolute top-1 left-1'} onClick={()=> router.push("/selectGenre")}/>
             <button
                 onClick={() => adjustFontSize(true)}
                 style={{
@@ -268,7 +271,7 @@ const ExcerptComponent = () => {
               />
             </button>
           </>
-      }
+        }
         <button
             onClick={toggleTheme}
             style={{
