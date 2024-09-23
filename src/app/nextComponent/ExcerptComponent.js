@@ -183,7 +183,7 @@ const ExcerptComponent = () => {
   };
 
   const adjustFontSize = (increase) => {
-    setFontSize((prevSize) => (increase ? prevSize + 2 : prevSize - 2));
+    setFontSize((prevSize) => increase ? (prevSize<26 ? prevSize + 2 : prevSize) : (prevSize>12 ? prevSize - 2 : prevSize))
   };
 
   const renderBlurredText = (text) => {
@@ -226,6 +226,7 @@ const ExcerptComponent = () => {
         flexDirection: "column",
         maxWidth: "100vw",
       }}
+      className={'overflow-hidden'}
     >
       {/* Icon section */}
       <div
@@ -299,9 +300,9 @@ const ExcerptComponent = () => {
               overflowY: "auto",
               padding: "0.5rem",
               marginBottom: "60px",
-              maxHeight: "calc(100vh - 130px)",
-              overflow: "hidden",
+              maxHeight: "calc(100vh - 140px)",
             }}
+            className={'overflow-auto'}
           >
             {renderBlurredText(bookData.paragraph)}
           </div>
