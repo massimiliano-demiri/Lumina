@@ -29,7 +29,6 @@
     "react-lottie": "^1.2.4",
     "react-lottie-player": "^2.1.0",
     "react-swipeable": "^7.0.1",
-    "react-swipeable-views": "^0.14.0",
     "three": "^0.168.0",
     "translate": "^3.0.1"
   },
