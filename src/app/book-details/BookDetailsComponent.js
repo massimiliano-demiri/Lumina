@@ -259,6 +259,8 @@ const BookDetailsComponent = () => {
               textAlign: "center",
               marginTop: "1.5rem",
               maxWidth: "600px",
+                maxHeight: "20vh",
+                overflow:"auto"
             }}
           >
             <p style={{ fontStyle: "italic", fontSize: "1.2rem" }}>
