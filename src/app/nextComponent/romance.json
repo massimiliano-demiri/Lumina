@@ -1,0 +1,4549 @@
+{
+    "Romance": [
+        {
+            "autore": "(?)",
+            "titolo": "Aucassin e Nicolette",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giuseppe Cesare Abba",
+            "titolo": "La Bibbia",
+            "genere": "Romance",
+            "isbn": "9788804655299",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804655299-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Annabel Abbs",
+            "titolo": "Cantar de mio Cid (XII-XIII sec.)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Kader Abdolah",
+            "titolo": "Cantare del Cid",
+            "genere": "Romance",
+            "isbn": "9781716494468",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781716494468-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Torquato Accetto",
+            "titolo": "La Chanson de Roland (XI sec.)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Acheng (Zhong Acheng)",
+            "titolo": "La Canzone di Orlando",
+            "genere": "Romance",
+            "isbn": "9788817165167",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788817165167-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Armando Adolgiso",
+            "titolo": "Le mille e una notte (XII sec.)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pedro Antonio de Alarcón y Ariza",
+            "titolo": "Il vangelo secondo san Matteo (I sec.)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ornella Albanese",
+            "titolo": "Il vangelo secondo san Marco (I sec.)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Leon Battista Alberti",
+            "titolo": "Il vangelo secondo san Luca (I sec.)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Juz Aleškovskij",
+            "titolo": "Da Quarto al Volturno",
+            "genere": "Romance",
+            "isbn": "8811584353",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8811584353-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jeffrey Archer",
+            "titolo": "Anna",
+            "genere": "Romance",
+            "isbn": "055352559X",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/055352559X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pietro Aretino",
+            "titolo": "Io e te",
+            "genere": "Romance",
+            "isbn": "880620680X",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/880620680X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Antonin Artaud",
+            "titolo": "Famiglia a carico",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jane Austen",
+            "titolo": "La principessa sul pisello",
+            "genere": "Romance",
+            "isbn": "8804495081",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804495081-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pupi Avati",
+            "titolo": "I cigni selvatici",
+            "genere": "Romance",
+            "isbn": "8877749628",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8877749628-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Henry Christopher Bailey",
+            "titolo": "Il gabbiano Jonathan Livingston",
+            "genere": "Romance",
+            "isbn": "8817131628",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8817131628-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pat Barker",
+            "titolo": "L'isola di corallo",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "John Barth",
+            "titolo": "La cousine Bette",
+            "genere": "Romance",
+            "isbn": "9780140266948",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780140266948-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pietro Bembo",
+            "titolo": "La casa",
+            "genere": "Romance",
+            "isbn": "9789755102160",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9789755102160-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pier Luigi Berbotto",
+            "titolo": "Il mare",
+            "genere": "Romance",
+            "isbn": "9788807013461",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788807013461-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Béroalde de Verville (François Brouart)",
+            "titolo": "Bella vita e guerre altrui di Mr. Pyle, gentiluomo",
+            "genere": "Romance",
+            "isbn": "9788804703709",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804703709-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Béroul",
+            "titolo": "Romanzo russo",
+            "genere": "Romance",
+            "isbn": "9788804450634",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804450634-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Earl Derr Biggers",
+            "titolo": "Oceano mare",
+            "genere": "Romance",
+            "isbn": "9783492233224",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783492233224-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nicholas Blake (Cecil Day Lewis)",
+            "titolo": "Arthur e George",
+            "genere": "Romance",
+            "isbn": "9788806178819",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806178819-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Vicente Blasco Ibáñez",
+            "titolo": "Love, etc.",
+            "genere": "Romance",
+            "isbn": "9780375725883",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780375725883-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Massimo Bocchiola",
+            "titolo": "Elegia di Madonna Fiammetta",
+            "genere": "Romance",
+            "isbn": "9798595017244",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798595017244-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nicolas Boileau-Despréaux",
+            "titolo": "Orlando innamorato",
+            "genere": "Romance",
+            "isbn": "9780520059788",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780520059788-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pierre Boileau",
+            "titolo": "Le lutrin (...)",
+            "genere": "Romance",
+            "isbn": "9782812700101",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782812700101-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alessandro Bonsanti",
+            "titolo": "Doktor Murkes gesammeltes Schweigen (La raccolta di silenzi del dottor Murke)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Malcolm Bradbury",
+            "titolo": "L'Eden della tartaruga",
+            "genere": "Romance",
+            "isbn": "9788872278253",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788872278253-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Geraldine Brooks",
+            "titolo": "Il crepuscolo degli dei",
+            "genere": "Romance",
+            "isbn": "8889934646",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8889934646-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Michail Afanàs'evich Bulgakov",
+            "titolo": "L'estate incantata",
+            "genere": "Romance",
+            "isbn": "9788888967400",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788888967400-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Antonio Dal Masetto",
+            "titolo": "In solitario",
+            "genere": "Romance",
+            "isbn": "108709979X",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/108709979X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Peter Ho Davies",
+            "titolo": "Il piacere",
+            "genere": "Romance",
+            "isbn": "9781587212109",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781587212109-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Osamu Dazai",
+            "titolo": "Convivio",
+            "genere": "Romance",
+            "isbn": "3787311289",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3787311289-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Maurizio De Angelis",
+            "titolo": "Rime",
+            "genere": "Romance",
+            "isbn": "0882681230",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0882681230-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pietro De Angelis",
+            "titolo": "Vita nuova",
+            "genere": "Romance",
+            "isbn": "0199540659",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0199540659-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Maurizio De Giovanni",
+            "titolo": "Penny Wirton e sua madre",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jacques Delille",
+            "titolo": "Sapho (...)",
+            "genere": "Romance",
+            "isbn": "1434631346",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1434631346-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giovanni Della Casa",
+            "titolo": "Tartarino di Tarascona",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Agostino della Sala Spada",
+            "titolo": "Bianca come il latte rossa come il sangue",
+            "genere": "Romance",
+            "isbn": "8804595183",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804595183-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Mimmo Dello Monaco",
+            "titolo": "I promessi sposi",
+            "genere": "Romance",
+            "isbn": "014044274X",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/014044274X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Joe de Mers",
+            "titolo": "La ragazza gallese",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Thomas De Quincey",
+            "titolo": "Shayo (Il sole si spegne)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Federico De Roberto",
+            "titolo": "Bestie",
+            "genere": "Romance",
+            "isbn": "9780358521150",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780358521150-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Colin Dexter",
+            "titolo": "Il Re di Denari",
+            "genere": "Romance",
+            "isbn": "8804680806",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804680806-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Mariateresa Di Lascia",
+            "titolo": "Rapporto di minoranza",
+            "genere": "Romance",
+            "isbn": "9788834708880",
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788834708880-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alfred Döblin",
+            "titolo": "Le tre stimmate di Palmer Eldritch",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nathan Drake",
+            "titolo": "Il grillo nel focolare",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Umberto Eco",
+            "titolo": "La trappola",
+            "genere": "Romance",
+            "isbn": "8863809992",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8863809992-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Dave Eggers",
+            "titolo": "Il nome della rosa",
+            "genere": "Romance",
+            "isbn": "8845246345",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8845246345-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ralph Ellison",
+            "titolo": "The Semi-Attached Couple",
+            "genere": "Romance",
+            "isbn": "9781154844191",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781154844191-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Davide Enia",
+            "titolo": "L'espatriato",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Franco Enna (Franco Cannarozzo)",
+            "titolo": "Belinda",
+            "genere": "Romance",
+            "isbn": "9780425176658",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780425176658-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Erodoto",
+            "titolo": "Letters for Literary Ladies",
+            "genere": "Romance",
+            "isbn": "1151678856",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1151678856-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Péter Esterházy",
+            "titolo": "Il cerchio",
+            "genere": "Romance",
+            "isbn": "3257061242",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3257061242-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Michel Faber",
+            "titolo": "Il petalo cremisi e il bianco",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Lanoe Falconer",
+            "titolo": "Lungo i vicoli del tempo",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giovanni Faldella",
+            "titolo": "L'inventario delle nuvole",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giorgio Faletti",
+            "titolo": "A pedir de boca (Il sapore perfetto)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Patricia Farazzi",
+            "titolo": "La cattedrale del mare",
+            "genere": "Romance",
+            "isbn": "9788850220342",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788850220342-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Julian Fellowes",
+            "titolo": "Chiedi alla polvere",
+            "genere": "Romance",
+            "isbn": "8806207091",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806207091-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Edna Ferber",
+            "titolo": "La confraternita delluva",
+            "genere": "Romance",
+            "isbn": "9788806170622",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806170622-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Henry Fielding",
+            "titolo": "West of Rome",
+            "genere": "Romance",
+            "isbn": "9780062013187",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780062013187-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jennie Fields",
+            "titolo": "A ovest di Roma",
+            "genere": "Romance",
+            "isbn": "9788806171414",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806171414-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Dario Fo",
+            "titolo": "L'urlo e il furore",
+            "genere": "Romance",
+            "isbn": "8481305375",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8481305375-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giuseppe Fort",
+            "titolo": "Il partigiano Johnny",
+            "genere": "Romance",
+            "isbn": "8806134701",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806134701-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ugo Foscolo",
+            "titolo": "Primavera di bellezza",
+            "genere": "Romance",
+            "isbn": "8806573233",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806573233-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Paula Fox",
+            "titolo": "Her",
+            "genere": "Romance",
+            "isbn": "0770429165",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0770429165-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anatole France (François-Anatole Thibault)",
+            "titolo": "Lei",
+            "genere": "Romance",
+            "isbn": "8520326900",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8520326900-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "San Francesco d'Assisi",
+            "titolo": "Love in the Days of Rage (L'amore nei giorni della rabbia)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Niccolò Franco",
+            "titolo": "Neige (Neve)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Benjamin Franklin",
+            "titolo": "L'amica geniale",
+            "genere": "Romance",
+            "isbn": "9782070466122",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782070466122-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Eugène Fromentin",
+            "titolo": "Marriage",
+            "genere": "Romance",
+            "isbn": "9780553227628",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780553227628-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Fruttero & Lucentini (Carlo Fruttero,",
+            "titolo": "Fuochi",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Carlo Emilio Gadda",
+            "titolo": "Maya (Maya)",
+            "genere": "Romance",
+            "isbn": "9781443413312",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781443413312-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Neil Gaiman",
+            "titolo": "Vita brevis (Vita brevis)",
+            "genere": "Romance",
+            "isbn": "9788478444816",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788478444816-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Matteo Galiazzo",
+            "titolo": "La straniera",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Donatella Gallone",
+            "titolo": "L'amuleto d'ambra - Il ritorno",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Gabriel García Márquez",
+            "titolo": "La croce di fuoco - Vessilli di guerra",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Maura Garofoli",
+            "titolo": "L'affare Lerouge",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jean-Pierre Gattégno",
+            "titolo": "Quer pasticciaccio brutto de via Merulana",
+            "genere": "Romance",
+            "isbn": "9788811683391",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788811683391-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Angelo Gatti",
+            "titolo": "Racconti dispersi: La passeggiata autunnale",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Christian Fürchtegott Gellert",
+            "titolo": "Racconti dispersi: Il seccatore",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Elizabeth George",
+            "titolo": "Le perizie",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Kaye Gibbons",
+            "titolo": "Coraline",
+            "genere": "Romance",
+            "isbn": "006118750X",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/006118750X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nicolas-Joseph-Laurent Gilbert",
+            "titolo": "Buona Apocalisse a tutti!",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Gino & Michele (Gino Vignali",
+            "titolo": "Per amore delle bionde",
+            "genere": "Romance",
+            "isbn": "9788896158005",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788896158005-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "William Golding",
+            "titolo": "Italienische Reise",
+            "genere": "Romance",
+            "isbn": "0192838865",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0192838865-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Guido Gozzano",
+            "titolo": "Peterburgskie povesti: Shinél'",
+            "genere": "Romance",
+            "isbn": "9785171068363",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9785171068363-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Seth Grahame-Smith",
+            "titolo": "Rim (Roma)",
+            "genere": "Romance",
+            "isbn": "9788086890074",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788086890074-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Robert Graves",
+            "titolo": "Il Signore delle mosche",
+            "genere": "Romance",
+            "isbn": "9781724124197",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781724124197-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anna Katharine Green",
+            "titolo": "The Princess Bride",
+            "genere": "Romance",
+            "isbn": "9781558000056",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781558000056-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Graham Greene",
+            "titolo": "La principessa sposa",
+            "genere": "Romance",
+            "isbn": "9788876948152",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788876948152-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Kerry Greenwood",
+            "titolo": "Dinner with Anna Karenina (A cena con Anna Karenina)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jean-Baptiste-Louis Gresset",
+            "titolo": "Angélique - Marquise des Anges (Angelica. La marchesa degli angeli)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Vasilij Semënovič Grossman",
+            "titolo": "Renée Mauperin (...)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Sara Gruen",
+            "titolo": "La collezionista di ricette segrete",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giovanni Guareschi",
+            "titolo": "The Pickup",
+            "genere": "Romance",
+            "isbn": "0966259912",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0966259912-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Denis Guedj",
+            "titolo": "Vremeubeite (Cronorifugio)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Francesco Domenico Guerrazzi",
+            "titolo": "I giganti innamorati",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Francesco Guicciardini",
+            "titolo": "La saga dei Vela",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Woody Guthrie",
+            "titolo": "Il paese delle cicogne",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pedro Juan Gutiérrez",
+            "titolo": "Venere in topless",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Richard Gwyn",
+            "titolo": "Il volo damore",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Mark Haddon",
+            "titolo": "De verborgen bron (La fonte nascosta)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Hugo Hamilton",
+            "titolo": "Radici",
+            "genere": "Romance",
+            "isbn": "9788806143930",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806143930-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Graham Hancock",
+            "titolo": "L'Homme qui amait les nuages (L'uomo che amava le nuvole)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Paul Harding (Paul Doherty)",
+            "titolo": "Il cane che abbaiava alle onde",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Cora Harrison",
+            "titolo": "Dronningen av Saba (La regina di Saba)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nathaniel Hawthorne",
+            "titolo": "Victoria (Victoria)",
+            "genere": "Romance",
+            "isbn": "9780140183931",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780140183931-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jean Hegland",
+            "titolo": "Die linkshändige Frau (La donna mancina)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Elke Heidenreich",
+            "titolo": "Die Stunde der wahren Empfindung (Lora del vero sentire)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Louis Hémon",
+            "titolo": "L'arte di vivere in difesa",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "James Leo Herlihy",
+            "titolo": "La pietra di sangue",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Paul Ernest Hervieu",
+            "titolo": "Gli uomini di paglia",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Franz Hessel",
+            "titolo": "Via dalla pazza folla",
+            "genere": "Romance",
+            "isbn": "881707697X",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/881707697X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Georgette Heyer",
+            "titolo": "Jude l'oscuro",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Peter Høeg",
+            "titolo": "A Pair of Blue Eyes",
+            "genere": "Romance",
+            "isbn": "0333413075",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0333413075-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ernst Theodor Amadeus Hoffmann",
+            "titolo": "Due occhi blu",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anne Holt",
+            "titolo": "Tess of the d'Urbervilles",
+            "genere": "Romance",
+            "isbn": "9781322016320",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781322016320-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Gill Hornby",
+            "titolo": "Nel bosco",
+            "genere": "Romance",
+            "isbn": "9788882463755",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788882463755-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anthony Horowitz",
+            "titolo": "Un delitto inglese",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Elizabeth Jane Howard",
+            "titolo": "Chocolat",
+            "genere": "Romance",
+            "isbn": "0385257430",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0385257430-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Hugh Howey",
+            "titolo": "Cinque quarti d'arancia",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Bohumil Hrabal",
+            "titolo": "La donna alata",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Aldous Leonard Huxley",
+            "titolo": "Ero la migliore amica di Jane Austen",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jorge Ibargüengoitia",
+            "titolo": "Los relámpagos de agosto (I lampi di agosto)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Masuji Ibuse",
+            "titolo": "Kuroi ame (La pioggia nera)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Desy Icardi",
+            "titolo": "L'annusatrice di libri",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Vittorio Imbriani",
+            "titolo": "Dvenadzat' Stul'ev (Le dodici sedie)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "John Irving",
+            "titolo": "Rina, o l'angelo delle Alpi",
+            "genere": "Romance",
+            "isbn": "102136424X",
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/102136424X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Howard Jacobson",
+            "titolo": "Der burde have vaeret Roser. Fra Skitsebogen (Qui dovrebbero esserci state delle rose)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Christian Jacq",
+            "titolo": "Fru Fönss (La signora Fönss)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Henry James",
+            "titolo": "To Verdener (Due mondi)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "P. D. James (Phyllis Dorothy James)",
+            "titolo": "Havbrevene (Lettere tra due mari)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Tama Janowitz",
+            "titolo": "La bataille de Kadesh (La battaglia di Qadesh)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jean Paul (Johann Paul Friedrich Richter)",
+            "titolo": "Le fils de la lumière (Il figlio della luce)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "B. S. Johnson (Bryan Stanley Johnson)",
+            "titolo": "Il carteggio Aspern",
+            "genere": "Romance",
+            "isbn": "8811606691",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8811606691-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jonas Jonasson",
+            "titolo": "La tigre nella giungla",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Vasilij Vasil'evič Kamenskij",
+            "titolo": "Lettera al padre",
+            "genere": "Romance",
+            "isbn": "8811811171",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8811811171-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Kyoichi Katayama",
+            "titolo": "Nella colonia penale",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "John Keats",
+            "titolo": "Τιμανδρα (Timandra)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jack Kerouac",
+            "titolo": "Sekai no chushin de ai wo sakebu (Gridare amore dal centro del mondo)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Richard Keverne (Clifford James Wheeler Hosken)",
+            "titolo": "Izu no odorico (La danzatrice di Izu)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alexander Key",
+            "titolo": "Jojoka (Lirica)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Stephen King",
+            "titolo": "Meijin (Il maestro di go)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Charles Kingsley",
+            "titolo": "Nemureru bijo (La casa delle belle addormentate)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Esther Kinsky",
+            "titolo": "Suigetsu (Luna d'acqua)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Natsuo Kirino",
+            "titolo": "Tenohira no shosetsu: Yubuwa (Racconti in un palmo di mano: L'anello)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pierre Klossowski",
+            "titolo": "Tenohira no shosetsu: Shinju (Racconti in un palmo di mano: Suicidio d'amore)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Elizabeth Kostova",
+            "titolo": "Tenohira no shosetsu: Amagasa (Racconti in un palmo di mano: L'ombrello)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "László Krasznahorkai",
+            "titolo": "Utsukushisa to kanashimi to (Bellezza e tristezza)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Agota Kristof",
+            "titolo": "Yama no oto (Il suono della montagna)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Varvara Julija baronessa di Krüdener",
+            "titolo": "Yukiguni (Il paese delle nevi)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Milan Kundera",
+            "titolo": "Il paese delle due lune",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Andrzej Kuśniewicz",
+            "titolo": "Il compromesso",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Thomas Kyd",
+            "titolo": "Bíos kaí politeía tu Aléxe Zórba  (Zorba il greco)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Raffaele La Capria",
+            "titolo": "Colapesce",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Raphael Aloysius Lafferty",
+            "titolo": "Isprinsessan",
+            "genere": "Romance",
+            "isbn": "9170013926",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9170013926-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Par Lagerkvist",
+            "titolo": "La principessa di ghiaccio",
+            "genere": "Romance",
+            "isbn": "8831799576",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8831799576-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alphonse de Lamartine",
+            "titolo": "La princesse de Clèves",
+            "genere": "Romance",
+            "isbn": "9782040121136",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782040121136-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Tommaso Landolfi",
+            "titolo": "La principessa di Clèves",
+            "genere": "Romance",
+            "isbn": "8817106534",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8817106534-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alfred Lansing",
+            "titolo": "Zaïde",
+            "genere": "Romance",
+            "isbn": "9782707810076",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782707810076-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Silvana la Spina",
+            "titolo": "L'omonimo",
+            "genere": "Romance",
+            "isbn": "8882466728",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8882466728-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Comte de Lautréamont (Isidore-Lucien Ducasse)",
+            "titolo": "Graziella",
+            "genere": "Romance",
+            "isbn": "1412165601",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1412165601-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Aleksandr Lavrin",
+            "titolo": "Graziella",
+            "genere": "Romance",
+            "isbn": "1412165601",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1412165601-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "David Herbert Lawrence",
+            "titolo": "Le due zittelle",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Henry Lawson",
+            "titolo": "La pietra lunare",
+            "genere": "Romance",
+            "isbn": "9788817664004",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788817664004-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "David Leavitt",
+            "titolo": "Rien va",
+            "genere": "Romance",
+            "isbn": "9600354405",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9600354405-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jean-Marie Gustave Le Clézio",
+            "titolo": "Acqua buia",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Donna Leon",
+            "titolo": "Besoin de liberté (Bisogno di libertà)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pierre-Yves Leprince",
+            "titolo": "Män som hatar kvinnor (Uomini che odiano le donne)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Michail Jurevič Lermontov",
+            "titolo": "Flickan som lekte med elden (La ragazza che giocava con il fuoco)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Primo Levi",
+            "titolo": "Chants de Maldoror",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ira Levin",
+            "titolo": "Canti di Maldoror",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Amy Levy",
+            "titolo": "Smert Egora Il'iča (La morte di Egor Il'ič)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Liala (Amalia Liana Cambiasi Negretti Odescalchi)",
+            "titolo": "La trilogia di Lalla: Lalla che torna",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Franco Limardi",
+            "titolo": "La trilogia di Lalla: Il velo sulla fronte",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Astrid Lindgren",
+            "titolo": "Una pagina d'amore",
+            "genere": "Romance",
+            "isbn": "8845418723",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8845418723-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Torgny Lindgren",
+            "titolo": "Signorsì",
+            "genere": "Romance",
+            "isbn": "8845420930",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8845420930-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Lorenzo Lippi",
+            "titolo": "Dorés Bibel (Per non saper né leggere né scrivere)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Liu Cixin",
+            "titolo": "Das Superweib (Superdonna)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Penelope Lively",
+            "titolo": "Mezipruzkum nejbliz uplynuleho (Interanalisi del fluito prossimo)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Sophie van Llewyn",
+            "titolo": "Il Malmantile racquistato",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Marco Lodoli",
+            "titolo": "O Lustre (Il segreto)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jack London (John Griffith London)",
+            "titolo": "Les Bienveillantes",
+            "genere": "Romance",
+            "isbn": "9780828854931",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780828854931-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Henry Wadsworth Longfellow",
+            "titolo": "Le Benevole",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Malcom Lowry",
+            "titolo": "Tre vite",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Marco Lucano Anneo",
+            "titolo": "Un posto perfetto",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giuseppe Eugenio Luraghi",
+            "titolo": "La fotografia",
+            "genere": "Romance",
+            "isbn": "8806190105",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806190105-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Amin Maalouf",
+            "titolo": "Samarcande (Samarcanda)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ian R. MacLeod",
+            "titolo": "L'asino",
+            "genere": "Romance",
+            "isbn": "8842029432",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8842029432-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "William Maginn",
+            "titolo": "Il Principe",
+            "genere": "Romance",
+            "isbn": "8856612879",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8856612879-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Paolo Malaguti",
+            "titolo": "La segnatrice",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Bernard Malamud",
+            "titolo": "Condominio di carne",
+            "genere": "Romance",
+            "isbn": "8806166670",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806166670-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Curzio Malaparte",
+            "titolo": "Alla cieca",
+            "genere": "Romance",
+            "isbn": "8811662176",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8811662176-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Thomas Malory",
+            "titolo": "Assaràb (Il miraggio)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Eric Malpass",
+            "titolo": "Bidaya wa Nihaya (Principio e fine)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Marco Malvaldi",
+            "titolo": "Hikayat haritna (Il nostro quartiere)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Antonio Manzini",
+            "titolo": "La pelle",
+            "genere": "Romance",
+            "isbn": "8804342862",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804342862-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Sándor Márai",
+            "titolo": "Le galline pensierose",
+            "genere": "Romance",
+            "isbn": "8806376489",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806376489-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pierre Carlet de Chamblain de Marivaux",
+            "titolo": "Il borghese Pellegrino",
+            "genere": "Romance",
+            "isbn": "8838940517",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838940517-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Petros Markaris",
+            "titolo": "La briscola in cinque",
+            "genere": "Romance",
+            "isbn": "8838922195",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838922195-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Lorenzo Marone",
+            "titolo": "Il re dei giochi",
+            "genere": "Romance",
+            "isbn": "8838924791",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838924791-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Emily Winfield Martin",
+            "titolo": "Andante con tenerezza",
+            "genere": "Romance",
+            "isbn": "8806186310",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806186310-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "George R. R. Martin",
+            "titolo": "Attentato alla Sindone",
+            "genere": "Romance",
+            "isbn": "880615589X",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/880615589X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Karl Marx",
+            "titolo": "Il carretto della frutta secca",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jeffrey Moussaieff Masson",
+            "titolo": "La lunga notte di Exilles",
+            "genere": "Romance",
+            "isbn": "880618489X",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/880618489X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Paola Mastrocola",
+            "titolo": "Il principe scalzo",
+            "genere": "Romance",
+            "isbn": "9788806226114",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806226114-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Harry Mathews",
+            "titolo": "L'ultimo postiglione",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Robin Maugham",
+            "titolo": "Aléxandros. Il figlio del sogno",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Flora Macdonald Mayor",
+            "titolo": "Centuria",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ed McBain (Evan Hunter - Salvatore Lambino)",
+            "titolo": "Il party",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Frank McCourt",
+            "titolo": "Miracolo a sant'Anna",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alice McDermott",
+            "titolo": "The Careful Use of Compliments",
+            "genere": "Romance",
+            "isbn": "9780349139432",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780349139432-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jack McDevitt",
+            "titolo": "L'uso sapiente delle buone maniere",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "William McIlvanney",
+            "titolo": "Friends, Lovers, Chocolate",
+            "genere": "Romance",
+            "isbn": "0676976662",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0676976662-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Robert McLiam Wilson",
+            "titolo": "Amici, amanti, cioccolato",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Lorenzo de' Medici, detto il Magnifico",
+            "titolo": "Love Over Scotland",
+            "genere": "Romance",
+            "isbn": "1405615036",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1405615036-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Eva Meijer",
+            "titolo": "Lettera d'amore dalla Scozia",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Luigi Meneghello",
+            "titolo": "Meridiano di sangue",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anne Meredith (Lucy Beatrice Malleson)",
+            "titolo": "La strada",
+            "genere": "Romance",
+            "isbn": "9781536455489",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781536455489-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "George Meredith",
+            "titolo": "Sunset Limited",
+            "genere": "Romance",
+            "isbn": "0330518070",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0330518070-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Prosper Mérimée",
+            "titolo": "Sunset Limited",
+            "genere": "Romance",
+            "isbn": "0330518070",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0330518070-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Annie Messina",
+            "titolo": "Il gruppo",
+            "genere": "Romance",
+            "isbn": "1555904599",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1555904599-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Izrail' Metter",
+            "titolo": "Le ceneri di Angela",
+            "genere": "Romance",
+            "isbn": "9788845915611",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788845915611-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Denzil Meyrick",
+            "titolo": "Che paese l'America",
+            "genere": "Romance",
+            "isbn": "9788845915574",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788845915574-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jules Michelet",
+            "titolo": "La passione del dr. Christian",
+            "genere": "Romance",
+            "isbn": "9788845203664",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788845203664-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Silvio Mignano",
+            "titolo": "I favoriti della fortuna",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giles Milton",
+            "titolo": "L'altro nome dell'amore",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Octave Mirbeau",
+            "titolo": "L'indipendenza della signorina Bennet",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nadia Morbelli",
+            "titolo": "Espiazione",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Marino Moretti",
+            "titolo": "Cani neri",
+            "genere": "Romance",
+            "isbn": "8874712715",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8874712715-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Silvia Mori",
+            "titolo": "Fra le lenzuola e altri racconti",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Gianluca Morozzi",
+            "titolo": "Bambini nel tempo",
+            "genere": "Romance",
+            "isbn": "9788884919175",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788884919175-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "John Mortimer",
+            "titolo": "The Comfort of Strangers",
+            "genere": "Romance",
+            "isbn": "9780754048053",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780754048053-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Kate Morton",
+            "titolo": "Cortesie per gli ospiti",
+            "genere": "Romance",
+            "isbn": "154953954X",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/154953954X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Andrew Motion",
+            "titolo": "Enduring Love",
+            "genere": "Romance",
+            "isbn": "0816146519",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0816146519-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Franny Moyle",
+            "titolo": "L'amore fatale",
+            "genere": "Romance",
+            "isbn": "9788806173944",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806173944-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nicola Mucci",
+            "titolo": "Lettera a Berlino",
+            "genere": "Romance",
+            "isbn": "9788806131708",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806131708-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Rosa Mulholland",
+            "titolo": "Macchine come me e persone come voi",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Herta Müller",
+            "titolo": "Nel guscio",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Iris Murdoch",
+            "titolo": "Sweet Tooth",
+            "genere": "Romance",
+            "isbn": "0099578786",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0099578786-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Henri Murger",
+            "titolo": "Miele",
+            "genere": "Romance",
+            "isbn": "8412477022",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8412477022-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Vladimir Nabokov",
+            "titolo": "Ada o ardore",
+            "genere": "Romance",
+            "isbn": "9788433960078",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788433960078-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Rasipuram Krishnaswami Narayan",
+            "titolo": "The Eye (L'occhio)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Niklas Natt och Dag",
+            "titolo": "Lolita",
+            "genere": "Romance",
+            "isbn": "9780140264074",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780140264074-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jean-Jacques Nattiez",
+            "titolo": "Lolita",
+            "genere": "Romance",
+            "isbn": "9780140264074",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780140264074-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Yves Navarre",
+            "titolo": "Mashenka (Maria)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Edith Nesbit",
+            "titolo": "Zaščita Lužina (La difesa di Lužin)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jo Nesbø",
+            "titolo": "A biblia (La Bibbia)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Friedrich Nietzsche",
+            "titolo": "Il laureato",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Audrey Niffenegger",
+            "titolo": "Una tigre per Malgudi",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Salvatore Niffoi",
+            "titolo": "Kusamakura (Guanciale d'erba)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "John Niven",
+            "titolo": "Le jardin d'acclimatation (Il giardino segreto)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ingrid Noll",
+            "titolo": "Alce Nero parla",
+            "genere": "Romance",
+            "isbn": "9781977039781",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781977039781-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Lawrence Norfolk",
+            "titolo": "Le bal (Il ballo)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Paolo Nori",
+            "titolo": "Chaleur du sang (Il calore del sangue)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Claire North (Catherine Webb)",
+            "titolo": "Suite française: Tempête en juin (Suite francese: Temporale di giugno)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Novalis (Georg Philipp Friedrich von Hardenberg)",
+            "titolo": "Aurelia",
+            "genere": "Romance",
+            "isbn": "9780712629294",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780712629294-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Aldo Nove (Antonello Satta Centanin)",
+            "titolo": "Le harem (L'harem)",
+            "genere": "Romance",
+            "isbn": "2226128107",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2226128107-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Edna O'Brien",
+            "titolo": "La ballata di John Reddy Heart",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Flannery O'Connor",
+            "titolo": "Occhi di Tempesta",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Kenzaburō Ōe",
+            "titolo": "Clandestina a bordo",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ogawa Yōko",
+            "titolo": "Costa sottovento",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ermanno Olmi",
+            "titolo": "Girls in Their Married Bliss",
+            "genere": "Romance",
+            "isbn": "9780452284388",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780452284388-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Rossana Ombres",
+            "titolo": "Ragazze nella felicità coniugale",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Omero",
+            "titolo": "Girl with Green Eyes",
+            "genere": "Romance",
+            "isbn": "9780263198423",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780263198423-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anthony O'Neill",
+            "titolo": "La ragazza dagli occhi verdi",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "István Örkény",
+            "titolo": "La luce della sera",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anna Maria Ortese",
+            "titolo": "Una pinta d'inchiostro irlandese",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Richard Osman",
+            "titolo": "L'ardua vita",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Arto Paasilinna",
+            "titolo": "Hurmaava joukkoitsemurha (Piccoli suicidi tra amici)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Leonardo Padura Fuentes",
+            "titolo": "Kymmenen riivinrautaa (Le dieci donne del Cavaliere)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Tosca Pagliari",
+            "titolo": "Maailman paras kyla (L'allegra apocalisse)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Marcel Pagnol",
+            "titolo": "Ulvova mylläri (Il mugnaio urlante)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Aldo Palazzeschi (Aldo Giurlani)",
+            "titolo": "Una bella carriera",
+            "genere": "Romance",
+            "isbn": "8844411490",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8844411490-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Chiara Palazzolo",
+            "titolo": "In Lapponia",
+            "genere": "Romance",
+            "isbn": "9789512907212",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9789512907212-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alberto Paleari",
+            "titolo": "Paisaje de otoño (Paesaggio d'autunno)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Piersandro Pallavicini",
+            "titolo": "Le foto salvate",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Laura Pariani",
+            "titolo": "An Exchange of Souls",
+            "genere": "Romance",
+            "isbn": "0977173445",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0977173445-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Boris Leonidovic Pasternak",
+            "titolo": "Il punto nero",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ben Pastor (Maria Verbena Volpi)",
+            "titolo": "Legami ignoti",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giancarlo Pastore",
+            "titolo": "Il ladro",
+            "genere": "Romance",
+            "isbn": "8838498962",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838498962-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Cesare Pavese",
+            "titolo": "Bistino e il signor Marchese",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Marco Peano",
+            "titolo": "La signora dal ventaglio",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Iain Pears",
+            "titolo": "Il re bello",
+            "genere": "Romance",
+            "isbn": "8877990325",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8877990325-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Viktor Pelevin",
+            "titolo": "Lo zio e il nipote",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Michele Pellegrini",
+            "titolo": "Nel bosco di Aus",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Silvio Pellico",
+            "titolo": "Strappami il cuore",
+            "genere": "Romance",
+            "isbn": "8838485437",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838485437-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Daniel Pennac",
+            "titolo": "Ti porterò nel sangue",
+            "genere": "Romance",
+            "isbn": "9788838462917",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788838462917-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Annibale Pepe",
+            "titolo": "Il mostro di Vigevano",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Samuel Pepys",
+            "titolo": "Romanzo per signora",
+            "genere": "Romance",
+            "isbn": "8807018829",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8807018829-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Charles Perrault",
+            "titolo": "Benim Adim Kirmizi (Il mio nome è rosso)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anne Perry (Juliet Marion Hulme)",
+            "titolo": "Beyaz Kale (Roccalba)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Sarah Perry",
+            "titolo": "Kara Kitap (Il libro nero)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Fernando António Nogueira Pessoa",
+            "titolo": "Sessiv Ez (La casa del silenzio)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Petronio Arbitro",
+            "titolo": "MMRossa",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Luciana Peverelli",
+            "titolo": "Il paese delle vocali",
+            "genere": "Romance",
+            "isbn": "8877133112",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8877133112-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Charles-Louis Philippe",
+            "titolo": "Bubu di Montparnasse",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Max Phillips",
+            "titolo": "Croquignole (Croquignole)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "R. Philmore (Herbert Edmund Howard)",
+            "titolo": "The Artist's Wife",
+            "genere": "Romance",
+            "isbn": "0805066705",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0805066705-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Claudio Piersanti",
+            "titolo": "Il soffio della valanga",
+            "genere": "Romance",
+            "isbn": "8838918031",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838918031-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Antonio Pigafetta",
+            "titolo": "Giù le mani da Lulù",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Elena Pigozzi",
+            "titolo": "Paulette et Roger (Paulette e Roger)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Claudia Piñeiro",
+            "titolo": "Luisa e il silenzio",
+            "genere": "Romance",
+            "isbn": "9788807015212",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788807015212-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Guido Piovene",
+            "titolo": "L'ultima ricamatrice",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alessandro Piperno",
+            "titolo": "Flowers in the Rain",
+            "genere": "Romance",
+            "isbn": "9788804382447",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804382447-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Robert Maynard Pirsig",
+            "titolo": "Pasquale e Incoronata",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pitigrilli (Dino Segre)",
+            "titolo": "Tuya (Tua)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Bianca Pitzorno",
+            "titolo": "L'eroe di Paternò",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Antonio Pizzuto",
+            "titolo": "Jacu",
+            "genere": "Romance",
+            "isbn": "8562450049",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8562450049-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Salvador Plascencia",
+            "titolo": "I luoghi del delitto",
+            "genere": "Romance",
+            "isbn": "9788833914916",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788833914916-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Federico Platania",
+            "titolo": "Servabo",
+            "genere": "Romance",
+            "isbn": "8833906108",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8833906108-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Sylvia Plath",
+            "titolo": "La signora Kirchgessner",
+            "genere": "Romance",
+            "isbn": "9788833911243",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788833911243-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Plutarco",
+            "titolo": "Il ragazzo di buona famiglia",
+            "genere": "Romance",
+            "isbn": "9788817860055",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788817860055-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Edgar Allan Poe",
+            "titolo": "Le stelle fredde",
+            "genere": "Romance",
+            "isbn": "9788804393160",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804393160-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Frederik Pohl",
+            "titolo": "Viaggio in Italia",
+            "genere": "Romance",
+            "isbn": "888598875X",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/888598875X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Agnolo Ambrogini, detto il Poliziano",
+            "titolo": "Amori senza amore",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Marco Polo",
+            "titolo": "La carriola",
+            "genere": "Romance",
+            "isbn": "9780244641191",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780244641191-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Andrea Pomella",
+            "titolo": "L'esclusa",
+            "genere": "Romance",
+            "isbn": "8809204417",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8809204417-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giuseppe Pontiggia",
+            "titolo": "Il fu Mattia Pascal",
+            "genere": "Romance",
+            "isbn": "0941419088",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0941419088-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alexander Pope",
+            "titolo": "La giara",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Charles Portis",
+            "titolo": "Il turno",
+            "genere": "Romance",
+            "isbn": "9788809204553",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788809204553-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ezra Pound",
+            "titolo": "Giunte e virgole",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Chiara Pradella",
+            "titolo": "Bambini esclusi",
+            "genere": "Romance",
+            "isbn": "8895865618",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8895865618-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Paola Presciuttini",
+            "titolo": "Il primo sangue",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Michele Prisco",
+            "titolo": "Biôi parallêlôi",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Victor Sawdon Pritchett",
+            "titolo": "Vite parallele",
+            "genere": "Romance",
+            "isbn": "9788804577980",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804577980-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Annie Proulx",
+            "titolo": "Berenice",
+            "genere": "Romance",
+            "isbn": "9782070386864",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782070386864-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Marcel Proust",
+            "titolo": "Berenice",
+            "genere": "Romance",
+            "isbn": "9782070386864",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782070386864-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Manuel Puig",
+            "titolo": "Il gatto nero",
+            "genere": "Romance",
+            "isbn": "9788870684018",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788870684018-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Aleksandr Sergeevič Puškin",
+            "titolo": "Il colloquio di Monos e Una",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Mario Puzo",
+            "titolo": "The Conversation of Eiros and Charmion",
+            "genere": "Romance",
+            "isbn": "151478484X",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/151478484X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Barbara Pym",
+            "titolo": "Conversazione tra Eiros e Charmion",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Julia Quinn",
+            "titolo": "Delitto alla rovescia",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitq.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "François Rabelais",
+            "titolo": "Gargantua e Pantagruele",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Honorat de Bueil marquis de Racan",
+            "titolo": "Psaumes (...)",
+            "genere": "Romance",
+            "isbn": "102079707X",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/102079707X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giovanni Raiberti",
+            "titolo": "A Sicilian Romance",
+            "genere": "Romance",
+            "isbn": "9781497684324",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781497684324-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Christian Raimo",
+            "titolo": "Romanzo siciliano",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Charles Ferdinand Ramuz",
+            "titolo": "Le Bal du comte d'Orgel",
+            "genere": "Romance",
+            "isbn": "2290058807",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2290058807-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Cristina Rava",
+            "titolo": "Homecoming",
+            "genere": "Romance",
+            "isbn": "9780006750604",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780006750604-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Charles Reade",
+            "titolo": "Il peso della grazia",
+            "genere": "Romance",
+            "isbn": "9788806199333",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806199333-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pauline Réage (Dominique Aury / Anne Desclos)",
+            "titolo": "Tranquillo prof, la richiamo io",
+            "genere": "Romance",
+            "isbn": "9788806222765",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806222765-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Joyce Reardon (Ridley Pearson)",
+            "titolo": "La bataille",
+            "genere": "Romance",
+            "isbn": "9780446406758",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780446406758-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Rosa Regás",
+            "titolo": "La beffa",
+            "genere": "Romance",
+            "isbn": "9788878204997",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788878204997-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Helen Reilly",
+            "titolo": "Golden Apples (Le mele d'oro)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Erich Maria Remarque",
+            "titolo": "The Yearling",
+            "genere": "Romance",
+            "isbn": "9781405850773",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781405850773-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jules Renard",
+            "titolo": "Il cucciolo",
+            "genere": "Romance",
+            "isbn": "9798761574984",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798761574984-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nicolas-Edme Rétif de la Bretonne",
+            "titolo": "Spaccanapoli",
+            "genere": "Romance",
+            "isbn": "8818060244",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8818060244-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jean Rhys (Ella Gwendolen Rees Williams)",
+            "titolo": "Retour à Roissy (Ritorno a Roissy)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Elizabeth Richards",
+            "titolo": "Il diario di Ellen Rimbauer: la mia vita a Rose Red",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Samuel Richardson",
+            "titolo": "Padurea spinzuratilor",
+            "genere": "Romance",
+            "isbn": "9739132308",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9739132308-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Linda Richman",
+            "titolo": "Commedia nera n. 1",
+            "genere": "Romance",
+            "isbn": "9788838936098",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788838936098-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Sylvie Richterová",
+            "titolo": "La cassa refrigerata. Commedia nera n. 4",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Mary Roberts Rinehart",
+            "titolo": "L'allievo",
+            "genere": "Romance",
+            "isbn": "9788804483199",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804483199-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Henri-Pierre Roché",
+            "titolo": "Il vecchio barone inglese",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Emmanuíl Roidis",
+            "titolo": "The Velvet Hand (La mano di velluto)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Livio Romano",
+            "titolo": "Poil de carotte",
+            "genere": "Romance",
+            "isbn": "9781412130653",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781412130653-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "James Ronald",
+            "titolo": "Pel di carota",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ottone Rosai",
+            "titolo": "Lo sguardo del mostro",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Hannah Rothschild",
+            "titolo": "Carcel de arboles-El salvador de buques (Il tempo concesso)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jean-Baptiste Rousseau",
+            "titolo": "Piedrad encantadas (Giungla di pietra)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Carlos Ruiz Zafón",
+            "titolo": "Il grande mare dei sargassi",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Salman Rushdie",
+            "titolo": "I gatti lo sapranno",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Edward Rutherfurd (Francis Edward Wintle)",
+            "titolo": "Ogni giorno",
+            "genere": "Romance",
+            "isbn": "8822707451",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8822707451-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Rafael Sabatini",
+            "titolo": "The Strolling Saint",
+            "genere": "Romance",
+            "isbn": "9798733201733",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798733201733-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Leopold von Sacher-Masoch",
+            "titolo": "Il trecentonovelle",
+            "genere": "Romance",
+            "isbn": "9788884021991",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788884021991-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Vita Sackville-West",
+            "titolo": "Venus im Pelt (Venere in pelliccia)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "David Safier",
+            "titolo": "Legàmi",
+            "genere": "Romance",
+            "isbn": "1090526679",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1090526679-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Antoine de Saint-Exupéry",
+            "titolo": "Dialogue entre un Prêtre et un Moribond",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jerome David Salinger",
+            "titolo": "Juliette ovvero le prosperità del vizio",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Saltykov-Ščedrin (Michail Evgrafovič Saltykov)",
+            "titolo": "Justine ou les Infortunes de la Vertu",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Carmelo Samonà",
+            "titolo": "Justine ou les Malheurs de la Vertu",
+            "genere": "Romance",
+            "isbn": "9781980606970",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781980606970-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Cristina Sánchez-Andrade",
+            "titolo": "La nouvelle Justine ou les Malheurs de la Vertu",
+            "genere": "Romance",
+            "isbn": "2264009098",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2264009098-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Iacopo Sannazaro",
+            "titolo": "La Philosophie dans le Boudoir",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Antonio Sarabia",
+            "titolo": "Bonjour tristesse",
+            "genere": "Romance",
+            "isbn": "9780140471007",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780140471007-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "José Saramago",
+            "titolo": "Bonjour tristesse",
+            "genere": "Romance",
+            "isbn": "9780140471007",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780140471007-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Vincenzo Sarcinelli",
+            "titolo": "Le Petit Prince",
+            "genere": "Romance",
+            "isbn": "9780547260693",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780547260693-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Manuela Sardella",
+            "titolo": "Il Piccolo Principe",
+            "genere": "Romance",
+            "isbn": "0464267846",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0464267846-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Margherita Sarfatti",
+            "titolo": "Vol de nuit (Volo di notte)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "William Saroyan",
+            "titolo": "Les saisons (...)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jean-Paul Sartre",
+            "titolo": "Paul et Virginie",
+            "genere": "Romance",
+            "isbn": "9781854770097",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781854770097-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Sam Savage",
+            "titolo": "Paul e Virginie",
+            "genere": "Romance",
+            "isbn": "9782090318371",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782090318371-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Robert J. Sawyer",
+            "titolo": "La città del Re lebbroso",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Dorothy L. Sayers",
+            "titolo": "I Corsari delle Bermude",
+            "genere": "Romance",
+            "isbn": "1536903582",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1536903582-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Antonella Sbuelz",
+            "titolo": "La crociera della Tuonante",
+            "genere": "Romance",
+            "isbn": "9781985192881",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781985192881-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "John Scalzi",
+            "titolo": "Le due tigri",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Luca Scantamburlo",
+            "titolo": "I figli dell'aria",
+            "genere": "Romance",
+            "isbn": "1521196575",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1521196575-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giorgio Scerbanenco",
+            "titolo": "Le meraviglie del Duemila",
+            "genere": "Romance",
+            "isbn": "8872351812",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8872351812-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "David Schickler",
+            "titolo": "La perla sanguinosa",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Brunella Schisa",
+            "titolo": "Il re del mare",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Eric-Emmanuel Schmitt",
+            "titolo": "La regina dei Caraibi",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Helga Schneider",
+            "titolo": "La rivincita di Yanez",
+            "genere": "Romance",
+            "isbn": "9788842543695",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788842543695-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Olive Schreiner",
+            "titolo": "La tigre della Malesia",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Walter Scott",
+            "titolo": "Nove racconti:",
+            "genere": "Romance",
+            "isbn": "1653272686",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1653272686-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Winfrid G. Sebald",
+            "titolo": "Nove racconti:",
+            "genere": "Romance",
+            "isbn": "1653272686",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1653272686-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anna Seghers (Netty Reiling)",
+            "titolo": "Nove racconti:",
+            "genere": "Romance",
+            "isbn": "1653272686",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1653272686-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Åsne Seierstad",
+            "titolo": "Nove racconti:",
+            "genere": "Romance",
+            "isbn": "1653272686",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1653272686-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Lucio Anneo Seneca",
+            "titolo": "Nove racconti:",
+            "genere": "Romance",
+            "isbn": "1653272686",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1653272686-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Matilde Serao",
+            "titolo": "Nove racconti:",
+            "genere": "Romance",
+            "isbn": "1653272686",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1653272686-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Vikram Seth",
+            "titolo": "Nove racconti:",
+            "genere": "Romance",
+            "isbn": "1653272686",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1653272686-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Diane Setterfield",
+            "titolo": "Nove racconti:",
+            "genere": "Romance",
+            "isbn": "1653272686",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1653272686-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Carlo Sgorlon",
+            "titolo": "Il filo di seta",
+            "genere": "Romance",
+            "isbn": "9788838444586",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788838444586-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "William Shakespeare",
+            "titolo": "Il trono di legno",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Meir Shalev",
+            "titolo": "La  società letteraria di Guernsey",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Matthew Sharpe",
+            "titolo": "Il ratto di Lucrezia",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Tom Sharpe",
+            "titolo": "Venus and Adonis",
+            "genere": "Romance",
+            "isbn": "0952212404",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0952212404-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Robert Sheckley",
+            "titolo": "Venere e Adone",
+            "genere": "Romance",
+            "isbn": "882970010X",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/882970010X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Murasaki Shikibu",
+            "titolo": "K-Yamin Echadim (Per amore di una donna)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Tod Shimoda",
+            "titolo": "Fontanelle (Fontanella)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Polly Shulman",
+            "titolo": "Ginat ha-bar(Il mio giardino selvatico)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nevil Shute",
+            "titolo": "Roman Rusi (La montagna blu)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Samantha Silva",
+            "titolo": "Eva colpisce ancora",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Umberto Simonetta",
+            "titolo": "Matilda",
+            "genere": "Romance",
+            "isbn": "9780141348346",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780141348346-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Marcello Simoni",
+            "titolo": "Matilda",
+            "genere": "Romance",
+            "isbn": "9780141348346",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780141348346-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jan Jacob Slauerhoff",
+            "titolo": "La ragazza che voleva essere Jane Austen",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Dominic Smith",
+            "titolo": "Na jasnym brzegu (Sulla costa luminosa)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Tobias Smollett",
+            "titolo": "Adieu Volodia (Addio Volodia)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Snorri Sturluson",
+            "titolo": "Ég man þig (Mi ricordo di te)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Ardengo Soffici",
+            "titolo": "Balzac et la Petite Taillause chinoise (Balzac e la Piccola Sarta cinese)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Gianni Solla",
+            "titolo": "Fontamara",
+            "genere": "Romance",
+            "isbn": "9780460024518",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780460024518-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Fëdor Sologub (Fëdor Kuzmič Teternikov)",
+            "titolo": "Il segreto di Luca",
+            "genere": "Romance",
+            "isbn": "9788804376095",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804376095-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Natsume Sōseki (Natsume Kinnosuke)",
+            "titolo": "L'amore al tempo dei morti",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Art Spiegelman",
+            "titolo": "L'aîné des Ferchaux (Il primogenito dei Ferchaux)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Johann Spies",
+            "titolo": "La chambre bleue (La camera azzurra)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anne-Louise-Germaine Necker Madame de Staël",
+            "titolo": "La danseuse du Gai-Moulin",
+            "genere": "Romance",
+            "isbn": "3875857518",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3875857518-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Saša Stanišić",
+            "titolo": "La ballerina del Gai-Moulin",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Edward St Aubyn",
+            "titolo": "Feux rouges (Luci nella notte)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Margot L. Stedman",
+            "titolo": "La folle de Maigret (La pazza di Maigret)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Gian Antonio Stella",
+            "titolo": "Maigret à New York (Maigret a New York)",
+            "genere": "Romance",
+            "isbn": "2285004559",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2285004559-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Stendhal (Henri Beyle)",
+            "titolo": "Maigret et le corps sans tête (Maigret e il corpo senza testa)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Dorothy Emily Stevenson",
+            "titolo": "Malempin (Ricordi proibiti)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Christopher St. John Sprigg",
+            "titolo": "Mon ami Maigret",
+            "genere": "Romance",
+            "isbn": "2258000424",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2258000424-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Elizabeth Stoddard",
+            "titolo": "Il mio amico Maigret",
+            "genere": "Romance",
+            "isbn": "8845915069",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8845915069-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Susan Stokes-Chapman",
+            "titolo": "Il defunto signor Gallet",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Hans Theodor Storm",
+            "titolo": "La nuit du carrefour (Il crocevia delle tre vedove)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Rex Stout",
+            "titolo": "L'ombre chinoise (L'ombra cinese)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Harriet Beecher Stowe",
+            "titolo": "Le pendu de Saint-Pholien",
+            "genere": "Romance",
+            "isbn": "9782266070881",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782266070881-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Enzo Striano",
+            "titolo": "Le petit homme d'Arkhangelsk (l piccolo libraio di Archangelsk)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Arkadi Strugatzki",
+            "titolo": "Le port des brumes",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Filippo Strumia",
+            "titolo": "La tête d'un homme (Una testa in gioco)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Julia Stuart",
+            "titolo": "Il buio sotto la candela",
+            "genere": "Romance",
+            "isbn": "8885408923",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8885408923-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Su Tong",
+            "titolo": "Come una famiglia",
+            "genere": "Romance",
+            "isbn": "8838938032",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838938032-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Patrick Süskind",
+            "titolo": "Rosa elettrica",
+            "genere": "Romance",
+            "isbn": "8806189581",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806189581-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Antal Szerb",
+            "titolo": "Ilium. L'assedio",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Booth Tarkington",
+            "titolo": "Le armi l'amore",
+            "genere": "Romance",
+            "isbn": "8817137553",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8817137553-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Torquato Tasso",
+            "titolo": "Onora il padre",
+            "genere": "Romance",
+            "isbn": "8806186957",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806186957-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alessandro Tassoni",
+            "titolo": "Doppio inganno al Valentino",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Laini Taylor",
+            "titolo": "Va' dove ti porta il cuore",
+            "genere": "Romance",
+            "isbn": "9607213831",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9607213831-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Peter Taylor",
+            "titolo": "Ashikari (I canneti)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Claudine-Alexandrine Guérin de Tencin",
+            "titolo": "Futen rojin nikki (Diario di un vecchio pazzo)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nadia Terranova",
+            "titolo": "Himitsu (Il segreto)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nadia Terranova",
+            "titolo": "Hokan (Buffone di professione)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Rosa Teruzzi",
+            "titolo": "In'ei raisan (Libro d'ombra)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Lisa Tetzner",
+            "titolo": "Konjiki no shi (La morte d'oro)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Walter Tevis",
+            "titolo": "Majutsushi (Il prestigiatore)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Josephine Tey (Elizabeth Mackintosh)",
+            "titolo": "Neko to Shozo to futari no onna (La gatta, Shozo e le due donne)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "William Makepeace Thackeray",
+            "titolo": "Ningyo no nageki (Pianto di sirena)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Angela Thirkell",
+            "titolo": "Shisei (Il tatuaggio)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "James Thomson",
+            "titolo": "L'amore nell'arte",
+            "genere": "Romance",
+            "isbn": "883682281",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/883682281-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "John Ronald Reuel Tolkien",
+            "titolo": "Il cardellino",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Lev Nikolaevich Tolstoj",
+            "titolo": "The Little Friend",
+            "genere": "Romance",
+            "isbn": "140003373X",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/140003373X-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giuseppe Tomasi di Lampedusa",
+            "titolo": "Il piccolo amico",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Niccolò Tommaseo",
+            "titolo": "La secchia rapita",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Pier Vittorio Tondelli",
+            "titolo": "Angel",
+            "genere": "Romance",
+            "isbn": "8086518434",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8086518434-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Rodolphe Töpffer",
+            "titolo": "Angel",
+            "genere": "Romance",
+            "isbn": "8086518434",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8086518434-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Federigo Tozzi",
+            "titolo": "Senza ritorno",
+            "genere": "Romance",
+            "isbn": "1980319022",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1980319022-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Trevanian (Rodney William Whitaker)",
+            "titolo": "La città di sabbia",
+            "genere": "Romance",
+            "isbn": "9788876251344",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788876251344-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anne Tyler",
+            "titolo": "Trema la notte",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Frate Ugolino di Monte Santa Maria",
+            "titolo": "Reunion",
+            "genere": "Romance",
+            "isbn": "0374249512",
+            "endpoint": "https://www.incipitario.com/incipitu.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0374249512-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Fred Uhlman",
+            "titolo": "L'amico ritrovato",
+            "genere": "Romance",
+            "isbn": "9788807880735",
+            "endpoint": "https://www.incipitario.com/incipitu.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788807880735-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "John Updike",
+            "titolo": "Lo splendore della vita",
+            "genere": "Romance",
+            "isbn": "9788820011789",
+            "endpoint": "https://www.incipitario.com/incipitu.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788820011789-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Chiara Valerio",
+            "titolo": "La Virgen de los Sicarios (La vergine dei sicari)",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Simone Van der Vlugt",
+            "titolo": "Blu come la notte",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Dragan Velikić",
+            "titolo": "La fine dei Greene",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giovanni Verga",
+            "titolo": "Sequestro di persona",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Philippe-Auguste-Mathias comte de Villiers de l'Isle-Adam",
+            "titolo": "Nei boschi eterni",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Luchino Visconti",
+            "titolo": "L'homme à l'envers",
+            "genere": "Romance",
+            "isbn": "9782286014186",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782286014186-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giovanni Visconti-Venosta",
+            "titolo": "L'uomo a rovescio",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Serena Vitale",
+            "titolo": "L'Homme aux cercles bleus",
+            "genere": "Romance",
+            "isbn": "2290318329",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2290318329-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Voltaire (François-Marie Arouet)",
+            "titolo": "Un peu plus loin sur la droite (...)",
+            "genere": "Romance",
+            "isbn": "2878580753",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2878580753-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Dan Vyleta",
+            "titolo": "La fiesta del Chivo (...)",
+            "genere": "Romance",
+            "isbn": "0374154767",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0374154767-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Laila Waida",
+            "titolo": "Amiche per la pelle",
+            "genere": "Romance",
+            "isbn": "9781700640260",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781700640260-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Alice Walker",
+            "titolo": "The Color Purple",
+            "genere": "Romance",
+            "isbn": "9788878243385",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788878243385-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Edgar Wallace",
+            "titolo": "Le parole perdute",
+            "genere": "Romance",
+            "isbn": "9788806122119",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806122119-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Robert Walser",
+            "titolo": "La ragazza dai capelli strani",
+            "genere": "Romance",
+            "isbn": "9788875213817",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788875213817-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Andy Weir",
+            "titolo": "E Unibus Pluram: Gli scrittori americani e la televisione",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nathanael West (Nathan Weinstein)",
+            "titolo": "Angel Esquire",
+            "genere": "Romance",
+            "isbn": "1434482871",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1434482871-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Jacqueline Wilson",
+            "titolo": "La porta delle sette chiavi",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Virginia de Winter",
+            "titolo": "Il laccio rosso",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Nicholas Wiseman",
+            "titolo": "La taverna sul Tamigi",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Christa Wolf",
+            "titolo": "Red Aces",
+            "genere": "Romance",
+            "isbn": "9798480878387",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798480878387-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Tom Wolfe",
+            "titolo": "Asso di quadri asso di cuori",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Mary Wollstonecraft",
+            "titolo": "Lo smeraldo maledetto",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Cornell Woolrich",
+            "titolo": "Occhio per occhio",
+            "genere": "Romance",
+            "isbn": "8807813351",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8807813351-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Anthony Wynne (Robert McNair Wilson)",
+            "titolo": "La valle degli spiriti",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Aldo Zargani",
+            "titolo": "Per violino solo",
+            "genere": "Romance",
+            "isbn": "8815134115",
+            "endpoint": "https://www.incipitario.com/incipitz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8815134115-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Émile Zola",
+            "titolo": "L'Assommoir",
+            "genere": "Romance",
+            "isbn": "2070411435",
+            "endpoint": "https://www.incipitario.com/incipitz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2070411435-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "L'udo Zùbek",
+            "titolo": "L'Assommoir",
+            "genere": "Romance",
+            "isbn": "2070411435",
+            "endpoint": "https://www.incipitario.com/incipitz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2070411435-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Giovanna Zucca",
+            "titolo": "La bête humaine (...)",
+            "genere": "Romance",
+            "isbn": "9782090319224",
+            "endpoint": "https://www.incipitario.com/incipitz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782090319224-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Stefan Zweig",
+            "titolo": "Au bonheur des dames",
+            "genere": "Romance",
+            "isbn": "9782266033572",
+            "endpoint": "https://www.incipitario.com/incipitz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782266033572-L.jpg",
+            "genere_macro": "Romance"
+        },
+        {
+            "autore": "Václav Zykmund",
+            "titolo": "Il paradiso delle signore",
+            "genere": "Romance",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Romance"
+        }
+    ]
+}

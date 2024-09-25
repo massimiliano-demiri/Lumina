@@ -1,0 +1,1437 @@
+{
+    "Fantasy": [
+        {
+            "autore": "Edwin Abbott Abbott",
+            "titolo": "Biblioteca [pseudo Apollodoro]",
+            "genere": "Architecture, Domestic",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Pietro Abelardo",
+            "titolo": "Carmina Burana (XII-XIII sec.)",
+            "genere": "Music",
+            "isbn": "9788858798683",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Hector Berlioz",
+            "titolo": "L'intoccabile",
+            "genere": "Music",
+            "isbn": "9788842502876",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Douglas Adams",
+            "titolo": "Edda",
+            "genere": "Novelists, English",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Henry Adams",
+            "titolo": "Lazarillo de Tormes (1554)",
+            "genere": "Lazarillo de Tormes",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Herbert Adams",
+            "titolo": "Lazarillo de Tormes",
+            "genere": "Juvenile Nonfiction",
+            "isbn": "9788820347048",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "ellekappa (Laura Pellegrini)",
+            "titolo": "Il cimitero di Praga",
+            "genere": "Juvenile Nonfiction",
+            "isbn": "9788851166588",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Edoardo Albinati",
+            "titolo": "Il vangelo secondo san Giovanni (I sec.)",
+            "genere": "Arabic language",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Shalom Alechem (Shalom Rabinowitz)",
+            "titolo": "Rivers of London",
+            "genere": "Jews",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Jean-Baptiste Le Rond d'Alembert",
+            "titolo": "I fiumi di Londra",
+            "genere": "Fantasy",
+            "isbn": "9788834718353",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788834718353-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Margaret Atwood",
+            "titolo": "La piccola fiammiferaia",
+            "genere": "Fantasy",
+            "isbn": "9788823401136",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788823401136-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Alberto Brambilla",
+            "titolo": "Ficciones: La Biblioteca Total (Finzioni: La biblioteca di Babele)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Hermann Broch",
+            "titolo": "Oraison funèbre de Henriette-Marie de France, reine de la Grand'Bretagne",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Renzo Brollo",
+            "titolo": "Oraison funèbre de très haut et très puissant prince Louis de Bourbon, prince de Condé",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Louis Bromfield",
+            "titolo": "Orazione funebre per l'augusto e potente principe Luigi di Borbone, principe di Condé",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Douglas Gordon Browne",
+            "titolo": "Her Prairie Knight",
+            "genere": "Fantasy",
+            "isbn": "9781082141843",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781082141843-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Fabrizio De André",
+            "titolo": "Il fiore",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Antonio Delfini",
+            "titolo": "Tobby in prigione",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Joseph Karl von Eichendorff",
+            "titolo": "Il pendolo di Foucault",
+            "genere": "Fantasy",
+            "isbn": "9788373924345",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788373924345-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Caterina Emili",
+            "titolo": "Una casa quasi perfetta",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Jack Finney",
+            "titolo": "Un crime parfait (...)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Marcello Fois",
+            "titolo": "Il circo maledetto",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Allen Ginsberg",
+            "titolo": "The Forsyte Saga",
+            "genere": "Fantasy",
+            "isbn": "9780755340873",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780755340873-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Natalia Ginzburg",
+            "titolo": "La saga dei Forsyte",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Johann Wolfgang von Goethe",
+            "titolo": "Faust",
+            "genere": "Fantasy",
+            "isbn": "3257204396",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3257204396-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Susanne Goga",
+            "titolo": "Faust",
+            "genere": "Fantasy",
+            "isbn": "3257204396",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3257204396-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Anne (Simone Changeux)",
+            "titolo": "Fiaba",
+            "genere": "Fantasy",
+            "isbn": "9788806599928",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806599928-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Joel Chandler Harris",
+            "titolo": "Il falco maltese",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Josephine Hart",
+            "titolo": "Sult (Fame)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Dara Haynes",
+            "titolo": "Die Abwesenheit. Ein Märchen (L'assenza, una fiaba)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Alan Hollinghurst",
+            "titolo": "Una romantica avventura",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Ricarda Huch",
+            "titolo": "Sleep, pale sister (Il fante di cuori e la dama di picche)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Il'f e Petrov (Il'ja Arnal'dovic Fajnzil'berg, 1897-1937 e Evgenij Petrovic Kataev, 1903-1942)",
+            "titolo": "Il fantasma del lettore passato",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Jane Jakeman",
+            "titolo": "Et Skud i Taagen (Un colpo di fucile nella nebbia)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Nikos Kazantzakis",
+            "titolo": "La metamorfosi",
+            "genere": "Fantasy",
+            "isbn": "9788483745700",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788483745700-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Clifford Henry Benn Kitchin",
+            "titolo": "Tenohira no shosetsu: Shiroi ana (Racconti in un palmo di mano: Il fiore bianco)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Pierre-Ambroise-François Choderlos de Laclos",
+            "titolo": "Fiori giapponesi",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Matthew Gregory Lewis",
+            "titolo": "Il fantoccio del capitano",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Howard Phillips Lovecraft",
+            "titolo": "Consequences",
+            "genere": "Fantasy",
+            "isbn": "1515431622",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1515431622-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Carlo Manzoni",
+            "titolo": "Il fuoco greco",
+            "genere": "Fantasy",
+            "isbn": "8804332131",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804332131-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Margherita di Navarra principessa di Angoulême",
+            "titolo": "Fièvre au Marais (Febbre nel Marais)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Jannis Maris (Yannis Tsirimokos)",
+            "titolo": "A bocce ferme",
+            "genere": "Fantasy",
+            "isbn": "8838937753",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838937753-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Karl Marlantes",
+            "titolo": "Il gioco delle tre carte",
+            "genere": "Fantasy",
+            "isbn": "9788838923340",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788838923340-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Don Marquis",
+            "titolo": "Il telefono senza fili",
+            "genere": "Fantasy",
+            "isbn": "883893228X",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/883893228X-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Giuseppe Marrazzo",
+            "titolo": "Fratelli d'Italia",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Richard Mason",
+            "titolo": "Il fantasma di Mozart",
+            "genere": "Fantasy",
+            "isbn": "8806177281",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806177281-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Herman Melville",
+            "titolo": "Il club dei filosofi dilettanti",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Immanuel Mifsud",
+            "titolo": "Fortune's Favorite",
+            "genere": "Fantasy",
+            "isbn": "067429520X",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/067429520X-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Giorgio Mosetti",
+            "titolo": "The Daydreamer",
+            "genere": "Fantasy",
+            "isbn": "0785792767",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0785792767-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Roberto Mussapi",
+            "titolo": "Follia",
+            "genere": "Fantasy",
+            "isbn": "8482643150",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8482643150-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Natsume Soseki (Natsume Kinnosuke)",
+            "titolo": "King, Queen, Knave (Re, donna, fante)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Marilù Oliva",
+            "titolo": "Lungo il fiume",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Giuseppe Parini",
+            "titolo": "Uno scambio di anime: storia delluomo che si trasferì nel corpo dellamata.",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Blaise Pascal",
+            "titolo": "I fratelli minori",
+            "genere": "Fantasy",
+            "isbn": "9788845264498",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788845264498-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Giovanni Pascutto",
+            "titolo": "I fratelli Cuccoli",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Marco Pedone",
+            "titolo": "La zia Fanni",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Luigi Pirandello",
+            "titolo": "Fiori nella pioggia",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Ayn Rand (Alisa Zinov'evna Rozenbaum)",
+            "titolo": "Il ballo del conte d'Orgel",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Liviu Rebreanu",
+            "titolo": "La battaglia",
+            "genere": "Fantasy",
+            "isbn": "0757903924",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0757903924-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Patrizia Rinaldi",
+            "titolo": "The Wishing Game",
+            "genere": "Fantasy",
+            "isbn": "9780743461443",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780743461443-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Ian Sansom",
+            "titolo": "La filosofia nel boudoir",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Tiziano Scarpa",
+            "titolo": "Le figlie dei Faraoni",
+            "genere": "Fantasy",
+            "isbn": "9788872350423",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788872350423-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Mary Ann Shaffer",
+            "titolo": "La foiba grande",
+            "genere": "Fantasy",
+            "isbn": "8804362596",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804362596-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Giampaolo Simi",
+            "titolo": "The Dream",
+            "genere": "Fantasy",
+            "isbn": "9798549381360",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798549381360-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Antonio Skármeta",
+            "titolo": "Il calligrafo",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Natasha Solomons",
+            "titolo": "Love and Fury",
+            "genere": "Fantasy",
+            "isbn": "0552130737",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0552130737-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Charles Sorel, seigneur de Souvigny",
+            "titolo": "Amore e furia",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Belinda Starling",
+            "titolo": "Les Fantômes du chapelier (I fantasmi del cappellaio)",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Domenico Starnone",
+            "titolo": "Félicie est là (Félicie)",
+            "genere": "Fantasy",
+            "isbn": "9780151555543",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780151555543-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Elizabeth Taylor",
+            "titolo": "Il fantasma di piazza Statuto",
+            "genere": "Fantasy",
+            "isbn": "9788866321194",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788866321194-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Henry David Thoreau",
+            "titolo": "Fosca",
+            "genere": "Fantasy",
+            "isbn": "9798466813562",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798466813562-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Stuart Turton",
+            "titolo": "Addio fantasmi",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Lorenzo Viani",
+            "titolo": "L'Armée furieuse",
+            "genere": "Fantasy",
+            "isbn": "9783351033804",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783351033804-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Evelyn Waugh",
+            "titolo": "Derivative Sport in Tornado Alley",
+            "genere": "Fantasy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Vittorio Alfieri",
+            "titolo": "Flatland",
+            "genere": "Random",
+            "isbn": "9781099380006",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781099380006-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Charles Darwin",
+            "titolo": "Arrow Pointing Nowhere",
+            "genere": "Random",
+            "isbn": "1560543221",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1560543221-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Charles Dickens",
+            "titolo": "In senso inverso",
+            "genere": "Random",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Fred Hoyle",
+            "titolo": "Holy Fools",
+            "genere": "Random",
+            "isbn": "9780061497544",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780061497544-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Carlo Lucarelli",
+            "titolo": "Heat Wave",
+            "genere": "Random",
+            "isbn": "9780226276182",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780226276182-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Giulio Mozzi",
+            "titolo": "The Innocent",
+            "genere": "Random",
+            "isbn": "1846376068",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1846376068-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Harry Mulisch",
+            "titolo": "Nutshell",
+            "genere": "Random",
+            "isbn": "8466402012",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8466402012-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Maggie O'Farrell",
+            "titolo": "Primo comando",
+            "genere": "Random",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Marjorie Kinnan Rawlings",
+            "titolo": "Ritorno a casa",
+            "genere": "Random",
+            "isbn": "8804448601",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804448601-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Cathleen Schine",
+            "titolo": "I predoni del Sahara",
+            "genere": "Random",
+            "isbn": "9781535299787",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781535299787-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Israel Joshua Singer",
+            "titolo": "Nuove abitudini",
+            "genere": "Random",
+            "isbn": "9781644053942",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781644053942-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Emilio Tadini",
+            "titolo": "Notturno indiano",
+            "genere": "Random",
+            "isbn": "9788805024568",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788805024568-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Jim Thompson",
+            "titolo": "La semplicità ingannata",
+            "genere": "Random",
+            "isbn": "9788871155654",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788871155654-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "William Trevor",
+            "titolo": "Ritorno a Memphis",
+            "genere": "Random",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Minette Walters",
+            "titolo": "Infinite Jest",
+            "genere": "Random",
+            "isbn": "9780349139050",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780349139050-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Izaak Walton",
+            "titolo": "Infinite Jest",
+            "genere": "Random",
+            "isbn": "9780349139050",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780349139050-L.jpg",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Marcel Allain",
+            "titolo": "La cucina inglese di Miss Eliza",
+            "genere": "Foreign Language Study",
+            "isbn": "9788834618189",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Massimo Bubola",
+            "titolo": "Up Above the World",
+            "genere": "Foreign Language Study",
+            "isbn": "9788879167123",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Nicolas Ancion",
+            "titolo": "The light of the day",
+            "genere": "Art",
+            "isbn": "9788858628041",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Edward Bellamy",
+            "titolo": "Artemisia",
+            "genere": "Art",
+            "isbn": "9788865571231",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Anita Brookner",
+            "titolo": "Le crépuscule des dieux",
+            "genere": "Art",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Massimo Burioni",
+            "titolo": "The Sweetness at the Bottom of the Pie",
+            "genere": "Art",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Hans Christian Andersen",
+            "titolo": "Topkapi",
+            "genere": "Architecture, Ottoman",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Ivo Andrić",
+            "titolo": "The Mask of Dimitrios",
+            "genere": "Best books",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Lucio Apuleio",
+            "titolo": "Human Capital",
+            "genere": "Business & Economics",
+            "isbn": "9788835110002",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Alberto Arbasino",
+            "titolo": "Il capitale umano",
+            "genere": "Business & Economics",
+            "isbn": "9788826607351",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Federica Marchetti",
+            "titolo": "Salto mortale",
+            "genere": "Business & Economics",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Mary Austin",
+            "titolo": "Le scarpette rosse",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788858834145",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Richard Bach",
+            "titolo": "The bridge across forever",
+            "genere": "Biography & Autobiography",
+            "isbn": "9780440108269",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "John Banville",
+            "titolo": "Absolute Power",
+            "genere": "Biography & Autobiography",
+            "isbn": "9781496828798",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Julian Barnes",
+            "titolo": "Crash",
+            "genere": "Biography & Autobiography",
+            "isbn": "9781407015460",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "James Matthew Barrie",
+            "titolo": "Le chef-d'oeuvre inconnu",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788867993819",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Remo Bassini",
+            "titolo": "La peau de chagrin",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788833905822",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Elizabeth Bishop",
+            "titolo": "Arthur & George",
+            "genere": "Biography & Autobiography",
+            "isbn": "9780472063437",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Paul Bowles",
+            "titolo": "L'amante fedele",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788871980898",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Charlotte Brontë",
+            "titolo": "La vita di Samuel Johnson",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788854524538",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "John Bude (Ernest Carpenter Elmore)",
+            "titolo": "In cima al mondo",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788811141075",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "John Bunyan",
+            "titolo": "The Cold Embrace",
+            "genere": "Biography & Autobiography",
+            "isbn": "9781930367593",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Christopher Bush",
+            "titolo": "The Curious Case of the Copper Corpse",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788852077456",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Roald Dahl",
+            "titolo": "Going Solo",
+            "genere": "Biography & Autobiography",
+            "isbn": "9780141965338",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Fëdor Michailovič Dostoevskij",
+            "titolo": "Casa desolata",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788858654705",
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Annie Ernaux",
+            "titolo": "Helen",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788898981984",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Timothy Fuller",
+            "titolo": "The Female Husband",
+            "genere": "Biography & Autobiography",
+            "isbn": "9780199762347",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Helene Hanff",
+            "titolo": "La settima ipotesi",
+            "genere": "Biography & Autobiography",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Ragnar Jónasson",
+            "titolo": "The Bench of Desolation",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788877681980",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Dacia Maraini",
+            "titolo": "Le maschere",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788888302553",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Chris Offutt",
+            "titolo": "Post Captain",
+            "genere": "Biography & Autobiography",
+            "isbn": "9781439129197",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Alice Sebold",
+            "titolo": "Nine Stories:",
+            "genere": "Biography & Autobiography",
+            "isbn": "9788866329374",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Simona Baldelli",
+            "titolo": "La ragazza meccanica",
+            "genere": "Italian language",
+            "isbn": "9788869691119",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Jules-Amédée Barbey d'Aurevilly",
+            "titolo": "In the Heat of the Night",
+            "genere": "Lesbians",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Annagrazia Bassi",
+            "titolo": "Louis Lambert (...)",
+            "genere": "Religion",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Lao-tzu",
+            "titolo": "Det eviga leendet (Il sorriso eterno)",
+            "genere": "Religion",
+            "isbn": "9788841214558",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Jean-François de Bastide",
+            "titolo": "La pelle di zigrino",
+            "genere": "Comparative literature",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Sylvia Beach",
+            "titolo": "Un tenebroso affare",
+            "genere": "Performing Arts",
+            "isbn": "9788811131472",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Nicholas Brady (John Turner)",
+            "titolo": "El Aleph",
+            "genere": "Performing Arts",
+            "isbn": "9788898623426",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Chico Buarque",
+            "titolo": "Il tè nel deserto",
+            "genere": "Performing Arts",
+            "isbn": "9788845224003",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Simone de Beauvoir",
+            "titolo": "Culture Series: Consider Phlebas",
+            "genere": "Philosophy",
+            "isbn": "9788855222839",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Michael André Bernstein",
+            "titolo": "Le ateniesi",
+            "genere": "Philosophy",
+            "isbn": "9788858426630",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Denis Diderot",
+            "titolo": "Lies, Inc. (Utopia andata e ritorno)",
+            "genere": "Philosophy",
+            "isbn": "9788846761200",
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Mbacke Gadji",
+            "titolo": "Sofies verden (Il mondo di Sofia)",
+            "genere": "Philosophy",
+            "isbn": "9788203168413",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Charlotte Perkins Gilman",
+            "titolo": "Dialogo sopra i due massimi sistemi del mondo",
+            "genere": "Philosophy",
+            "isbn": "9788867053551",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Arnold Bennett",
+            "titolo": "Le donne muoiono",
+            "genere": "Bibliography",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Matteo Maria Boiardo",
+            "titolo": "Ivan (L'infanzia di Ivan)",
+            "genere": "Bibliography",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Hans Magnus Enzensberger",
+            "titolo": "Castle Rackrent",
+            "genere": "Bibliography",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "J. S. (Sophia) Bennett",
+            "titolo": "Inganni del tempo",
+            "genere": "Computers",
+            "isbn": "9788829011704",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Ian McDonald",
+            "titolo": "Espresso Tales",
+            "genere": "Computers",
+            "isbn": "9791259772572",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Don Betteridge (Bernard Charles Newman)",
+            "titolo": "La rivoluzione segreta",
+            "genere": "Comics & Graphic Novels",
+            "isbn": "9788869137440",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Luciano Bianciardi",
+            "titolo": "Mr Gwyn",
+            "genere": "Novel,Italian",
+            "isbn": "9789750716072",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Romano Bilenchi",
+            "titolo": "Questa storia",
+            "genere": "Authors, Italian",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Luther Blissett",
+            "titolo": "Amore, dieci anni dopo",
+            "genere": "Language Arts & Disciplines",
+            "isbn": "9788876150579",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Sandrone Dazieri",
+            "titolo": "De vulgari eloquentia",
+            "genere": "Language Arts & Disciplines",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Sandrone Dazieri",
+            "titolo": "De vulgari eloquentia",
+            "genere": "Language Arts & Disciplines",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Cyril Hare",
+            "titolo": "Schiavi della solitudine",
+            "genere": "Language Arts & Disciplines",
+            "isbn": "9788858423868",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Robert Bloch",
+            "titolo": "The Absent-Minded Coterie",
+            "genere": "Reference",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Alan Bradley",
+            "titolo": "La vita operosa",
+            "genere": "Architecture",
+            "isbn": "9788877947055",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Michel Bussi",
+            "titolo": "Dead in Their Vaulted Arches",
+            "genere": "Architecture",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Federico Di Bartolomeo",
+            "titolo": "Tuta Blu",
+            "genere": "Architecture",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Iosif Aleksandrovič Brodskij",
+            "titolo": "Orazione funebre per Enrichetta Maria di Francia, regina di Gran Bretagna",
+            "genere": "Funeral rites and ceremonies",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Anne Brontë",
+            "titolo": "The Life of Samuel Johnson",
+            "genere": "Authors, English",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Robert Browning",
+            "titolo": "Post scriptum",
+            "genere": "Italian literature",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Alba De Céspedes",
+            "titolo": "All'insegna del Buon Corsiero",
+            "genere": "Italian literature",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Massimo Taparelli d'Azeglio",
+            "titolo": "Detto d'amore",
+            "genere": "Italy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Joseph Smith Fletcher",
+            "titolo": "Luce d'agosto",
+            "genere": "Italy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "William Goldman",
+            "titolo": "Viaggio in Italia",
+            "genere": "Italy",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Mignon Good Eberhart",
+            "titolo": "Prigioniera delle ombre",
+            "genere": "Brothers and sisters",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Ralph Waldo Emerson",
+            "titolo": "The Semi-Detached House",
+            "genere": "Authors, American",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Laura Esquivel",
+            "titolo": "The Circle",
+            "genere": "Education",
+            "isbn": "9781003842491",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Jeffrey Eugenides",
+            "titolo": "A Heartbreaking Work of Staggering Genius",
+            "genere": "Brothers",
+            "isbn": "9780329809263",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Numa-Denis Fustel de Coulanges",
+            "titolo": "Jonathan Wild",
+            "genere": "Law",
+            "isbn": "9788846744104",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Catherine Grace Frances Gore",
+            "titolo": "Wilhelm Meisters Wanderjahre (...)",
+            "genere": "Criticism",
+            "isbn": "9783823351726",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Zora Neale Hurston",
+            "titolo": "The Anatomists Apprentice",
+            "genere": "American literature",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Juan Ramón Jiménez",
+            "titolo": "The Aspern Papers",
+            "genere": "Spanish American literature",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Francesco Jovine",
+            "titolo": "Le bostoniane",
+            "genere": "Jovine, Francesco, 1902-1950",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "M. R. C. Kasasian",
+            "titolo": "In der Straftkolonie",
+            "genere": "Travel",
+            "isbn": "9788845979675",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "genere_macro": "Fantasy"
+        },
+        {
+            "autore": "Elda Lanza",
+            "titolo": "Golden Gate",
+            "genere": "Golden Gate Bridge (San Francisco, Calif.)",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "genere_macro": "Fantasy"
+        }
+    ]
+}

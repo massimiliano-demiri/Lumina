@@ -1,0 +1,1642 @@
+{
+    "Adventure": [
+        {
+            "autore": "Anita Rau Badami",
+            "titolo": "Jonathan Livingston Seagull",
+            "genere": "Adventure",
+            "isbn": "9780380143160",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780380143160-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "John Ball",
+            "titolo": "La nuova Atlantide",
+            "genere": "Adventure",
+            "isbn": "8885825648",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8885825648-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Robert Michael Ballantyne",
+            "titolo": "The Hero's Walk",
+            "genere": "Adventure",
+            "isbn": "9780747557111",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780747557111-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Alessandro Baricco",
+            "titolo": "The Coral Island",
+            "genere": "Adventure",
+            "isbn": "1980222770",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1980222770-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Cesare Beccaria",
+            "titolo": "Culture Series: The Player of Games",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Carmelo Bene",
+            "titolo": "Il coraggio delle donne",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Giuseppe Berto",
+            "titolo": "L'eleganza del riccio",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jacques-Bénigne Bossuet",
+            "titolo": "Orient",
+            "genere": "Adventure",
+            "isbn": "3502513031",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3502513031-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Anthelme Brillat-Savarin",
+            "titolo": "Wild Wales",
+            "genere": "Adventure",
+            "isbn": "0004202082",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0004202082-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Giuseppe D'Agata",
+            "titolo": "Tysk Höst! (Autunno tedesco)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Andrea De Carlo",
+            "titolo": "The Voyage of the Beagle",
+            "genere": "Adventure",
+            "isbn": "9781521178980",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781521178980-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Attilio Del Giudice",
+            "titolo": "L'uomo che camminava per le strade",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Erri De Luca",
+            "titolo": "West",
+            "genere": "Adventure",
+            "isbn": "9780321105042",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780321105042-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Anita Desai",
+            "titolo": "La danza del Gorilla",
+            "genere": "Adventure",
+            "isbn": "9788817139359",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788817139359-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Brian Oswald Donn Byrne",
+            "titolo": "Ubik",
+            "genere": "Adventure",
+            "isbn": "1596061693",
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1596061693-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Olivier Douzou",
+            "titolo": "Le campane",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Andre Dubus",
+            "titolo": "Great Expectations",
+            "genere": "Adventure",
+            "isbn": "9798528803401",
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798528803401-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "John Dunning",
+            "titolo": "The Life and Adventures of Martin Chuzzlewit",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Esiodo",
+            "titolo": "Mary",
+            "genere": "Adventure",
+            "isbn": "9798771141060",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798771141060-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Esopo",
+            "titolo": "Mary",
+            "genere": "Adventure",
+            "isbn": "9798771141060",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798771141060-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ian Fleming",
+            "titolo": "Light in August",
+            "genere": "Adventure",
+            "isbn": "9781561005888",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781561005888-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Antonio Fogazzaro",
+            "titolo": "Walking in Pimlico",
+            "genere": "Adventure",
+            "isbn": "1848541724",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1848541724-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Richard Ford",
+            "titolo": "Les aventures de Télémaque",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Edward Morgan Forster",
+            "titolo": "Le avventure di Telemaco",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Nadia Fusini",
+            "titolo": "La storia delle avventure di Joseph Andrews e del suo amico Messer Abraham Adams",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Galileo Galilei",
+            "titolo": "Dragonfly in Amber",
+            "genere": "Adventure",
+            "isbn": "1784751367",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1784751367-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "John Galsworthy",
+            "titolo": "Voyager",
+            "genere": "Adventure",
+            "isbn": "0812418492",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0812418492-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Alessia Gazzola",
+            "titolo": "Racconti dispersi: Fuga a Tor di Nona",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "David Gerrold (Jerrold David Friedman)",
+            "titolo": "Anansi Boys",
+            "genere": "Adventure",
+            "isbn": "9780755331147",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780755331147-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Barry Gifford",
+            "titolo": "Good Omens",
+            "genere": "Adventure",
+            "isbn": "8479048778",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8479048778-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Witold Gombrowicz",
+            "titolo": "Die Wahlverwandtschaften",
+            "genere": "Adventure",
+            "isbn": "1567231403",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1567231403-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Günter Grass",
+            "titolo": "Lord of the Flies",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Riccardo Guarino",
+            "titolo": "L'aggancio",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Luigi Guarnieri",
+            "titolo": "Cecil, or, The Adventures of a Coxcomb",
+            "genere": "Adventure",
+            "isbn": "9780343145453",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780343145453-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Francesco Guccini",
+            "titolo": "Cecil, ovvero, Le avventure di un damerino",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "João Guimarães Rosa",
+            "titolo": "Tristan",
+            "genere": "Adventure",
+            "isbn": "9783110838213",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783110838213-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Sophie Hannah",
+            "titolo": "The Sailor in the Wardrobe",
+            "genere": "Adventure",
+            "isbn": "9780007383399",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780007383399-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Joanne Harris",
+            "titolo": "The Maltese Falcon",
+            "genere": "Adventure",
+            "isbn": "8474446112",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8474446112-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Emilia Hart",
+            "titolo": "Pan (Pan)",
+            "genere": "Adventure",
+            "isbn": "9781728986227",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781728986227-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Paula Hawkins",
+            "titolo": "Under hoststjaernen (Sotto la stella d'autunno)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Aleksandar Hemon",
+            "titolo": "The Art of Fielding",
+            "genere": "Adventure",
+            "isbn": "0316126675",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0316126675-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "William Dean Howells",
+            "titolo": "Five Quarters of the Orange",
+            "genere": "Adventure",
+            "isbn": "0061497274",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0061497274-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Siri Hustvedt",
+            "titolo": "L'anatomista",
+            "genere": "Adventure",
+            "isbn": "8860871808",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8860871808-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jerome Klapka Jerome",
+            "titolo": "The Ambassadors",
+            "genere": "Adventure",
+            "isbn": "0192836471",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0192836471-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Furio Jesi",
+            "titolo": "Gli ambasciatori",
+            "genere": "Adventure",
+            "isbn": "9788830405769",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788830405769-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Samuel Johnson",
+            "titolo": "The Beast in the Jungle",
+            "genere": "Adventure",
+            "isbn": "9781406518436",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781406518436-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ismail Kadaré",
+            "titolo": "Amerika",
+            "genere": "Adventure",
+            "isbn": "4042083056",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/4042083056-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Elia Kazan (Elias Kazanjoglou)",
+            "titolo": "Die Verwandlung",
+            "genere": "Adventure",
+            "isbn": "9798594468634",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798594468634-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Gottfried Keller",
+            "titolo": "Put' entuziasta (Il cammino di un entusiasta)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jamaica Kincaid (Elaine Potter Richardson)",
+            "titolo": "Kinju (Uccelli e altri animali)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Gyula Krúdy",
+            "titolo": "Tigana",
+            "genere": "Adventure",
+            "isbn": "0743450116",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0743450116-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Hanif Kureishi",
+            "titolo": "The Arrangement",
+            "genere": "Adventure",
+            "isbn": "9780373129416",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780373129416-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Peppe Lanzetta",
+            "titolo": "Golden Gate",
+            "genere": "Adventure",
+            "isbn": "9780060229719",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780060229719-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Halldór Laxness (Halldór Guðjónsson)",
+            "titolo": "Racconto d'autunno",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Roy Lewis",
+            "titolo": "The Flying Fish and Other Tales (...)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Sinclair Lewis",
+            "titolo": "The Fox",
+            "genere": "Adventure",
+            "isbn": "1665017139",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1665017139-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Clarice Lispector",
+            "titolo": "Picnic at Hanging Rock",
+            "genere": "Adventure",
+            "isbn": "2080608797",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2080608797-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jonathan Littell",
+            "titolo": "Picnic a Hanging Rock",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Josie Lloyd",
+            "titolo": "The Fun Parts",
+            "genere": "Adventure",
+            "isbn": "1469261421",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1469261421-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "David Lodge",
+            "titolo": "La parte divertente",
+            "genere": "Adventure",
+            "isbn": "9788875215477",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788875215477-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Maxim Loskutoff",
+            "titolo": "Amori imprevisti di un rispettabile biografo",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Tito Lucrezio Caro",
+            "titolo": "Moon Tiger",
+            "genere": "Adventure",
+            "isbn": "9780141902715",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780141902715-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Matteo Lunardini",
+            "titolo": "Incontro in Egitto",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Alison Lurie",
+            "titolo": "Spiderweb",
+            "genere": "Adventure",
+            "isbn": "080507063X",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/080507063X-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Arthur Machen",
+            "titolo": "L'eredità introvabile",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Maurizio Maggiani",
+            "titolo": "Belfagor arcidiavolo",
+            "genere": "Adventure",
+            "isbn": "8870180182",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8870180182-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Norman Mailer",
+            "titolo": "Il viaggiatore notturno",
+            "genere": "Adventure",
+            "isbn": "8807016664",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8807016664-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Joseph de Maistre",
+            "titolo": "L'uomo nella campana",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jean-Patrick Manchette",
+            "titolo": "An American Dream",
+            "genere": "Adventure",
+            "isbn": "9780586037331",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780586037331-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Heinrich Mann",
+            "titolo": "Voyage autour de ma chambre",
+            "genere": "Adventure",
+            "isbn": "9798736106264",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798736106264-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Thomas Mann",
+            "titolo": "Viaggio intorno alla mia camera",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Salvatore Mannuzzu",
+            "titolo": "Se l'acqua ride",
+            "genere": "Adventure",
+            "isbn": "9788806244088",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806244088-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Paolo Mantegazza",
+            "titolo": "Kaputt",
+            "genere": "Adventure",
+            "isbn": "9788804395683",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804395683-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Marchesa Colombi (Maria Antonietta Torriani Torelli-Viollier)",
+            "titolo": "Il protagonista",
+            "genere": "Adventure",
+            "isbn": "8804340436",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804340436-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ben Marcus",
+            "titolo": "La scoperta dell'alfabeto",
+            "genere": "Adventure",
+            "isbn": "8804473452",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804473452-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Filippo Tommaso Marinetti",
+            "titolo": "Morning's at Seven (Alle sette del mattino il mondo è ancora in ordine)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Brice Matthieussent",
+            "titolo": "Putešestvie v Armeniju (Viaggio in Armenia)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "William Somerset Maugham",
+            "titolo": "Aléxandros. Le sabbie di Amon",
+            "genere": "Adventure",
+            "isbn": "8804456078",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804456078-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Paolo Maurensig",
+            "titolo": "Lo scudo di Talos",
+            "genere": "Adventure",
+            "isbn": "8804333715",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804333715-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ilaria Mavilla",
+            "titolo": "A e B",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Louis Sébastien Mercier",
+            "titolo": "The Road",
+            "genere": "Adventure",
+            "isbn": "0140031928",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0140031928-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jules Merleau-Ponty",
+            "titolo": "The Group",
+            "genere": "Adventure",
+            "isbn": "0465084451",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0465084451-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Yukio Mishima (Kimitake Hiraoka)",
+            "titolo": "Morgan's Run",
+            "genere": "Adventure",
+            "isbn": "0786230835",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0786230835-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Margaret Mitchell",
+            "titolo": "Tim",
+            "genere": "Adventure",
+            "isbn": "2268032639",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2268032639-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Nancy Mitford",
+            "titolo": "Tim",
+            "genere": "Adventure",
+            "isbn": "2268032639",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2268032639-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Estelle Monbrun (Elyane Dezon-Jones)",
+            "titolo": "The Hercules Text",
+            "genere": "Adventure",
+            "isbn": "0747401578",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0747401578-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "George Augustus Moore",
+            "titolo": "Amsterdam",
+            "genere": "Adventure",
+            "isbn": "9780676972177",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780676972177-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Lorna Nicholl Morgan",
+            "titolo": "In Between the Sheeets, and other Stories",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Dermot Morrah",
+            "titolo": "The Children Act",
+            "genere": "Adventure",
+            "isbn": "9781410474643",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781410474643-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Manuel Mujica Lainez",
+            "titolo": "Machines Like Me and People Like You",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Özgür Mumcu",
+            "titolo": "On Chesil Beach",
+            "genere": "Adventure",
+            "isbn": "9780676978810",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780676978810-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Gianni Mura",
+            "titolo": "Saturday",
+            "genere": "Adventure",
+            "isbn": "9780689817212",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780689817212-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Haruki Murakami",
+            "titolo": "Solar",
+            "genere": "Adventure",
+            "isbn": "9788433975553",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788433975553-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ryu Murakami",
+            "titolo": "Solar",
+            "genere": "Adventure",
+            "isbn": "9788433975553",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788433975553-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Irène Némirovsky",
+            "titolo": "Transparent Things",
+            "genere": "Adventure",
+            "isbn": "9780297765141",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780297765141-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Kim Newman",
+            "titolo": "The Bachelor of Arts",
+            "genere": "Adventure",
+            "isbn": "0226568334",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0226568334-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Stanislao Nievo",
+            "titolo": "A Tiger for Malgudi",
+            "genere": "Adventure",
+            "isbn": "9781440618994",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781440618994-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Amélie Nothomb",
+            "titolo": "Aurélia",
+            "genere": "Adventure",
+            "isbn": "9780712629294",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780712629294-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Joyce Carol Oates",
+            "titolo": "Acqua nera",
+            "genere": "Adventure",
+            "isbn": "9788864382692",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788864382692-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Margherita Oggero",
+            "titolo": "The Country Girls",
+            "genere": "Adventure",
+            "isbn": "9781850890133",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781850890133-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ben Okri",
+            "titolo": "Ragazze di campagna",
+            "genere": "Adventure",
+            "isbn": "9788806253233",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806253233-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Margaret Oliphant",
+            "titolo": "Down by the River",
+            "genere": "Adventure",
+            "isbn": "3956490584",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3956490584-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Maria Orsini Natale",
+            "titolo": "At Swim-Two-Birds",
+            "genere": "Adventure",
+            "isbn": "9780140026368",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780140026368-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Cynthia Ozick",
+            "titolo": "Il barbiere",
+            "genere": "Adventure",
+            "isbn": "9788875733100",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788875733100-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Mervyn Laurence Peake",
+            "titolo": "Amore",
+            "genere": "Adventure",
+            "isbn": "0307387143",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0307387143-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Louise Penny",
+            "titolo": "L'angelo che scese a piedi dal Monte Rosa",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Leo Perutz",
+            "titolo": "Kar (Neve)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ellis Peters (Edith Pargeter)",
+            "titolo": "Trilobites",
+            "genere": "Adventure",
+            "isbn": "0002570122",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0002570122-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Francesco Petrarca",
+            "titolo": "Trilobiti",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Iolanda Piccinino",
+            "titolo": "Journey Downstairs (Invito con delitto)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jan Potocki",
+            "titolo": "Zen and the Art of Motorcycle Maintenance (Lo zen e l'arte della mantenzione della motocicletta)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Chaim Potok",
+            "titolo": "Cocaina",
+            "genere": "Adventure",
+            "isbn": "9788845240614",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788845240614-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Tim Powers",
+            "titolo": "Spegnere le caldaie",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Marco Presta",
+            "titolo": "La campana di vetro",
+            "genere": "Adventure",
+            "isbn": "8868970635",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8868970635-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Antonella Presutti",
+            "titolo": "The Journals of Sylvia Plath",
+            "genere": "Adventure",
+            "isbn": "0385493916",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0385493916-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Milton Propper",
+            "titolo": "L'appuntamento",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Franco Pulcini",
+            "titolo": "Il barile di Amontillado",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ellery Queen (Frederic Dannay",
+            "titolo": "Ventimila hanno visto",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitq.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jean Ray (Raymond Jean Marie De Kremer)",
+            "titolo": "You Don't Have to Live Here",
+            "genere": "Adventure",
+            "isbn": "9781400062362",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781400062362-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Francesco Recami",
+            "titolo": "Delle navigationi et viaggi",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Francesco Redi",
+            "titolo": "Anthem",
+            "genere": "Adventure",
+            "isbn": "9781613825136",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781613825136-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Dolores Redondo",
+            "titolo": "One Foot in Eden (Un piede in paradiso)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Tracy Rees",
+            "titolo": "Singular Travels, Campaigns and Adventures of Baron Munchausen",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Clara Reeve",
+            "titolo": "Viaggi straordinari, campagne e avventure del Barone di Münchausen",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ruth Rendell",
+            "titolo": "Malpertuis",
+            "genere": "Adventure",
+            "isbn": "9780947757984",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780947757984-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Karin Reschke",
+            "titolo": "Malpertuis",
+            "genere": "Adventure",
+            "isbn": "9780947757984",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780947757984-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Mario Rigoni Stern",
+            "titolo": "La verità su Amedeo Consonni",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Arthur Rimbaud",
+            "titolo": "Bacco in Toscana",
+            "genere": "Adventure",
+            "isbn": "9788872500057",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788872500057-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Harold Robbins",
+            "titolo": "Amy Snow",
+            "genere": "Adventure",
+            "isbn": "9781784291457",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781784291457-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Alessandro Robecchi",
+            "titolo": "Amy Snow",
+            "genere": "Adventure",
+            "isbn": "9781784291457",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781784291457-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Arundhati Roy",
+            "titolo": "Quartet",
+            "genere": "Adventure",
+            "isbn": "9783492285230",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783492285230-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Hans Ruesch",
+            "titolo": "Quartetto",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Luis Manuel Ruiz",
+            "titolo": "Wide Sargasso Sea",
+            "genere": "Adventure",
+            "isbn": "8402090826",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8402090826-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Pippo Russo",
+            "titolo": "Every Day",
+            "genere": "Adventure",
+            "isbn": "9783596811564",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783596811564-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Grégory Samak",
+            "titolo": "Le sventure della virtù - Justine",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Samovar",
+            "titolo": "Justine, ovvero le disavventure della virtù",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "George Santayana",
+            "titolo": "Plötzlich Shakespeare (Delirio di una notte di mezza estate)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Nino Savarese",
+            "titolo": "Voyage à l'Ile de France (...)",
+            "genere": "Adventure",
+            "isbn": "9781412190626",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781412190626-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jean-Noël Schifano",
+            "titolo": "I pescatori di balene",
+            "genere": "Adventure",
+            "isbn": "8896289165",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8896289165-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Friedrich Schiller",
+            "titolo": "I pirati della Malesia",
+            "genere": "Adventure",
+            "isbn": "9798538638451",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798538638451-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Robert Schneider",
+            "titolo": "Straordinarie avventure di Testa di Pietra",
+            "genere": "Adventure",
+            "isbn": "1544690770",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1544690770-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Arthur Schnitzler",
+            "titolo": "Il tesoro della montagna azzurra",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Charles Monroe Schulz",
+            "titolo": "Il giovane Holden",
+            "genere": "Adventure",
+            "isbn": "8806218182",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806218182-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Leonardo Sciascia",
+            "titolo": "Nine Stories:",
+            "genere": "Adventure",
+            "isbn": "9784102057018",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9784102057018-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Antonio Scurati",
+            "titolo": "Nine Stories:",
+            "genere": "Adventure",
+            "isbn": "9784102057018",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9784102057018-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Sei Shōnagon",
+            "titolo": "Nine Stories:",
+            "genere": "Adventure",
+            "isbn": "9784102057018",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9784102057018-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Hubert Selby",
+            "titolo": "Nine Stories:",
+            "genere": "Adventure",
+            "isbn": "9784102057018",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9784102057018-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Luis Sepúlveda",
+            "titolo": "Nine Stories:",
+            "genere": "Adventure",
+            "isbn": "9784102057018",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9784102057018-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Marcela Serrano",
+            "titolo": "Nine Stories:",
+            "genere": "Adventure",
+            "isbn": "9784102057018",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9784102057018-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Anya Seton",
+            "titolo": "Nine Stories:",
+            "genere": "Adventure",
+            "isbn": "9784102057018",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9784102057018-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Dai Sijie",
+            "titolo": "Gli Schwartz",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "George Roberts Sims",
+            "titolo": "Tranformation",
+            "genere": "Adventure",
+            "isbn": "9780691619248",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780691619248-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Isaac Bashevis Singer",
+            "titolo": "Greengates",
+            "genere": "Adventure",
+            "isbn": "0854682449",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0854682449-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Maj Sjöwall",
+            "titolo": "The Fourth Treasure",
+            "genere": "Adventure",
+            "isbn": "9780385505611",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780385505611-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "John Sladek",
+            "titolo": "Enthusiasm",
+            "genere": "Adventure",
+            "isbn": "0870610805",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0870610805-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Italo Svevo (Ettore Schmitz)",
+            "titolo": "Senza dirci addio",
+            "genere": "Adventure",
+            "isbn": "8838943761",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838943761-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Kalpana Swaminathan",
+            "titolo": "Dime-Store Alchemy. The Art of Joseph Cornell",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Vikas Swarup",
+            "titolo": "Drood",
+            "genere": "Adventure",
+            "isbn": "9798766028390",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798766028390-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Graham Swift",
+            "titolo": "Drood",
+            "genere": "Adventure",
+            "isbn": "9798766028390",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798766028390-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Wladyslaw Szpilman",
+            "titolo": "Cercando Beethoven",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Marcel Thiry",
+            "titolo": "Shonen (Adolescenti)",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Colm Tóibín",
+            "titolo": "The Goldfinch",
+            "genere": "Adventure",
+            "isbn": "6053437867",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/6053437867-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Pablo Tusset (David Homedes Cameo)",
+            "titolo": "Gli anni al contrario",
+            "genere": "Adventure",
+            "isbn": "9788806217310",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806217310-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Barry Unsworth",
+            "titolo": "Morality Play",
+            "genere": "Adventure",
+            "isbn": "0140175741",
+            "endpoint": "https://www.incipitario.com/incipitu.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0140175741-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Alessandro Verri",
+            "titolo": "L'ultima avventura di Philo Vance",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Annarita Verzola",
+            "titolo": "Remarkably Bright Creatures",
+            "genere": "Adventure",
+            "isbn": "0063204177",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0063204177-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Tarjei Vesaas",
+            "titolo": "Creature luminose",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Edmund de Waal",
+            "titolo": "Un'eredità di avorio e ambra",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Abdourahman A. Waberi",
+            "titolo": "Aux États-Unis dAfrique (...)",
+            "genere": "Adventure",
+            "isbn": "2709628139",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2709628139-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Robert Alfred John Walling",
+            "titolo": "The Broom of the System",
+            "genere": "Adventure",
+            "isbn": "0670812307",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0670812307-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Jean Webster (Alice Jane Chandler Webster)",
+            "titolo": "Tennis, trigonometria e tornado",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Frank Wedekind",
+            "titolo": "E Unibus Pluram: Television and U.S. Fiction",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Ernst Weiss",
+            "titolo": "Getting Away from Already Being Pretty Much Away from It All",
+            "genere": "Adventure",
+            "isbn": "9780316224772",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780316224772-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Herbert George Wells",
+            "titolo": "Invadenti evasioni",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Martha Wells",
+            "titolo": "Greatly Exaggerated",
+            "genere": "Adventure",
+            "isbn": "9780712621267",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780712621267-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Rebecca Wells",
+            "titolo": "Che esagerazione",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Patricia Wentworth (Dora Amy Elles)",
+            "titolo": "Tennis Player Michael Joyce's Professional Artistry as a Paradigm of Certain Stuff about Choice, Freedom, Limitation, Joy, Grotesquerie, and Human Completeness",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Franz Werfel",
+            "titolo": "L'abilità professionistica del tennista Michael Joyce come paradigma di una serie di cose tipo la scelta, la libertà, i limiti, la gioia, l'assurdità e la completezza dell'essere umano",
+            "genere": "Adventure",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Connie Willis (Constance Elaine Trimmer Willis)",
+            "titolo": "The Door with Seven Locks",
+            "genere": "Adventure",
+            "isbn": "9798443702186",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798443702186-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Wolfram von Eschenbach",
+            "titolo": "The Square Emerald",
+            "genere": "Adventure",
+            "isbn": "075511518X",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/075511518X-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Banana Yoshimoto",
+            "titolo": "Easter Parade",
+            "genere": "Adventure",
+            "isbn": "0448434865",
+            "endpoint": "https://www.incipitario.com/incipity.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0448434865-L.jpg",
+            "genere_macro": "Adventure"
+        },
+        {
+            "autore": "Marguerite Yourcenar",
+            "titolo": "Easter Parade",
+            "genere": "Adventure",
+            "isbn": "0448434865",
+            "endpoint": "https://www.incipitario.com/incipity.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0448434865-L.jpg",
+            "genere_macro": "Adventure"
+        }
+    ]
+}

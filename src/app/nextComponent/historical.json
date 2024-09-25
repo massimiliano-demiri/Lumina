@@ -1,0 +1,3367 @@
+{
+    "Historical": [
+        {
+            "autore": "Ben Aaronovitch",
+            "titolo": "Beowulf (VII sec.?)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Peter Ackroyd",
+            "titolo": "Cronica - Vita di Cola di Rienzo (1358)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Luisa Adorno (Mila Curradi)",
+            "titolo": "Moriz von Craûn (Moriz von Craûn) (1210/1220 ca.)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Milena Agus",
+            "titolo": "I Promessi morsi. Storia gotica milanese del secolo XVII (di Anonimo lombardo, 2011)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Niccolò Ammaniti",
+            "titolo": "Tereza Batista cansada de guerra (Teresa Batista stanca di guerra)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Anna Banti (Lucia Lopresti)",
+            "titolo": "La compagnia del tempo",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Daniello Bartoli",
+            "titolo": "Eugénie Grandet",
+            "genere": "Historical",
+            "isbn": "1434616215",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1434616215-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alessandro Bergonzoni",
+            "titolo": "L'invenzione del passato",
+            "genere": "Historical",
+            "isbn": "9788893596732",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788893596732-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Carlo Bini",
+            "titolo": "Rigenerazione",
+            "genere": "Historical",
+            "isbn": "9788846449696",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788846449696-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Francesca Bonafini",
+            "titolo": "Ansischten eines Clowns (Opinioni di un clown)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Massimo Bontempelli",
+            "titolo": "Die verlorene Ehre der Katharina Blum (L'onore perduto di Katharina Blum)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Elémir Bourges",
+            "titolo": "Le specie del sonno",
+            "genere": "Historical",
+            "isbn": "888657018X",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/888657018X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Diego Brasioli",
+            "titolo": "The Bible in Spain",
+            "genere": "Historical",
+            "isbn": "0368259706",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0368259706-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Enrico Brizzi",
+            "titolo": "Oraison funèbre de Henriette-Anne d'Angleterre, duchesse d'Orléans",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Elizabeth Barrett Browning",
+            "titolo": "Postscript to Poison",
+            "genere": "Historical",
+            "isbn": "1899000089",
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1899000089-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Anthony Burgess",
+            "titolo": "Il segreto di Lady Audley",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Thomas Burke",
+            "titolo": "Flavia de Luce e il delitto nel campo di cetrioli",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Dino Buzzati",
+            "titolo": "La casa degli strani ospiti",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "George Gordon Byron",
+            "titolo": "Il poveruomo del Tockenburg",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alphonse Daudet",
+            "titolo": "Two Years Before the Mast",
+            "genere": "Historical",
+            "isbn": "9780831788896",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780831788896-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "E. M. Delafield (Edmée Elizabeth Monica Dashwood)",
+            "titolo": "Un ragazzo d'altri tempi",
+            "genere": "Historical",
+            "isbn": "36802931",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/36802931-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Luce D'Eramo",
+            "titolo": "Ettore Fieramosca",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Renato De Rosa",
+            "titolo": "La cura del Gorilla",
+            "genere": "Historical",
+            "isbn": "9788806156992",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806156992-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jeanne des Anges",
+            "titolo": "È stato un attimo",
+            "genere": "Historical",
+            "isbn": "8804574356",
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804574356-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ariel Dorfman",
+            "titolo": "La battaglia della vita",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Charles Duff",
+            "titolo": "Hard Times",
+            "genere": "Historical",
+            "isbn": "1724169033",
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1724169033-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Friedrich Dürrenmatt",
+            "titolo": "The Life and Adventures of Nicholas Nickleby",
+            "genere": "Historical",
+            "isbn": "0809597543",
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0809597543-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Anne Eekhout",
+            "titolo": "La colpa del prete Amaro",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ruth Elias",
+            "titolo": "L'isola del giorno prima",
+            "genere": "Historical",
+            "isbn": "9780749396664",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780749396664-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Erasmo da Rotterdam (Gert Geertsz)",
+            "titolo": "Helen",
+            "genere": "Historical",
+            "isbn": "074970487X",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/074970487X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Erskine",
+            "titolo": "Panoramato kidan (La strana storia dell'Isola Panorama)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Luisa Carnielli Ervas",
+            "titolo": "The Story of Salome",
+            "genere": "Historical",
+            "isbn": "1419184008",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1419184008-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Nicolau Eymerich",
+            "titolo": "Aus dem Leben eines Taugenichts",
+            "genere": "Historical",
+            "isbn": "9783805202497",
+            "endpoint": "https://www.incipitario.com/incipite.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783805202497-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Lanfranco Fabriani",
+            "titolo": "The Hundred and Ninety Steps",
+            "genere": "Historical",
+            "isbn": "184767402X",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/184767402X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Fante",
+            "titolo": "Cecilia de Noel",
+            "genere": "Historical",
+            "isbn": "9781981544103",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781981544103-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Anna Maria Farabbi",
+            "titolo": "La catedral del mar",
+            "genere": "Historical",
+            "isbn": "8425343534",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8425343534-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Lilian Faschinger",
+            "titolo": "Lettera a un bambino mai nato",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Adam Fawer",
+            "titolo": "1933 Was a Bad Year",
+            "genere": "Historical",
+            "isbn": "0876856571",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0876856571-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Lawrence Ferlinghetti",
+            "titolo": "Dreams from Bunker Hill",
+            "genere": "Historical",
+            "isbn": "0876855303",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0876855303-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Maxence Fermine",
+            "titolo": "Sogni di Bunker Hill",
+            "genere": "Historical",
+            "isbn": "8806168061",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806168061-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Teofilo Folengo (alias Merlin Cocai; alias Limerno Pitocco)",
+            "titolo": "The Mitford Murders",
+            "genere": "Historical",
+            "isbn": "9780751567182",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780751567182-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ken Follett",
+            "titolo": "L'assassinio DI Florence Nightingale Shore",
+            "genere": "Historical",
+            "isbn": "9788854515321",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788854515321-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Theodor Fontane",
+            "titolo": "Belgravia",
+            "genere": "Historical",
+            "isbn": "0750544198",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0750544198-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Margaret Forster",
+            "titolo": "La paga del sabato",
+            "genere": "Historical",
+            "isbn": "8806142313",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806142313-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Friedrich Heinrich Karl de La Motte Fouqué",
+            "titolo": "Emma McChesney & Co.",
+            "genere": "Historical",
+            "isbn": "9781406523546",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781406523546-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Karen Joy Fowler",
+            "titolo": "Emma McChesney & Co.",
+            "genere": "Historical",
+            "isbn": "9781406523546",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781406523546-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jonathan Franzen",
+            "titolo": "Storia del nuovo cognome (L'amica geniale II)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Christian Frascella",
+            "titolo": "Storia di chi fugge e di chi resta (L'amica geniale III)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Harold Frederic",
+            "titolo": "Storia della bambina perduta (L'amica geniale IV)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Paul French",
+            "titolo": "The Inheritance",
+            "genere": "Historical",
+            "isbn": "0141925736",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0141925736-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "David Frome (Zenith Jones Brown)",
+            "titolo": "L'eredità",
+            "genere": "Historical",
+            "isbn": "9788883090394",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788883090394-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Dale Furutani",
+            "titolo": "The History of the Adventures of Joseph Andrews, and of his Friend, Mr. Abraham Adams",
+            "genere": "Historical",
+            "isbn": "9781363308804",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781363308804-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Milán Füst",
+            "titolo": "The History of the Life of the Late Mr. Jonathan Wild the Great",
+            "genere": "Historical",
+            "isbn": "9798560311452",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798560311452-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jacques Futrelle",
+            "titolo": "The History of Tom Jones, a Foundling",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "William Gaddis",
+            "titolo": "Sirkusdirektørens datter (Il venditore di storie)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "David Garnett",
+            "titolo": "L'affaire Lerouge",
+            "genere": "Historical",
+            "isbn": "9798476692461",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798476692461-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Brunella Gasperini",
+            "titolo": "La meccanica",
+            "genere": "Historical",
+            "isbn": "8811667089",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8811667089-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jean Genet",
+            "titolo": "Racconti dispersi: Domingo del señorito en escasez (Domenica del giovin signore di scarsi mezzi)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Bartholomew Gill (Mark McGarrity)",
+            "titolo": "Cargo",
+            "genere": "Historical",
+            "isbn": "9781504087292",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781504087292-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jean Giono",
+            "titolo": "The Patrician",
+            "genere": "Historical",
+            "isbn": "1846370809",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1846370809-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jean Giraudoux",
+            "titolo": "Il patrizio",
+            "genere": "Historical",
+            "isbn": "9788861591929",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788861591929-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "George Gissing",
+            "titolo": "The Annals of the Parish (...)",
+            "genere": "Historical",
+            "isbn": "1474442420",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1474442420-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Amabile Giusti",
+            "titolo": "The Ayrshire Legatees (...)",
+            "genere": "Historical",
+            "isbn": "140436093X",
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/140436093X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ellen Glasgow",
+            "titolo": "The Member. An Autobiography",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgagl.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Gloria Goldreich",
+            "titolo": "Die Leiden des jungen Werthers",
+            "genere": "Historical",
+            "isbn": "1428630325",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1428630325-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ivan Aleksandrovich Goncharov",
+            "titolo": "Le affinità elettive",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Edmond de Goncourt",
+            "titolo": "Wilhelm Meisters Lehrjahre",
+            "genere": "Historical",
+            "isbn": "9780691043449",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780691043449-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Allegra Goodman",
+            "titolo": "Anni di apprendistato di Wilhelm Meister",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Nadine Gordimer",
+            "titolo": "Wilhelm Meisters theatralische Sendung (La vocazione teatrale di Wilhelm Meister)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Edmund William Gosse",
+            "titolo": "Peterburgskie povesti: Nevskij prospekt",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Salvator Gotta",
+            "titolo": "I racconti di Pietroburgo: La prospettiva Nevskij",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Michele Governatori",
+            "titolo": "I racconti di Pietroburgo: Il naso)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Corrado Govoni",
+            "titolo": "Peterburgskie povesti: Portret",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Gower",
+            "titolo": "I racconti di Pietroburgo: Il ritratto",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Chaim Grade",
+            "titolo": "I racconti di Pietroburgo: Il cappotto",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Winston Graham",
+            "titolo": "I racconti di Pietroburgo: Le memorie di un pazzo",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Massimo Gramellini",
+            "titolo": "Taras Bul'ba (Taras Bul'ba)",
+            "genere": "Historical",
+            "isbn": "1982045841",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1982045841-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Iegor Gran (Iegor Sinjavskij)",
+            "titolo": "Memoirs of a Geisha",
+            "genere": "Historical",
+            "isbn": "9780739321676",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780739321676-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Amanda Grange",
+            "titolo": "Memorie di una geisha",
+            "genere": "Historical",
+            "isbn": "9788878188211",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788878188211-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Andrew Sean Greer",
+            "titolo": "The Vicar of Wakefield",
+            "genere": "Historical",
+            "isbn": "9780585237305",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780585237305-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Massimiliano Griner",
+            "titolo": "Oblomov",
+            "genere": "Historical",
+            "isbn": "9780460018784",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780460018784-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Grisham",
+            "titolo": "Oblomov",
+            "genere": "Historical",
+            "isbn": "9780460018784",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780460018784-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Kathleen Grissom",
+            "titolo": "Journal",
+            "genere": "Historical",
+            "isbn": "9781304222985",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781304222985-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Tommaso Grossi",
+            "titolo": "Diario",
+            "genere": "Historical",
+            "isbn": "9578468326",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9578468326-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Arnon Grunberg",
+            "titolo": "The House Gun",
+            "genere": "Historical",
+            "isbn": "0374173079",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0374173079-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Suresh Guptara",
+            "titolo": "Carbonio",
+            "genere": "Historical",
+            "isbn": "9781520805702",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781520805702-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "A. B. Guthrie (Alfred Bertram Guthrie Jr.",
+            "titolo": "La città scomparsa",
+            "genere": "Historical",
+            "isbn": "8878991198",
+            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8878991198-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Geoffrey Holiday Hall",
+            "titolo": "King Solomon's Mines (...)",
+            "genere": "Historical",
+            "isbn": "9788420734170",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788420734170-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Paul Halter",
+            "titolo": "Roots",
+            "genere": "Historical",
+            "isbn": "1593154666",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1593154666-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Patrick Hamilton",
+            "titolo": "The End is Known (La fine è nota)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Peter Handke",
+            "titolo": "La septième hypothèse",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Thomas Hardy",
+            "titolo": "The Slaves of Solitude",
+            "genere": "Historical",
+            "isbn": "9781590172209",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781590172209-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Carolyn Gimpel Hart",
+            "titolo": "Ny Jord (La nuova terra)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Lafcadio Hearn",
+            "titolo": "In einer dunkeln nacht ging ich aus meinem stillen Haus (In una notte buia uscii dalla mia casa silenziosa)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ursula Hegi",
+            "titolo": "Kindergeschichte (Storia con bambina)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "André Héléna",
+            "titolo": "84, Charing Cross Road",
+            "genere": "Historical",
+            "isbn": "9780745171159",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780745171159-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Joseph Heller",
+            "titolo": "84, Charing Cross Road",
+            "genere": "Historical",
+            "isbn": "9780745171159",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780745171159-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Kaui Hart Hemmings",
+            "titolo": "The Duchess of Bloomsbury Street (La duchessa di Bloomsbury Street)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Iselin C. Hermann",
+            "titolo": "The Straw Men",
+            "genere": "Historical",
+            "isbn": "9780002256018",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780002256018-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Chester Himes",
+            "titolo": "The Mayor of Casterbridge",
+            "genere": "Historical",
+            "isbn": "9780451508362",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780451508362-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Russell Hoban",
+            "titolo": "Vita e morte del sindaco di Casterbridge",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Hugo von Hofmannsthal",
+            "titolo": "The Return of the Native",
+            "genere": "Historical",
+            "isbn": "9781434479075",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781434479075-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "James Hogg",
+            "titolo": "Il ritorno al paese",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Gail Honeyman",
+            "titolo": "Tess dei d'Urberville",
+            "genere": "Historical",
+            "isbn": "8817151734",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8817151734-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "William Henry Hudson",
+            "titolo": "Uncle Remus: his Songs and his Sayings (...)",
+            "genere": "Historical",
+            "isbn": "9781404336810",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781404336810-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Victor Hugo",
+            "titolo": "Fatherland",
+            "genere": "Historical",
+            "isbn": "3453072057",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3453072057-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jan Huizinga",
+            "titolo": "Fatherland",
+            "genere": "Historical",
+            "isbn": "3453072057",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3453072057-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Violet Hunt",
+            "titolo": "Il sonno del mattino",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Joris-Karl Huysmans",
+            "titolo": "Jane Austen stole my boyfriend",
+            "genere": "Historical",
+            "isbn": "0230753590",
+            "endpoint": "https://www.incipitario.com/incipith.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0230753590-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Washington Irving",
+            "titolo": "The Cider House Rules",
+            "genere": "Historical",
+            "isbn": "9780688057626",
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780688057626-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Christopher Isherwood",
+            "titolo": "Le regole della casa del sidro",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Kazuo Ishiguro",
+            "titolo": "The Hotel New Hampshire (...)",
+            "genere": "Historical",
+            "isbn": "034541795X",
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/034541795X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jean-Claude Izzo",
+            "titolo": "A Prayer for Owen Meany (...)",
+            "genere": "Historical",
+            "isbn": "9783257224917",
+            "endpoint": "https://www.incipitario.com/incipiti.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783257224917-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Shirley Jackson",
+            "titolo": "L'incubo di Hill House",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jens Peter Jacobsen",
+            "titolo": "We Have Always Lived in the Castle",
+            "genere": "Historical",
+            "isbn": "9780143039976",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780143039976-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Fleur Jaeggy",
+            "titolo": "Mogens (Mogens)",
+            "genere": "Historical",
+            "isbn": "1406932558",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1406932558-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Marec van der Jagt (Arnon Grunberg)",
+            "titolo": "Pesten i Bergamo (La peste a Bergamo)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Hervé Jaouen",
+            "titolo": "La Dame d'Abou Simbel (La regina di Abu Simbel)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Robinson Jeffers",
+            "titolo": "Le temple des millions d'années (La dimora millenaria)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Tahar Ben Jelloun",
+            "titolo": "I beati anni del castigo",
+            "genere": "Historical",
+            "isbn": "9788845910081",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788845910081-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Natalie Jenner",
+            "titolo": "Gstaad 95-98 (Gstaad 95-98)",
+            "genere": "Historical",
+            "isbn": "9044500767",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9044500767-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ilona Jerger",
+            "titolo": "Il regno delle nebbie",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Sarah Horne Jewett",
+            "titolo": "The American (...)",
+            "genere": "Historical",
+            "isbn": "0140185003",
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0140185003-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Shane Jones",
+            "titolo": "La panchina della desolazione",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitj.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Thòdoros Kallifatidis",
+            "titolo": "Brief an der Vater",
+            "genere": "Historical",
+            "isbn": "9798737339944",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798737339944-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Katzenbach",
+            "titolo": "Der Prozess",
+            "genere": "Historical",
+            "isbn": "9780394527697",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780394527697-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Yasunari Kawabata",
+            "titolo": "Das Schloss",
+            "genere": "Historical",
+            "isbn": "3596124441",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3596124441-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Guy Gavriel Kay",
+            "titolo": "Il castello",
+            "genere": "Historical",
+            "isbn": "222620735X",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/222620735X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Baynard Hardwick Kendrick",
+            "titolo": "The Mangle Street Murders",
+            "genere": "Historical",
+            "isbn": "9781410468048",
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781410468048-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Sophie Kinsella",
+            "titolo": "Senbazuro (Mille gru)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Joseph Rudyard Kipling",
+            "titolo": "Tenohira no shosetsu: Batta to suzumushi (Racconti in un palmo di mano: La cavalletta e il grillo)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Heinrich von Kleist",
+            "titolo": "Tenohira no shosetsu: Natsu no kutsu (Racconti in un palmo di mano: Le scarpette estive)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Heinz G. Konsalik (Heinz Gunther)",
+            "titolo": "Tenohira no shosetsu: Asa no tsume (Racconti in un palmo di mano: Le unghie la mattina)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Isaka Kōtarō",
+            "titolo": "Tenohira no shosetsu: Kesho (Racconti in un palmo di mano: Trucco)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitk.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Marie Madeleine Pioche de la Vergne comtesse de La Fayette",
+            "titolo": "La neve del Vesuvio",
+            "genere": "Historical",
+            "isbn": "9788804314004",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804314004-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Stieg Larsson",
+            "titolo": "The Namesake",
+            "genere": "Historical",
+            "isbn": "0140301372",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0140301372-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Le Carré (David G. M. Cornwell)",
+            "titolo": "Emily Dickinson is Dead",
+            "genere": "Historical",
+            "isbn": "0708971628",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0708971628-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alberto Lecco",
+            "titolo": "Emily Dickinson è morta",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Harper Lee",
+            "titolo": "Endurance: Shackleton's Incredible Voyage",
+            "genere": "Historical",
+            "isbn": "0786173238",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0786173238-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Tanith Lee",
+            "titolo": "Endurance: l'incredibile viaggio di Shackleton al Polo Sud",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Vernon Lee (Violet Paget)",
+            "titolo": "Il caso Agresti",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Fritz Leiber",
+            "titolo": "Dead Wake. The Last Crossing of the Lusitania",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Judith Lennox",
+            "titolo": "Guglielmo Marconi e l'omicidio di Cora Crippen",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giacomo Leopardi",
+            "titolo": "Long John Silver (La vera storia del pirata Long John Silver)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Doris Lessing",
+            "titolo": "Lontano da Cuba",
+            "genere": "Historical",
+            "isbn": "9781082508271",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781082508271-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ada Leverson",
+            "titolo": "A Trace of Memory",
+            "genere": "Historical",
+            "isbn": "9780812543735",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780812543735-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Clive Staples Lewis",
+            "titolo": "The Captain's Doll",
+            "genere": "Historical",
+            "isbn": "141915592X",
+            "endpoint": "https://www.incipitario.com/incipitlale.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/141915592X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Sam Lipsyte",
+            "titolo": "Hummelhonung (Miele)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Beppe Lopez",
+            "titolo": "According to Mark",
+            "genere": "Historical",
+            "isbn": "0060971991",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0060971991-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Pierre Loti (Julien Viaud)",
+            "titolo": "Cleopatra's Sister",
+            "genere": "Historical",
+            "isbn": "9780060922177",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780060922177-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Pierre Louÿs",
+            "titolo": "La sorella di Cleopatra",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Rosetta Loy",
+            "titolo": "Family Album",
+            "genere": "Historical",
+            "isbn": "9780440236863",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780440236863-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Luciano",
+            "titolo": "How It All Began",
+            "genere": "Historical",
+            "isbn": "9780670023448",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780670023448-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giancarlo Lunati",
+            "titolo": "The Photograph",
+            "genere": "Historical",
+            "isbn": "1351239287",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1351239287-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Sergio Luzzatto",
+            "titolo": "A Stitch in Time",
+            "genere": "Historical",
+            "isbn": "9780671038854",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780671038854-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ma Jian",
+            "titolo": "Le Premier siècle après Béatrice (Il primo secolo dopo Beatrice)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Thomas Babington Macaulay",
+            "titolo": "The History of England from the Accession of James II (...)",
+            "genere": "Historical",
+            "isbn": "9780543938848",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780543938848-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Archibald Gordon Macdonell",
+            "titolo": "The Shakespeare Murders",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Niccolò Machiavelli",
+            "titolo": "The Great God Pan (...)",
+            "genere": "Historical",
+            "isbn": "9798419181526",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798419181526-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Elena Magnani",
+            "titolo": "Song of Time",
+            "genere": "Historical",
+            "isbn": "1306625475",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1306625475-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Valerio Magrelli",
+            "titolo": "La canzone del tempo",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "François-Xavier de Maistre",
+            "titolo": "The Man in the Bell",
+            "genere": "Historical",
+            "isbn": "0973709057",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0973709057-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Luigi Malerba (Luigi Bonardi)",
+            "titolo": "Bain el-Qasrain (Tra i due palazzi)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Léo Malet",
+            "titolo": "Qasr al-Shawq (Il palazzo del desiderio)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Goffredo Mameli",
+            "titolo": "Zoqaq al Midaq (Vicolo del Mortaio)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Laura Mancinelli",
+            "titolo": "Un sogno americano",
+            "genere": "Historical",
+            "isbn": "8806168975",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806168975-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Osip Emil'evic Mandel'štam",
+            "titolo": "Ancient Evenings (Antiche sere)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Gianfranco Manfredi",
+            "titolo": "The Castle in the Forest",
+            "genere": "Historical",
+            "isbn": "0812978498",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0812978498-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Valerio Massimo Manfredi",
+            "titolo": "Il castello nella foresta",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giorgio Manganelli",
+            "titolo": "Barbary Shore (La costa dei barbari)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Agostino Manni",
+            "titolo": "Les soirées de Saint-Pétersbourg (...)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Simonetta Mannino",
+            "titolo": "Prima dell'alba",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Katherine Mansfield (Kathleen Mansfield Beauchamp)",
+            "titolo": "Luomo di Kiev",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alessandro Manzoni",
+            "titolo": "La stazione di Varmo",
+            "genere": "Historical",
+            "isbn": "883176117X",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/883176117X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Maria di Francia",
+            "titolo": "Le Morte Darthur",
+            "genere": "Historical",
+            "isbn": "034018504X",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/034018504X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Bruce Marshall",
+            "titolo": "La position du tireur couché (Posizione di tiro)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Paolo Mascheri",
+            "titolo": "La casa del tempo",
+            "genere": "Historical",
+            "isbn": "8838418853",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8838418853-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Andrew Masterson",
+            "titolo": "Gli occhi dell'imperatore",
+            "genere": "Historical",
+            "isbn": "9788806220778",
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806220778-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Lucio Mastronardi",
+            "titolo": "La sacra rappresentazione",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitma.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alexander McCall Smith",
+            "titolo": "Money, Money, Money",
+            "genere": "Historical",
+            "isbn": "9781675578315",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781675578315-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ian McEwan",
+            "titolo": "44 Scotland Street",
+            "genere": "Historical",
+            "isbn": "140561353X",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/140561353X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Patrick McGrath",
+            "titolo": "44 Scotland Street",
+            "genere": "Historical",
+            "isbn": "140561353X",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/140561353X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Mara Meimaridi",
+            "titolo": "The Right Attitude to Rain",
+            "genere": "Historical",
+            "isbn": "0316730912",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0316730912-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alda Merini",
+            "titolo": "Suttree",
+            "genere": "Historical",
+            "isbn": "9780679642657",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780679642657-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Robert Merle",
+            "titolo": "Suttree",
+            "genere": "Historical",
+            "isbn": "9780679642657",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780679642657-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Claudio Maria Messina",
+            "titolo": "Angela's Ashes",
+            "genere": "Historical",
+            "isbn": "0743550927",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0743550927-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Gustav Meyrink",
+            "titolo": "A Creed for the Third Millennium",
+            "genere": "Historical",
+            "isbn": "2714418155",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2714418155-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Roberto Michilli",
+            "titolo": "The First Man in Rome",
+            "genere": "Historical",
+            "isbn": "0743505476",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0743505476-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "China Miéville",
+            "titolo": "I giorni del potere",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Mino Milani",
+            "titolo": "The Grass Crown",
+            "genere": "Historical",
+            "isbn": "0688093698",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0688093698-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Henry Miller",
+            "titolo": "I giorni della gloria",
+            "genere": "Historical",
+            "isbn": "8817675865",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8817675865-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Milton",
+            "titolo": "The Independence of Miss Mary Bennet",
+            "genere": "Historical",
+            "isbn": "9722524275",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9722524275-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Fernanda Moneta",
+            "titolo": "Codice Hercules",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Oscar Montani (Marco Santoni)",
+            "titolo": "Blackwater I: The Flood",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Augusto Monterroso",
+            "titolo": "Blackwater II: The Levee (Blackwater II. La diga)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Charles Louis de Secondat, baron de la Brède e de Montesquieu",
+            "titolo": "Blackwater III: The House (Blackwater II. La casa)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Rick Moody",
+            "titolo": "Blackwater IV: The War (Blackwater IV. La guerra)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alberto Moravia",
+            "titolo": "Atonement",
+            "genere": "Historical",
+            "isbn": "9780224062787",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780224062787-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Eduard Mörike",
+            "titolo": "The Cement Garden",
+            "genere": "Historical",
+            "isbn": "5040923783",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/5040923783-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Angelo Morino",
+            "titolo": "Il giardino di cemento",
+            "genere": "Historical",
+            "isbn": "9788806224783",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806224783-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Christopher Morley",
+            "titolo": "The Child in Time",
+            "genere": "Historical",
+            "isbn": "9781402539909",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781402539909-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "William Morris",
+            "titolo": "La ballata di Adam Henry",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alice Munro",
+            "titolo": "Chesil Beach",
+            "genere": "Historical",
+            "isbn": "9780676978810",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780676978810-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Marie-Aude Murail",
+            "titolo": "Sabato",
+            "genere": "Historical",
+            "isbn": "8806142313",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8806142313-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Neera (Anna Radius Zuccari)",
+            "titolo": "The Real Life of Sebastian Knight",
+            "genere": "Historical",
+            "isbn": "0811206440",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0811206440-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John G. Neihardt",
+            "titolo": "La vera vita di Sebastian Knight",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Raffaele Nigro",
+            "titolo": "1793 (1793)",
+            "genere": "Historical",
+            "isbn": "9780689848919",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780689848919-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giorgio Nisini",
+            "titolo": "Opera (Opera)",
+            "genere": "Historical",
+            "isbn": "9780880292986",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780880292986-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Paul Nizan",
+            "titolo": "La casa del padre (La casa del padre)",
+            "genere": "Historical",
+            "isbn": "9788423356768",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788423356768-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "William Francis Nolan",
+            "titolo": "Black Elk Speaks",
+            "genere": "Historical",
+            "isbn": "0783517505",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0783517505-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Paolo Nori",
+            "titolo": "David Golder (David Golder)",
+            "genere": "Historical",
+            "isbn": "9780701181291",
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780701181291-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Frank Norris",
+            "titolo": "La femme de don Juan (La moglie di don Giovanni)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Bernardo Notargiacomo",
+            "titolo": "Suite française: Dolce (Suite francese: Dolce)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitn.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Joseph O'Connor",
+            "titolo": "Clarissa Oakes",
+            "genere": "Historical",
+            "isbn": "9780786147618",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780786147618-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Héctor German Oesterheld",
+            "titolo": "Master and Commander",
+            "genere": "Historical",
+            "isbn": "9781436176071",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781436176071-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Lloyd Osbourne",
+            "titolo": "The Dalkey Archive",
+            "genere": "Historical",
+            "isbn": "9780246107640",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780246107640-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Pat O'Shea",
+            "titolo": "L'archivio di Dalkey",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Mat Osman",
+            "titolo": "The Hard Life",
+            "genere": "Historical",
+            "isbn": "9781903650592",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781903650592-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ouida (Marie Louise de la Ramée)",
+            "titolo": "The Third Policeman",
+            "genere": "Historical",
+            "isbn": "0246122749",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0246122749-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Publio Ovidio Nasone",
+            "titolo": "Il terzo poliziotto",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Amos Oz",
+            "titolo": "The Barber",
+            "genere": "Historical",
+            "isbn": "0788789503",
+            "endpoint": "https://www.incipitario.com/incipito.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0788789503-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Leopoldo Paciscopi",
+            "titolo": "Jäniksen vuosi (L'anno della lepre)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Chuck Palahniuk",
+            "titolo": "Gli anni discontinui",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Enrico Palandri",
+            "titolo": "Ardengo negli anni discontinui",
+            "genere": "Historical",
+            "isbn": "8886855648",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8886855648-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Stuart Palmer",
+            "titolo": "L'eau des collines: Jean de Florette (L'acqua delle colline: Jean de Florette)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Breece D'J Pancake (Breece Dexter Pancake)",
+            "titolo": "La gloire de mon père",
+            "genere": "Historical",
+            "isbn": "9783442412884",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783442412884-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ferruccio Parazzoli",
+            "titolo": "La gloria di mio padre",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Antonio Pascale",
+            "titolo": "Il doge",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Pier Paolo Pasolini",
+            "titolo": "Sorelle Materassi",
+            "genere": "Historical",
+            "isbn": "8804331208",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8804331208-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "László Passuth",
+            "titolo": "Stampe dell'800",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Leonardo Patrignani",
+            "titolo": "Dagobert",
+            "genere": "Historical",
+            "isbn": "2213011141",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2213011141-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Roberto Pazzi",
+            "titolo": "Madame Bouché",
+            "genere": "Historical",
+            "isbn": "9780270335699",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780270335699-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giuseppe Pederiali",
+            "titolo": "Il ricordo della moglie",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Georges Perec",
+            "titolo": "El mapa del cielo",
+            "genere": "Historical",
+            "isbn": "8401339553",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8401339553-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Arturo Pérez-Reverte",
+            "titolo": "El mapa del tiempo",
+            "genere": "Historical",
+            "isbn": "8498771595",
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8498771595-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Fabrizio Perna",
+            "titolo": "La mappa del tempo",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpape.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Daniel Picouly",
+            "titolo": "I delitti di via Medina-Sidonia",
+            "genere": "Historical",
+            "isbn": "9788838912344",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788838912344-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "DBC Pierre (Peter Finlay)",
+            "titolo": "La doppia vita di M. Laurent",
+            "genere": "Historical",
+            "isbn": "9788838914287",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788838914287-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ricardo Piglia",
+            "titolo": "Fort de l'Eau (L'ultima estate)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Rosamunde Pilcher",
+            "titolo": "Vernon God Little",
+            "genere": "Historical",
+            "isbn": "9789057591860",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9789057591860-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Antonio Mario Pilla",
+            "titolo": "Vernon God Little",
+            "genere": "Historical",
+            "isbn": "9789057591860",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9789057591860-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Paolo Pintacuda",
+            "titolo": "Relazione del primo viaggio intorno al mondo",
+            "genere": "Historical",
+            "isbn": "9798769496271",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798769496271-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Theodore Francis Powys",
+            "titolo": "The People of Paper (...)",
+            "genere": "Historical",
+            "isbn": "0747584176",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0747584176-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giorgio Pressburger",
+            "titolo": "The Bell Jar",
+            "genere": "Historical",
+            "isbn": "9780571067824",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780571067824-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Antoine-François Prévost",
+            "titolo": "Diari",
+            "genere": "Historical",
+            "isbn": "9781439582633",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781439582633-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Frederic Prokosch",
+            "titolo": "The Assignation",
+            "genere": "Historical",
+            "isbn": "9780263815450",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780263815450-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Luigi Pulci",
+            "titolo": "The Cask of Amontillado",
+            "genere": "Historical",
+            "isbn": "9781538488942",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781538488942-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Piergiorgio Pulixi",
+            "titolo": "The Colloquy of Monos and Una",
+            "genere": "Historical",
+            "isbn": "9781532733819",
+            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781532733819-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Vincenzo Rabito",
+            "titolo": "Terra matta",
+            "genere": "Historical",
+            "isbn": "9783857914942",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783857914942-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ann Radcliffe",
+            "titolo": "The Italian: or, The Confessional of the Black Penitents",
+            "genere": "Historical",
+            "isbn": "0371901596",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0371901596-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Marguerite Radcliffe Hall",
+            "titolo": "L'italiano o Il confessionale dei Penitenti Neri",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Stefano Redaelli",
+            "titolo": "La guerre aux papiers (La guerra ai documenti)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Patrick Redmond",
+            "titolo": "La vita è nostra",
+            "genere": "Historical",
+            "isbn": "9788879070720",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788879070720-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Rodrigo Rey Rosa",
+            "titolo": "La dismissione",
+            "genere": "Historical",
+            "isbn": "9788817869577",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788817869577-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Sylvain Reynard",
+            "titolo": "Fuochi fiammanti a un'hora di notte",
+            "genere": "Historical",
+            "isbn": "9788817450393",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788817450393-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Rhode (Cecil John Charles Street)",
+            "titolo": "The Cloister and the Hearth (...)",
+            "genere": "Historical",
+            "isbn": "0460000292",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0460000292-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Rhode (Cecil John Charles Street)",
+            "titolo": "Histoire d'O (Storia di O)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giovanni Ricciardi",
+            "titolo": "The diary of Ellen Rimbauer: My Life at Rose Red",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Mordecai Richler",
+            "titolo": "Il bosco degli impiccati",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Michèle Roberts",
+            "titolo": "Florence Grace",
+            "genere": "Historical",
+            "isbn": "9781784296179",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781784296179-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Henry Morton Robinson",
+            "titolo": "Florence Grace",
+            "genere": "Historical",
+            "isbn": "9781784296179",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781784296179-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Frederick Rolfe",
+            "titolo": "Arc de Triomphe (Arco di trionfo)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Marco Rossari",
+            "titolo": "Verfolgte des Glücks. Findebuch der Henriette Vogel (L'inventario di Henriette Vogel)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Henry Roth",
+            "titolo": "Les nuits de Paris (Le notti di Parigi)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Philip Roth",
+            "titolo": "La vie de mon père (...)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Ruskin",
+            "titolo": "Il silenzio degli occhi",
+            "genere": "Historical",
+            "isbn": "8864112537",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8864112537-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Donal Ryan",
+            "titolo": "Clarissa Harlowe, or the History of a Young Lady",
+            "genere": "Historical",
+            "isbn": "9781633557079",
+            "endpoint": "https://www.incipitario.com/incipitr.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781633557079-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Umberto Saba",
+            "titolo": "Captain Blood (...)",
+            "genere": "Historical",
+            "isbn": "9780895263797",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780895263797-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Donatien-Alphonse-François de Sade",
+            "titolo": "Heritage",
+            "genere": "Historical",
+            "isbn": "9780023632303",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780023632303-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Carl Edward Sagan",
+            "titolo": "Les 120 journée de Sodome ou L'École du Libertinage",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Françoise Sagan",
+            "titolo": "Le 120 giornate di Sodoma",
+            "genere": "Historical",
+            "isbn": "1471032833",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1471032833-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Bernardin de Saint-Pierre (Jacques-Bernardin-Henri de Saint-Pierre)",
+            "titolo": "Émilie de Tourville",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Varlam Salamov",
+            "titolo": "Émilie de Tourville",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Saki (Hector Hugh Munro)",
+            "titolo": "Eugénie de Franval (Eugénie de Franval)",
+            "genere": "Historical",
+            "isbn": "0586025286",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0586025286-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Emilio Salgari",
+            "titolo": "Histoire de Juliette ou les Prospérités du vice",
+            "genere": "Historical",
+            "isbn": "9782264000798",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782264000798-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Luigi Santucci",
+            "titolo": "Contact",
+            "genere": "Historical",
+            "isbn": "9780671004101",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780671004101-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Goliarda Sapienza",
+            "titolo": "Contact",
+            "genere": "Historical",
+            "isbn": "9780671004101",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780671004101-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Gaetano Savatteri",
+            "titolo": "Kolymskie rasskazy (I racconti di Kolyma)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giorgio Saviane",
+            "titolo": "Reginald in Russia (...)",
+            "genere": "Historical",
+            "isbn": "9781592241767",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781592241767-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alberto Savinio (Andrea de Chirico)",
+            "titolo": "Alla conquista di un impero",
+            "genere": "Historical",
+            "isbn": "9781520573144",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781520573144-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Paul Scarron",
+            "titolo": "Il figlio del Corsaro Rosso",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Igiaba Scego",
+            "titolo": "Jolanda, la figlia del Corsaro Nero",
+            "genere": "Historical",
+            "isbn": "9781520975993",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781520975993-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Bruno Schulz",
+            "titolo": "The Catcher in the Rye",
+            "genere": "Historical",
+            "isbn": "9788483023655",
+            "endpoint": "https://www.incipitario.com/incipitsasf.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788483023655-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Sanyika Shakur (Kody Dehjon Scott)",
+            "titolo": "The Guernsey Literary and Potato Peel Pie Society",
+            "genere": "Historical",
+            "isbn": "0385340990",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0385340990-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Margery Sharp",
+            "titolo": "The Rape of Lucrece",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Mary Shelley",
+            "titolo": "Senza sosta: Autobiografia di un \"crip\" di Los Angeles",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Gabriella Sica",
+            "titolo": "Britannia Mews",
+            "genere": "Historical",
+            "isbn": "9780002210690",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780002210690-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Enzo Siciliano",
+            "titolo": "Britannia Mews",
+            "genere": "Historical",
+            "isbn": "9780002210690",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780002210690-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Henryk Sienkiewicz",
+            "titolo": "Cluny Brown",
+            "genere": "Historical",
+            "isbn": "9780060805784",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780060805784-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Simone Signoret (Simone-Henriette-Charlotte Kaminker)",
+            "titolo": "Cluny Brown",
+            "genere": "Historical",
+            "isbn": "9780060805784",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780060805784-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Yrsa Sigurdardóttir",
+            "titolo": "The Sleeping Father",
+            "genere": "Historical",
+            "isbn": "034083790X",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/034083790X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Georges Simenon",
+            "titolo": "Gli Enigmi dell'Aquila",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Upton Sinclair",
+            "titolo": "Trasformazione",
+            "genere": "Historical",
+            "isbn": "167035945X",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/167035945X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Gilbert Sinoué",
+            "titolo": "Genji monogatari (Storia di Genji)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Walter Siti",
+            "titolo": "Genji monogatari (La storia di Genji)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Derek Smith",
+            "titolo": "Vita di Pasolini",
+            "genere": "Historical",
+            "isbn": "8809206088",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8809206088-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Piero Soria",
+            "titolo": "Mr Dickens and His Carol",
+            "genere": "Historical",
+            "isbn": "0749022965",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0749022965-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Osvaldo Soriano",
+            "titolo": "Il canto di Mr Dickens",
+            "genere": "Historical",
+            "isbn": "9788854524804",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788854524804-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Vladimir Georgievič Sorokin",
+            "titolo": "Born with the Dead",
+            "genere": "Historical",
+            "isbn": "0394488458",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0394488458-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Elia Spallanzani",
+            "titolo": "City",
+            "genere": "Historical",
+            "isbn": "9953633266",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9953633266-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Muriel Spark",
+            "titolo": "City",
+            "genere": "Historical",
+            "isbn": "9953633266",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9953633266-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Nicholas Sparks",
+            "titolo": "Time and Again",
+            "genere": "Historical",
+            "isbn": "0671044885",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0671044885-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Edmund Spenser",
+            "titolo": "L'affaire Saint-Fiacre (Il caso Saint-Fiacre)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Nancy Springer",
+            "titolo": "Chez le Flamands (La casa dei fiamminghi)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jón Kalman Stefánsson",
+            "titolo": "L'homme qui regardait passer les trains (L'uomo che guardava passare i treni)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Steinbeck",
+            "titolo": "Liberty Bar (Liberty Bar)",
+            "genere": "Historical",
+            "isbn": "9782266003520",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9782266003520-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Laurence Sterne",
+            "titolo": "La maison du canal (La casa sul canale)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Robert Louis Stevenson",
+            "titolo": "La Marie du Port (La Marie del Porto)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Madeleine St John",
+            "titolo": "Les mémoires de Maigret (...)",
+            "genere": "Historical",
+            "isbn": "0685113574",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0685113574-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Bram Stoker",
+            "titolo": "Monsieur Gallet, décédé",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giles Lytton Strachey",
+            "titolo": "L'impiccato di Saint Pholien",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Johan August Strindberg",
+            "titolo": "Pietr-le-Letton",
+            "genere": "Historical",
+            "isbn": "0140020233",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0140020233-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Elizabeth Strout",
+            "titolo": "Pietr il Lettone",
+            "genere": "Historical",
+            "isbn": "9788845910104",
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788845910104-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jan Struther (Joyce Anstruther)",
+            "titolo": "Le train (Il treno)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Kate Summerscale",
+            "titolo": "I giorni del giudizio",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Gay Talese",
+            "titolo": "Piazza d'Italia",
+            "genere": "Historical",
+            "isbn": "9788807014581",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788807014581-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jun'ichiro Tanizaki",
+            "titolo": "Sostiene Pereira",
+            "genere": "Historical",
+            "isbn": "8807014610",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8807014610-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Arcangela Tarabotti",
+            "titolo": "La testa perduta di Damasceno Monteiro",
+            "genere": "Historical",
+            "isbn": "9789725642764",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9789725642764-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Donna Tartt",
+            "titolo": "Honor Thy Father",
+            "genere": "Historical",
+            "isbn": "9780440136682",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9780440136682-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Adrian Tchaikovsky",
+            "titolo": "Bushuko hiwa (Vita segreta del signore di Bushu)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Tiziano Terzani",
+            "titolo": "Kagi (La chiave)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Thomas d'Angleterre",
+            "titolo": "Shunkinsho (La storia di Shunkin)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Dylan Thomas",
+            "titolo": "Tomoda to Matsunaga no hanashi (Storia di Tomoda e Matsunaga)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Scarlett Thomas",
+            "titolo": "Yume no ukihashi (Il ponte dei sogni)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Colin Thubron",
+            "titolo": "Storia di una gamba",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Uwe Timm",
+            "titolo": "Alice Adams (...)",
+            "genere": "Historical",
+            "isbn": "9781412136709",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781412136709-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Mario Tobino",
+            "titolo": "Monsieur Beaucaire (...)",
+            "genere": "Historical",
+            "isbn": "9781399753999",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781399753999-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Charles Todd (Charles Todd, 1950 e Caroline Watjen Todd, ?)",
+            "titolo": "Penrod (...)",
+            "genere": "Historical",
+            "isbn": "9781603128902",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781603128902-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Sergio Tofano [",
+            "titolo": "Seventeen (...)",
+            "genere": "Historical",
+            "isbn": "141217581X",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/141217581X-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Fulvio Tomizza",
+            "titolo": "La Gerusalemme liberata",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Diana Torrieri",
+            "titolo": "La confraternita degli storici curiosi",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Pamela Lyndon Travers",
+            "titolo": "Days of Blood & Starlight",
+            "genere": "Historical",
+            "isbn": "9781444722703",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781444722703-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Emanuele Trevi",
+            "titolo": "A Summons to Memphis",
+            "genere": "Historical",
+            "isbn": "0140106456",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/0140106456-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alexander Trocchi",
+            "titolo": "Children of Time",
+            "genere": "Historical",
+            "isbn": "1447273303",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1447273303-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Anthony Trollope",
+            "titolo": "I figli del tempo",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Meiron James Trow",
+            "titolo": "Der Turm",
+            "genere": "Historical",
+            "isbn": "3518420208",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/3518420208-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ts'ao Hsüeh-ch'in",
+            "titolo": "Mémoires du comte de Comminges (...)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Ivan Sergeevic Turgenev",
+            "titolo": "Le siège de Calais (...)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Hans Tuzzi",
+            "titolo": "Omero è stato qui",
+            "genere": "Historical",
+            "isbn": "8845296911",
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8845296911-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Mark Twain (Samuel Langhorne Clemens)",
+            "titolo": "Storia d'agosto, di Agata e d'inchiostro",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitt.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Miguel de Unamuno",
+            "titolo": "San Manuel Bueno, martire (San Manuel Bueno, martire)",
+            "genere": "Historical",
+            "isbn": "9798729606016",
+            "endpoint": "https://www.incipitario.com/incipitu.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9798729606016-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Sigrid Undset",
+            "titolo": "Krstin Lavransdatter (Kristin figlia di Lavrans)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitu.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Arthur William Upfield",
+            "titolo": "Gertrude and Claudius",
+            "genere": "Historical",
+            "isbn": "9785170050208",
+            "endpoint": "https://www.incipitario.com/incipitu.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9785170050208-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Louis Octave Uzanne",
+            "titolo": "Una storia in Danimarca",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitu.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Shelby Van Pelt",
+            "titolo": "La strana morte del signor Benson",
+            "genere": "Historical",
+            "isbn": "8879837265",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8879837265-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giorgio Van Straten",
+            "titolo": "The Bishop Murder Case",
+            "genere": "Historical",
+            "isbn": "9783832119072",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9783832119072-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Lope de Vega",
+            "titolo": "Il caso Gracie Allen",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Grazia Verasani",
+            "titolo": "Il caso del terrier scozzese",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giacomo Verri",
+            "titolo": "Tutte le lettere di Vincent Van Gogh",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Boris Vian",
+            "titolo": "Il mio nome a memoria",
+            "genere": "Historical",
+            "isbn": "9788804458074",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804458074-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Enrique Vila-Matas",
+            "titolo": "Coule la Seine (...)",
+            "genere": "Historical",
+            "isbn": "2290351296",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/2290351296-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Andrea Vitali",
+            "titolo": "L'uomo dei cerchi azzurri",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Paolo Volponi",
+            "titolo": "Io sono il Tenebroso",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Kurt Vonnegut",
+            "titolo": "Los cuadernos de don Rigoberto",
+            "genere": "Historical",
+            "isbn": "8490625905",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8490625905-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Susan Vreeland",
+            "titolo": "I quaderni di don Rigoberto",
+            "genere": "Historical",
+            "isbn": "9788806156039",
+            "endpoint": "https://www.incipitario.com/incipitv.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806156039-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jacob Wassermann",
+            "titolo": "Oblivion",
+            "genere": "Historical",
+            "isbn": "9781721284443",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9781721284443-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Mary Wesley",
+            "titolo": "Westward the Course of the Empire Takes Its Way (Verso Occidente l'impero dirige il suo corso)",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "John Edward Williams",
+            "titolo": "Il testamento di Gordon Stuart",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Jeanette Winterson",
+            "titolo": "The India-Rubber Men",
+            "genere": "Historical",
+            "isbn": "1006900179",
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1006900179-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Wu Ch'eng-en",
+            "titolo": "La porta del traditore",
+            "genere": "Historical",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitw.html",
+            "cover_src": "https://via.placeholder.com/150",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Richard Yates",
+            "titolo": "Cold Spring Harbor",
+            "genere": "Historical",
+            "isbn": "1407015176",
+            "endpoint": "https://www.incipitario.com/incipity.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/1407015176-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Franz Zeise",
+            "titolo": "Don Juan Tenorio (Don Juan Tenorio)",
+            "genere": "Historical",
+            "isbn": "8497590821",
+            "endpoint": "https://www.incipitario.com/incipitz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/8497590821-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Michel Zévaco",
+            "titolo": "... (Nel baratro)",
+            "genere": "Historical",
+            "isbn": "9788889772782",
+            "endpoint": "https://www.incipitario.com/incipitz.html",
+            "cover_src": "http://covers.openlibrary.org/b/isbn/9788889772782-L.jpg",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Poppy Adams",
+            "titolo": "Manghol un niuca tobca'an (Storia segreta dei Mongoli) (1240 ca.)",
+            "genere": "History",
+            "isbn": "9788823529052",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Roberto Alajmo",
+            "titolo": "Sir Tristrem (1294/1330 ca.)",
+            "genere": "History",
+            "isbn": "9788879842136",
+            "endpoint": "https://www.incipitario.com/incipitaaal.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Giovanni Arpino",
+            "titolo": "Nuestros años verde olivo (I nostri anni verde oliva)",
+            "genere": "History",
+            "isbn": "9788858102084",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Sergio Atzeni",
+            "titolo": "OT (O.T.)",
+            "genere": "History",
+            "isbn": "9788892629332",
+            "endpoint": "https://www.incipitario.com/incipitamaz.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Alessandro Barbero",
+            "titolo": "Gotico Rurale",
+            "genere": "History",
+            "isbn": "9788858105665",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "William Beckford",
+            "titolo": "Culture Series: Use of Weapons",
+            "genere": "History",
+            "isbn": "9780300195163",
+            "endpoint": "https://www.incipitario.com/incipitbabl.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Richard Henry Dana",
+            "titolo": "Lo scrittore automatico",
+            "genere": "History",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Pietro Di Donato",
+            "titolo": "La svastica sul sole",
+            "genere": "History",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdidz.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Anne Frank",
+            "titolo": "Pericle il nero",
+            "genere": "History",
+            "isbn": "9788818033861",
+            "endpoint": "https://www.incipitario.com/incipitf.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Emilio Lussu",
+            "titolo": "Appunti per uno studio del cuore umano",
+            "genere": "History",
+            "isbn": "9788855192200",
+            "endpoint": "https://www.incipitario.com/incipitlflz.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Eduardo Mendoza",
+            "titolo": "Blood Meridian",
+            "genere": "History",
+            "isbn": "9788815110930",
+            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
+            "genere_macro": "Historical"
+        },
+        {
+            "autore": "Augusto De Angelis",
+            "titolo": "Monarchia",
+            "genere": "Naples (Kingdom)",
+            "isbn": null,
+            "endpoint": "https://www.incipitario.com/incipitdadh.html",
+            "genere_macro": "Historical"
+        }
+    ]
+}

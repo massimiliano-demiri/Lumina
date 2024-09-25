@@ -3,9 +3,9 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Lottie from "react-lottie";
-import AmazonIcon from "@mui/icons-material/ShoppingCart"; // Icona Amazon
-import ArrowBackIcon from "@mui/icons-material/ArrowBack"; // Icona Freccia per il pulsante
-import bookLoadingAnimation from "./alien.json"; // Animazione per il caricamento
+import AmazonIcon from "@mui/icons-material/ShoppingCart";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import bookLoadingAnimation from "./alien.json";
 
 const BookDetailsComponent = () => {
   const router = useRouter();
@@ -14,13 +14,13 @@ const BookDetailsComponent = () => {
   // Otteniamo i valori dalla query string
   const title = searchParams.get("title");
   const author = searchParams.get("author");
-  const initialDescription = searchParams.get("description"); // Descrizione passata tramite query
   const coverImage = searchParams.get("cover_src");
+  const genres = searchParams.get("genres")?.split(",") || []; // Recupera i generi
 
   const [isLoaded, setIsLoaded] = useState(false);
-  const [isbn, setIsbn] = useState(""); // Stato per memorizzare l'ISBN
+  const [isbn, setIsbn] = useState("");
   const [affiliateLink, setAffiliateLink] = useState("");
-  const [description, setDescription] = useState(initialDescription || ""); // Stato per la descrizione
+  const [description, setDescription] = useState("");
 
   // Simulazione di un tempo di caricamento per la copertina
   useEffect(() => {
@@ -28,14 +28,11 @@ const BookDetailsComponent = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // Funzione per cercare la trama (descrizione) tramite Google Books API
+  // Funzione per cercare la trama tramite Google Books API
   const fetchDescriptionFromGoogleBooks = async (title, author, lang) => {
     try {
-      // Pulisci il titolo e autore da caratteri speciali
       const cleanTitle = title.replace(/[^\w\s]/gi, "").trim();
       const cleanAuthor = author.replace(/[^\w\s]/gi, "").trim();
-
-      // Usa intitle e inauthor per migliorare la precisione
       const query = `intitle:${cleanTitle} inauthor:${cleanAuthor}&langRestrict=${lang}`;
       const response = await fetch(
         `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(
@@ -46,8 +43,6 @@ const BookDetailsComponent = () => {
 
       if (data.items && data.items.length > 0) {
         const bookInfo = data.items[0].volumeInfo;
-
-        // Recupera l'ISBN
         const industryIdentifiers = bookInfo.industryIdentifiers || [];
         const isbnObject = industryIdentifiers.find(
           (identifier) =>
@@ -59,71 +54,30 @@ const BookDetailsComponent = () => {
             `https://www.amazon.it/dp/${isbnObject.identifier}?tag=luminaid-21`
           );
         } else {
-          // Fallback: usa un link di ricerca generico su Amazon
           const genericAmazonLink = `https://www.amazon.it/s?k=${encodeURIComponent(
             title + " " + author
           )}`;
           setAffiliateLink(genericAmazonLink);
         }
 
-        // Recupera la descrizione del libro
         if (bookInfo.description) {
-          const fetchedDescription = bookInfo.description;
-
-          // Verifica se la descrizione sembra essere una trama o un testo di valore
-          if (fetchedDescription.length > 50) {
-            setDescription(fetchedDescription);
-          } else {
-            setDescription("Trama non disponibile.");
-          }
+          setDescription(bookInfo.description);
+        } else {
+          setDescription("Trama non disponibile.");
         }
       }
     } catch (error) {
-      console.error(
-        "Errore nel recuperare i dettagli del libro da Google Books API:",
-        error
-      );
+      console.error("Errore nel recuperare i dettagli del libro:", error);
     }
   };
 
-  // Funzione per cercare la descrizione tramite Open Library API come fallback
-  const fetchDescriptionFromOpenLibrary = async (title, author) => {
-    try {
-      const response = await fetch(
-        `https://openlibrary.org/search.json?title=${encodeURIComponent(
-          title
-        )}&author=${encodeURIComponent(author)}`
-      );
-      const data = await response.json();
-
-      if (data.docs && data.docs.length > 0) {
-        const doc = data.docs[0];
-        if (doc.first_publish_year) {
-          setDescription(`Publicato nel ${doc.first_publish_year}`);
-        }
-      }
-    } catch (error) {
-      console.error("Errore nel recuperare i dettagli da Open Library:", error);
-    }
-  };
-
-  // Logica a cascata: cerca in italiano, poi in inglese e infine traduci se necessario
   useEffect(() => {
     if (title && author) {
-      // Prima ricerca in italiano
-      fetchDescriptionFromGoogleBooks(title, author, "it").then(() => {
-        if (!description || description === "Trama non disponibile.") {
-          // Se la descrizione non è trovata o è breve, cerca in inglese
-          fetchDescriptionFromGoogleBooks(title, author, "en").then(() => {
-            if (!description || description === "Trama non disponibile.") {
-              // Se fallisce, cerca su Open Library
-              fetchDescriptionFromOpenLibrary(title, author);
-            }
-          });
-        }
-      });
+      fetchDescriptionFromGoogleBooks(title, author, "it");
     }
   }, [title, author]);
+
+  // Funzione per tornare indietro con i generi selezionati
 
   return (
     <div
@@ -140,54 +94,8 @@ const BookDetailsComponent = () => {
         overflow: "hidden",
       }}
     >
-      {/* Sfondo dinamico minimalista con sfere */}
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          zIndex: -1,
-          background: "linear-gradient(135deg, #1d1d1d, #333)",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          overflow: "hidden",
-        }}
-      >
-        <div
-          style={{
-            width: "500px",
-            height: "500px",
-            backgroundColor: "#FF5722",
-            borderRadius: "50%",
-            position: "absolute",
-            top: "10%",
-            left: "-20%",
-            transform: "rotate(45deg)",
-            animation: "spin 15s linear infinite",
-            boxShadow: "0px 0px 50px rgba(255, 87, 34, 0.4)",
-          }}
-        />
-        <div
-          style={{
-            width: "400px",
-            height: "400px",
-            backgroundColor: "#FF9800",
-            borderRadius: "50%",
-            position: "absolute",
-            bottom: "15%",
-            right: "-15%",
-            animation: "spin-reverse 10s linear infinite",
-            boxShadow: "0px 0px 50px rgba(255, 152, 0, 0.3)",
-          }}
-        />
-      </div>
-
       {isLoaded ? (
         <>
-          {/* Copertina del libro ingrandita */}
           {coverImage ? (
             <img
               src={coverImage}
@@ -225,21 +133,9 @@ const BookDetailsComponent = () => {
               <h3 style={{ fontSize: "1.2rem", fontStyle: "italic" }}>
                 di {author || "Autore Sconosciuto"}
               </h3>
-              <div
-                style={{
-                  width: "80%",
-                  height: "5px",
-                  backgroundColor: "#FF9800",
-                  margin: "1rem 0",
-                }}
-              ></div>
-              <p style={{ fontSize: "1rem" }}>
-                Esplora questa fantastica storia e lasciati coinvolgere!
-              </p>
             </div>
           )}
 
-          {/* Titolo e autore sotto la copertina */}
           <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
             <h2 style={{ fontSize: "2rem", fontWeight: "bold" }}>{title}</h2>
             <h3
@@ -253,14 +149,13 @@ const BookDetailsComponent = () => {
             </h3>
           </div>
 
-          {/* Descrizione del libro */}
           <div
             style={{
               textAlign: "center",
               marginTop: "1.5rem",
               maxWidth: "600px",
-                maxHeight: "20vh",
-                overflow:"auto"
+              maxHeight: "20vh",
+              overflow: "auto",
             }}
           >
             <p style={{ fontStyle: "italic", fontSize: "1.2rem" }}>
@@ -268,7 +163,6 @@ const BookDetailsComponent = () => {
             </p>
           </div>
 
-          {/* Pulsante di acquisto su Amazon */}
           {affiliateLink && (
             <button
               style={{
@@ -284,7 +178,6 @@ const BookDetailsComponent = () => {
                 border: "none",
                 fontSize: "16px",
                 boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
-                transition: "background-color 0.3s ease",
               }}
               onClick={() => window.open(affiliateLink, "_blank")}
             >
@@ -293,7 +186,6 @@ const BookDetailsComponent = () => {
             </button>
           )}
 
-          {/* Pulsante minimal per tornare indietro */}
           <div
             onClick={() => router.back()}
             style={{
@@ -319,7 +211,6 @@ const BookDetailsComponent = () => {
           </div>
         </>
       ) : (
-        // Animazione di caricamento
         <Lottie
           options={{
             loop: true,

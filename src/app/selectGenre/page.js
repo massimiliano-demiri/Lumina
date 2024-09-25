@@ -106,7 +106,12 @@ const SelectGenre = () => {
     setIsLoading(true);
     const bookIds = await fetchBookIdsByGenres(selectedGenres);
     const idsQuery = bookIds.join(",");
-    router.push(`/nextComponent?ids=${idsQuery}`);
+    const genresQuery = selectedGenres.join(","); // Aggiungi i generi selezionati alla query
+
+    console.log("Generi selezionati:", selectedGenres); // Log dei generi
+    console.log("ID dei libri:", bookIds); // Log degli ID dei libri
+
+    router.push(`/nextComponent?ids=${idsQuery}&genres=${genresQuery}`); // Passa gli ID dei libri e i generi selezionati
   };
 
   const handleYearChange = (event, newValue) => {
