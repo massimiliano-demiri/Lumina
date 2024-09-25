@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import {
   Box,
@@ -9,13 +9,15 @@ import {
   Card,
   CardContent,
   useMediaQuery,
+  Button,
+  Slider,
 } from "@mui/material";
 import { motion } from "framer-motion";
 import Lottie from "react-lottie";
-import loadingAnimation from "./libri.json"; // Importa l'animazione Lottie
-import bookData from "./book.json"; // Importa il file JSON con i dati dei libri
+import loadingAnimation from "./libri.json"; // Animazione Lottie
+import bookData from "./book.json"; // Dati dei libri
 
-// Generi con nomi italiani per le card e nomi inglesi per la mappatura JSON
+// Generi con icone
 const genres = [
   { id: 1, name: "Fantasy", displayName: "Fantasia", emoji: "🧙‍♂️" },
   { id: 2, name: "Horror", displayName: "Orrore", emoji: "👻" },
@@ -29,84 +31,94 @@ const genres = [
   { id: 10, name: "Random", displayName: "Casuale", emoji: "🎲" },
 ];
 
-// Funzione che restituisce gli ID dei libri per i generi selezionati
+// Simulazione fetch libri
 const fetchBookIdsByGenres = async (selectedGenres) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       if (selectedGenres.includes("Random")) {
-        // Se "Random" è selezionato, restituisci tutti gli ID dei libri dal JSON
         const allBookIds = Object.values(bookData)
           .flat()
           .map((book) => book.id);
         resolve(allBookIds);
       } else {
-        // Altrimenti, estrai gli ID dei libri solo per i generi selezionati
         const bookIds = selectedGenres.flatMap((genre) => {
           if (bookData[genre]) {
-            return bookData[genre].map((book) => book.id); // Estrai solo gli ID
+            return bookData[genre].map((book) => book.id);
           }
           return [];
         });
         resolve(bookIds);
       }
-    }, 2000); // Simula un ritardo per il fetch
+    }, 2000);
   });
 };
 
 const SelectGenre = () => {
   const [selectedGenres, setSelectedGenres] = useState([]);
+  const [typedEmojis, setTypedEmojis] = useState(""); // Emojis mostrate
   const [isLoading, setIsLoading] = useState(false);
+  const [yearRange, setYearRange] = useState([1900, 2023]);
+  const [cursorVisible, setCursorVisible] = useState(true); // Stato per il cursore lampeggiante
   const router = useRouter();
   const isMobile = useMediaQuery("(max-width:600px)");
 
-  // Gestione del click sul genere
+  // Funzione per selezionare un genere
   const handleGenreClick = (genre) => {
     if (genre === "Random") {
-      // Se si seleziona "Random", deseleziona tutti gli altri generi
       if (selectedGenres.includes("Random")) {
-        setSelectedGenres([]); // Deseleziona "Random"
+        setSelectedGenres([]);
       } else {
-        setSelectedGenres(["Random"]); // Seleziona solo "Random"
+        setSelectedGenres(["Random"]);
       }
-    } else {
-      // Se un altro genere è selezionato e "Random" non è selezionato
-      if (!selectedGenres.includes("Random")) {
-        setSelectedGenres((prevGenres) =>
-          prevGenres.includes(genre)
-            ? prevGenres.filter((g) => g !== genre)
-            : [...prevGenres, genre]
-        );
-      }
+    } else if (!selectedGenres.includes(genre) && selectedGenres.length < 3) {
+      setSelectedGenres((prevGenres) =>
+        prevGenres.includes(genre)
+          ? prevGenres.filter((g) => g !== genre)
+          : [...prevGenres, genre]
+      );
+    } else if (selectedGenres.includes(genre)) {
+      setSelectedGenres((prevGenres) => prevGenres.filter((g) => g !== genre));
     }
   };
 
-  // Funzione per iniziare il viaggio
+  useEffect(() => {
+    // Mostra il cursore lampeggiante finché non ci sono 3 generi
+    const cursorInterval = setInterval(() => {
+      if (selectedGenres.length < 3) {
+        setCursorVisible((prev) => !prev);
+      }
+    }, 500); // Il cursore lampeggia ogni 500ms
+
+    return () => clearInterval(cursorInterval);
+  }, [selectedGenres]);
+
+  useEffect(() => {
+    // Aggiorna le emoticon con effetto typing
+    const emojisToShow = selectedGenres.includes("Random")
+      ? "🎲🎲🎲"
+      : selectedGenres
+          .map((genre) => genres.find((g) => g.name === genre)?.emoji)
+          .join(" ");
+
+    setTypedEmojis(emojisToShow); // Aggiunge le emoticon selezionate
+  }, [selectedGenres]);
+
   const handleStartJourney = async () => {
     setIsLoading(true);
-
-    // Recupera gli ID dei libri in base ai generi selezionati
     const bookIds = await fetchBookIdsByGenres(selectedGenres);
-
-    // Unisci gli ID dei libri in una stringa separata da virgole
     const idsQuery = bookIds.join(",");
-
-    // Naviga al componente successivo, passando solo gli ID dei libri
     router.push(`/nextComponent?ids=${idsQuery}`);
+  };
+
+  const handleYearChange = (event, newValue) => {
+    setYearRange(newValue);
   };
 
   const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: loadingAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
-  const orbitAnimation = {
-    initial: { rotate: 0 },
-    animate: { rotate: 360 },
-    transition: { repeat: Infinity, duration: 10, ease: "linear" },
+    rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
   };
 
   return (
@@ -117,131 +129,121 @@ const SelectGenre = () => {
         alignItems: "center",
         justifyContent: "center",
         height: "100vh",
-        textAlign: "center",
+        padding: "1rem",
         color: "#fff",
         backgroundColor: "#121212",
-        overflow: "hidden",
-        position: "relative",
-        padding: "1rem",
+        overflowY: "auto",
       }}
     >
       {isLoading && (
-        <>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-            style={{
-              position: "absolute",
-              top: 0,
-              left: 0,
-              width: "100%",
-              height: "100%",
-              background:
-                "radial-gradient(circle, #121212 30%, #1c1c1c 60%, #121212)",
-              zIndex: -1,
-              overflow: "hidden",
-            }}
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            height: "100vh",
+            width: "100%",
+          }}
+        >
+          <Lottie
+            options={defaultOptions}
+            height={isMobile ? 200 : 400}
+            width={isMobile ? 200 : 400}
           />
-          <Box
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              height: "100vh",
-              width: "100%",
-            }}
-          >
-            <Lottie
-              options={defaultOptions}
-              height={isMobile ? 200 : 400}
-              width={isMobile ? 200 : 400}
-            />
-          </Box>
-        </>
+        </Box>
       )}
 
       {!isLoading && (
         <>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-          >
-            <Typography
-              variant="h5"
-              sx={{
-                marginBottom: "2rem",
-                fontWeight: "bold",
-                color: "#90caf9",
-                letterSpacing: "0.05em",
-              }}
+          {/* Scritta iniziale o emoticon a seconda della selezione */}
+          {selectedGenres.length === 0 ? (
+            <motion.div
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
             >
-              {selectedGenres.length > 0 ? (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.5 }}
-                  style={{ display: "flex", gap: "10px" }}
-                >
-                  {selectedGenres.map((genre) => (
-                    <span key={genre} style={{ fontSize: "1.5rem" }}>
-                      {genres.find((g) => g.name === genre)?.emoji}
-                    </span>
-                  ))}
-                </motion.div>
-              ) : (
-                "Scegli i tuoi generi preferiti"
-              )}
-            </Typography>
-          </motion.div>
+              <Typography
+                variant="h5"
+                sx={{
+                  marginBottom: "1rem",
+                  fontWeight: "bold",
+                  color: "#90caf9",
+                  letterSpacing: "0.05em",
+                }}
+              >
+                Cosa ti piace leggere? Scegli fino a 3 generi!
+              </Typography>
+            </motion.div>
+          ) : (
+            <motion.div
+              initial={{ scale: 0.9 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 0.6 }}
+            >
+              <Typography
+                variant="h6"
+                sx={{
+                  marginBottom: "1rem",
+                  color: "#bbdefb",
+                  fontSize: "2rem",
+                }}
+              >
+                {typedEmojis}
+                {selectedGenres.length < 3 && cursorVisible && (
+                  <span
+                    style={{
+                      display: "inline-block",
+                      width: "1ch", // Mantiene lo spazio anche quando il cursore è invisibile
+                      color: cursorVisible ? "#90caf9" : "transparent",
+                    }}
+                  >
+                    |
+                  </span>
+                )}
+              </Typography>
+            </motion.div>
+          )}
 
-          <Grid container spacing={2} justifyContent="center">
+          {/* Generi */}
+          <Grid container spacing={1} justifyContent="center">
             {genres.map((genre) => (
-              <Grid item key={genre.id} xs={6} sm={4} md={3}>
+              <Grid item key={genre.id} xs={6} sm={4}>
                 <motion.div
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: genre.id * 0.1 }}
-                  whileHover={{ rotate: 3 }}
-                  whileTap={{ scale: 0.95, rotate: 0 }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
                 >
                   <Card
                     onClick={() => handleGenreClick(genre.name)}
                     sx={{
-                      height: 80, // Altezza ridotta del riquadro
+                      height: 100,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
                       borderRadius: "12px",
                       backgroundImage: selectedGenres.includes(genre.name)
-                        ? "linear-gradient(135deg, #ff7e5f, #feb47b)"
-                        : "linear-gradient(135deg, #333, #444)",
+                        ? "linear-gradient(135deg, #7986cb, #5c6bc0)"
+                        : "linear-gradient(135deg, #303f9f, #283593)",
                       transition: "all 0.4s ease",
                       boxShadow: selectedGenres.includes(genre.name)
-                        ? "0px 8px 16px rgba(255, 126, 95, 0.7)"
+                        ? "0px 8px 16px rgba(121, 134, 203, 0.7)"
                         : "0px 6px 12px rgba(0, 0, 0, 0.5)",
                     }}
                   >
-                    <CardContent sx={{ padding: "8px" }}>
-                      <motion.div
-                        initial={{ scale: 1 }}
-                        animate={{
-                          scale: selectedGenres.includes(genre.name) ? 1.1 : 1,
+                    <CardContent sx={{ padding: "8px", textAlign: "center" }}>
+                      <Typography
+                        variant="subtitle1"
+                        sx={{
+                          color: "#fff",
+                          fontWeight: "bold",
+                          letterSpacing: "0.05em",
+                          fontSize: "0.8rem",
                         }}
                       >
-                        <Typography
-                          variant="subtitle1"
-                          sx={{
-                            color: "#fff",
-                            fontWeight: "bold",
-                            letterSpacing: "0.05em",
-                            fontSize: "0.9rem",
-                          }}
-                        >
-                          {genre.emoji} {genre.displayName}
-                        </Typography>
-                      </motion.div>
+                        {genre.emoji} {genre.displayName}
+                      </Typography>
                     </CardContent>
                   </Card>
                 </motion.div>
@@ -249,31 +251,69 @@ const SelectGenre = () => {
             ))}
           </Grid>
 
+          {/* Filtro per selezionare l'anno */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
+          >
+            <Box
+              sx={{ width: "80%", marginBottom: "1rem", marginTop: "1.5rem" }}
+            >
+              <Typography
+                variant="body1"
+                sx={{ color: "#90caf9", fontWeight: "bold" }}
+              >
+                Seleziona un intervallo di anni:
+              </Typography>
+              <Slider
+                value={yearRange}
+                onChange={handleYearChange}
+                valueLabelDisplay="auto"
+                valueLabelFormat={(x) => `${x}`}
+                min={1900}
+                max={2023}
+                sx={{ color: "#7986cb", marginBottom: "1rem" }}
+              />
+              <Typography
+                variant="body2"
+                sx={{
+                  color: "#90caf9",
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  fontSize: "0.85rem",
+                }}
+              >
+                Intervallo: {yearRange[0]} - {yearRange[1]}
+              </Typography>
+            </Box>
+          </motion.div>
+
+          {/* Bottone per iniziare il viaggio */}
           {selectedGenres.length > 0 && (
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+              initial={{ scale: 0.9 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 0.6 }}
             >
-              <Box sx={{ marginTop: "2rem" }}>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  style={{
-                    backgroundColor: "#ff7e5f",
-                    border: "none",
-                    color: "#121212",
-                    padding: "14px 36px",
-                    fontSize: "16px",
-                    borderRadius: "30px",
-                    cursor: "pointer",
-                    transition: "all 0.3s ease",
-                  }}
-                  onClick={handleStartJourney}
-                >
-                  Inizia il tuo viaggio!
-                </motion.button>
-              </Box>
+              <Button
+                variant="contained"
+                sx={{
+                  backgroundColor: "#7986cb",
+                  color: "#fff",
+                  padding: "10px 24px",
+                  fontSize: "14px",
+                  borderRadius: "30px",
+                  transition: "all 0.3s ease",
+                  "&:hover": {
+                    backgroundColor: "#5c6bc0",
+                  },
+                  marginTop: "20px",
+                }}
+                onClick={handleStartJourney}
+              >
+                Inizia il tuo viaggio!
+              </Button>
             </motion.div>
           )}
         </>
