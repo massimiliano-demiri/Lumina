@@ -17,7 +17,7 @@ import Lottie from "react-lottie";
 import loadingAnimation from "./libri.json"; // Animazione Lottie
 import bookData from "./book.json"; // Dati dei libri
 
-// Generi con icone
+// Generi con icone (rimosso "Non-fiction")
 const genres = [
   { id: 1, name: "Fantasy", displayName: "Fantasia", emoji: "🧙‍♂️" },
   { id: 2, name: "Horror", displayName: "Orrore", emoji: "👻" },
@@ -26,9 +26,8 @@ const genres = [
   { id: 5, name: "Science Fiction", displayName: "Fantascienza", emoji: "🚀" },
   { id: 6, name: "Historical", displayName: "Storico", emoji: "🏰" },
   { id: 7, name: "Adventure", displayName: "Avventura", emoji: "🏞️" },
-  { id: 8, name: "Non-fiction", displayName: "Non-fiction", emoji: "📚" },
-  { id: 9, name: "Poetry", displayName: "Poesia", emoji: "📜" },
-  { id: 10, name: "Random", displayName: "Casuale", emoji: "🎲" },
+  { id: 8, name: "Poetry", displayName: "Poesia", emoji: "📜" },
+  { id: 9, name: "Random", displayName: "Casuale", emoji: "🎲" },
 ];
 
 // Simulazione fetch libri
@@ -84,7 +83,7 @@ const SelectGenre = () => {
   useEffect(() => {
     // Mostra il cursore lampeggiante finché non ci sono 3 generi
     const cursorInterval = setInterval(() => {
-      if (selectedGenres.length < 3) {
+      if (selectedGenres.length < 3 && !selectedGenres.includes("Random")) {
         setCursorVisible((prev) => !prev);
       }
     }, 500); // Il cursore lampeggia ogni 500ms
@@ -190,17 +189,19 @@ const SelectGenre = () => {
                 }}
               >
                 {typedEmojis}
-                {selectedGenres.length < 3 && cursorVisible && (
-                  <span
-                    style={{
-                      display: "inline-block",
-                      width: "1ch", // Mantiene lo spazio anche quando il cursore è invisibile
-                      color: cursorVisible ? "#90caf9" : "transparent",
-                    }}
-                  >
-                    |
-                  </span>
-                )}
+                {selectedGenres.length < 3 &&
+                  !selectedGenres.includes("Random") &&
+                  cursorVisible && (
+                    <span
+                      style={{
+                        display: "inline-block",
+                        width: "1ch", // Mantiene lo spazio anche quando il cursore è invisibile
+                        color: cursorVisible ? "#90caf9" : "transparent",
+                      }}
+                    >
+                      |
+                    </span>
+                  )}
               </Typography>
             </motion.div>
           )}
@@ -208,7 +209,7 @@ const SelectGenre = () => {
           {/* Generi */}
           <Grid container spacing={1} justifyContent="center">
             {genres.map((genre) => (
-              <Grid item key={genre.id} xs={4} sm={3}>
+              <Grid item key={genre.id} xs={4} sm={4}>
                 <motion.div
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -231,6 +232,10 @@ const SelectGenre = () => {
                       boxShadow: selectedGenres.includes(genre.name)
                         ? "0px 8px 16px rgba(121, 134, 203, 0.7)"
                         : "0px 6px 12px rgba(0, 0, 0, 0.5)",
+                      border:
+                        genre.name === "Random"
+                          ? "1px solid rgba(255, 215, 0, 0.6)" // Bordo dorato più tenue per Random
+                          : "none", // Nessun bordo per gli altri generi
                     }}
                   >
                     <CardContent sx={{ padding: "8px", textAlign: "center" }}>
