@@ -8,9 +8,9 @@ import {
   Grid,
   Card,
   CardContent,
-  useMediaQuery,
   Button,
   Slider,
+  useMediaQuery,
 } from "@mui/material";
 import { motion } from "framer-motion";
 import Lottie from "react-lottie";
@@ -129,10 +129,10 @@ const SelectGenre = () => {
         alignItems: "center",
         justifyContent: "center",
         height: "100vh",
-        padding: "1rem",
+        padding: isMobile ? "0.5rem" : "1rem",
         color: "#fff",
         backgroundColor: "#121212",
-        overflowY: "auto",
+        overflowY: "hidden", // Disabilita lo scrolling verticale
       }}
     >
       {isLoading && (
@@ -147,8 +147,8 @@ const SelectGenre = () => {
         >
           <Lottie
             options={defaultOptions}
-            height={isMobile ? 200 : 400}
-            width={isMobile ? 200 : 400}
+            height={isMobile ? 150 : 350}
+            width={isMobile ? 150 : 350}
           />
         </Box>
       )}
@@ -165,10 +165,11 @@ const SelectGenre = () => {
               <Typography
                 variant="h5"
                 sx={{
-                  marginBottom: "1rem",
+                  marginBottom: "0.8rem",
                   fontWeight: "bold",
                   color: "#90caf9",
                   letterSpacing: "0.05em",
+                  fontSize: isMobile ? "1.4rem" : "2rem",
                 }}
               >
                 Cosa ti piace leggere? Scegli fino a 3 generi!
@@ -183,9 +184,9 @@ const SelectGenre = () => {
               <Typography
                 variant="h6"
                 sx={{
-                  marginBottom: "1rem",
+                  marginBottom: "0.8rem",
                   color: "#bbdefb",
-                  fontSize: "2rem",
+                  fontSize: isMobile ? "1.5rem" : "2rem",
                 }}
               >
                 {typedEmojis}
@@ -207,7 +208,7 @@ const SelectGenre = () => {
           {/* Generi */}
           <Grid container spacing={1} justifyContent="center">
             {genres.map((genre) => (
-              <Grid item key={genre.id} xs={6} sm={4}>
+              <Grid item key={genre.id} xs={4} sm={3}>
                 <motion.div
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -218,7 +219,7 @@ const SelectGenre = () => {
                   <Card
                     onClick={() => handleGenreClick(genre.name)}
                     sx={{
-                      height: 100,
+                      height: isMobile ? 80 : 100,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -239,7 +240,7 @@ const SelectGenre = () => {
                           color: "#fff",
                           fontWeight: "bold",
                           letterSpacing: "0.05em",
-                          fontSize: "0.8rem",
+                          fontSize: isMobile ? "0.7rem" : "0.8rem",
                         }}
                       >
                         {genre.emoji} {genre.displayName}
@@ -258,7 +259,11 @@ const SelectGenre = () => {
             transition={{ duration: 0.8 }}
           >
             <Box
-              sx={{ width: "80%", marginBottom: "1rem", marginTop: "1.5rem" }}
+              sx={{
+                width: "80%",
+                marginBottom: "1rem",
+                marginTop: "1rem",
+              }}
             >
               <Typography
                 variant="body1"
@@ -301,14 +306,13 @@ const SelectGenre = () => {
                 sx={{
                   backgroundColor: "#7986cb",
                   color: "#fff",
-                  padding: "10px 24px",
-                  fontSize: "14px",
+                  padding: "8px 18px",
+                  fontSize: isMobile ? "12px" : "14px",
                   borderRadius: "30px",
                   transition: "all 0.3s ease",
                   "&:hover": {
                     backgroundColor: "#5c6bc0",
                   },
-                  marginTop: "20px",
                 }}
                 onClick={handleStartJourney}
               >
