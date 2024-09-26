@@ -31,13 +31,6 @@ const normalizeExcerpt = (excerpt) => {
     .trim(); // Rimuove spazi all'inizio e alla fine
 };
 
-// Controlla se la prima parola dell'estratto è italiana (base semplificata)
-const isFirstWordItalian = (excerpt) => {
-  const firstWord = excerpt.split(" ")[0].toLowerCase();
-  const italianWords = ["il", "la", "i", "gli", "le", "un", "una", "e", "di"]; // Puoi espandere questa lista
-  return italianWords.includes(firstWord);
-};
-
 const MINIMUM_CHARACTERS = 100; // Numero minimo di caratteri per un estratto valido
 
 const allGenres = [
@@ -101,10 +94,7 @@ const fetchExcerptFromEndpoint = async (book) => {
     let normalizedExcerpt = normalizeExcerpt(excerpt.trim());
 
     // Verifica se l'estratto soddisfa i requisiti minimi
-    if (
-      normalizedExcerpt.length < MINIMUM_CHARACTERS ||
-      !isFirstWordItalian(normalizedExcerpt)
-    ) {
+    if (normalizedExcerpt.length < MINIMUM_CHARACTERS) {
       normalizedExcerpt = ""; // Scarta estratti non validi
     }
 
