@@ -163,28 +163,35 @@ const BookDetailsComponent = () => {
             </p>
           </div>
 
-          {affiliateLink && (
-            <button
-              style={{
-                padding: "0.8rem 1.5rem",
-                backgroundColor: "#FF9900",
-                color: "#fff",
-                borderRadius: "10px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                marginTop: "2rem",
-                cursor: "pointer",
-                border: "none",
-                fontSize: "16px",
-                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
-              }}
-              onClick={() => window.open(affiliateLink, "_blank")}
-            >
-              <AmazonIcon style={{ marginRight: "10px" }} />
-              Acquista su Amazon
-            </button>
-          )}
+          {/* Mostra sempre il pulsante Acquista su Amazon */}
+          <button
+            style={{
+              padding: "0.8rem 1.5rem",
+              backgroundColor: "#FF9900",
+              color: "#fff",
+              borderRadius: "10px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginTop: "2rem",
+              cursor: "pointer",
+              border: "none",
+              fontSize: "16px",
+              boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
+            }}
+            onClick={() =>
+              window.open(
+                affiliateLink ||
+                  `https://www.amazon.it/s?k=${encodeURIComponent(
+                    title + " " + author
+                  )}`,
+                "_blank"
+              )
+            }
+          >
+            <AmazonIcon style={{ marginRight: "10px" }} />
+            Acquista su Amazon
+          </button>
 
           <div
             onClick={() => router.back()}

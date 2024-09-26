@@ -4,6 +4,11 @@ import React, { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Lottie from "react-lottie";
 import AIcon from "@mui/icons-material/TextIncrease";
+import ArrowDownwardIcon from "@mui/icons-material/TextDecrease";
+
+import FavoriteIcon from "@mui/icons-material/Favorite"; // Cuore per il like
+import ClearIcon from "@mui/icons-material/Clear"; // X per il dislike
+
 import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
 import loadingAnimation from "./alien.json";
 import "./transitionStyles.css";
@@ -14,11 +19,19 @@ import scienceFictionData from "./science_fiction.json";
 import historicalData from "./historical.json";
 import mysteryData from "./mystery.json";
 
-// Funzione per estrarre titolo, autore e estratto specifico
+// Funzione per normalizzare il testo
+const normalizeExcerpt = (excerpt) => {
+  return excerpt
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\w\s.,!?'"()]/g, ""); // Rimuove caratteri speciali
+};
+
+// Funzione per estrarre l'estratto specifico
 const fetchExcerptFromEndpoint = async (book) => {
-  if (!book || !book.titolo || !book.endpoint) {
-    console.error("Book, title or endpoint is undefined");
-    return { title: "Errore", excerpt: "Dati del libro non disponibili" };
+  if (!book || !book.endpoint) {
+    console.error("Book or endpoint is undefined");
+    return { title: book.titolo, excerpt: "" };
   }
 
   const apiKey = "57e9398e9ab6a85b25af676d55e25278"; // Sostituisci con la tua chiave ScraperAPI
@@ -32,47 +45,17 @@ const fetchExcerptFromEndpoint = async (book) => {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, "text/html");
 
-    console.log("HTML caricato:", doc.body.innerHTML); // Log dell'HTML caricato
-
-    // Trova il titolo del libro
     const titleElement = Array.from(
       doc.querySelectorAll("font[size='+1'] b")
     ).find((b) => b.innerText.trim() === book.titolo);
 
     if (!titleElement) {
       console.error("Titolo non trovato nella pagina:", book.titolo);
-      return { title: "Titolo non trovato", excerpt: "Estratto non trovato" };
+      return { title: book.titolo, excerpt: "" };
     }
 
-    console.log("Titolo trovato:", titleElement.innerText); // Log del titolo trovato
-
-    // Risali nel DOM per trovare l'autore associato
-    let currentElement = titleElement;
-    let authorElement = null;
-
-    // Itera sopra il titolo per trovare l'autore più vicino
-    while (currentElement) {
-      currentElement = currentElement.previousElementSibling;
-
-      if (
-        currentElement &&
-        currentElement.nodeName === "FONT" &&
-        currentElement.getAttribute("size") === "+2"
-      ) {
-        authorElement = currentElement.querySelector("b");
-        break;
-      }
-    }
-
-    const author = authorElement
-      ? authorElement.innerText.trim()
-      : "Autore sconosciuto";
-
-    console.log("Autore trovato:", author); // Log dell'autore trovato
-
-    // Estrazione dell'estratto dai tag <br> subito sotto il titolo
     let excerpt = "";
-    currentElement = titleElement.parentElement;
+    let currentElement = titleElement.parentElement;
 
     while (currentElement && currentElement.nextSibling) {
       currentElement = currentElement.nextSibling;
@@ -91,16 +74,15 @@ const fetchExcerptFromEndpoint = async (book) => {
       }
     }
 
-    console.log("Estratto trovato:", excerpt.trim()); // Log dell'estratto trovato
+    const normalizedExcerpt = normalizeExcerpt(excerpt.trim());
 
     return {
       title: book.titolo,
-      author: author, // Autore estratto correttamente
-      excerpt: excerpt.trim() || "Estratto non trovato",
+      excerpt: normalizedExcerpt || "Estratto non disponibile",
     };
   } catch (error) {
     console.error("Errore nel fetch dell'estratto:", error);
-    return { title: "Errore", excerpt: "Errore nel recupero dell'estratto" };
+    return { title: book.titolo, excerpt: "" };
   }
 };
 
@@ -129,6 +111,12 @@ const getGenreData = (genre) => {
   }
 };
 
+// Funzione per trovare l'autore basato sul titolo
+const findAuthorByTitle = (genreData, bookTitle) => {
+  const book = genreData.find((book) => book.titolo === bookTitle);
+  return book ? book.autore : "Autore sconosciuto";
+};
+
 // Funzione per selezionare un libro casuale
 const getRandomBookFromGenre = (genreData) => {
   if (!genreData || genreData.length === 0) {
@@ -144,9 +132,11 @@ const ExcerptComponent = () => {
   const [selectedGenres, setSelectedGenres] = useState([]);
   const [bookData, setBookData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [fontSize, setFontSize] = useState(16);
+  const [fontSize, setFontSize] = useState(26);
   const [darkMode, setDarkMode] = useState(true);
   const isMobile = useMediaQuery("(max-width:600px)");
+
+  const [isRotating, setIsRotating] = useState(false);
 
   useEffect(() => {
     const genresQuery = searchParams.get("genres");
@@ -168,17 +158,31 @@ const ExcerptComponent = () => {
       return;
     }
 
-    const randomBook = getRandomBookFromGenre(genreData);
+    let validExcerptFound = false;
 
-    if (!randomBook) {
-      setLoading(false);
-      return;
+    // Continua a cercare un estratto finché non ne trovi uno valido
+    while (!validExcerptFound) {
+      const randomBook = getRandomBookFromGenre(genreData);
+
+      if (!randomBook) {
+        setLoading(false);
+        return;
+      }
+
+      const { title, excerpt } = await fetchExcerptFromEndpoint(randomBook);
+
+      // Se trovi un estratto valido, aggiorna lo stato
+      if (excerpt && excerpt !== "Estratto non disponibile") {
+        const author = findAuthorByTitle(genreData, randomBook.titolo); // Trova l'autore dal JSON
+        validExcerptFound = true;
+        setBookData({
+          title,
+          author, // Autore preso dal JSON
+          excerpt,
+          cover_src: randomBook.cover_src,
+        });
+      }
     }
-
-    const { title, author, excerpt } = await fetchExcerptFromEndpoint(
-      randomBook
-    );
-    setBookData({ title, author, excerpt, cover_src: randomBook.cover_src });
 
     setLoading(false);
   };
@@ -193,7 +197,11 @@ const ExcerptComponent = () => {
     router.push(`/book-details?${queryParams}`);
   };
 
-  const toggleTheme = () => setDarkMode(!darkMode);
+  const toggleTheme = () => {
+    setDarkMode(!darkMode);
+    setIsRotating(true); // Attiva la rotazione
+    setTimeout(() => setIsRotating(false), 500); // Disattiva la rotazione dopo 500ms
+  };
 
   const adjustFontSize = (increase) =>
     setFontSize((prevSize) => (increase ? prevSize + 2 : prevSize - 2));
@@ -226,7 +234,7 @@ const ExcerptComponent = () => {
           />
         </button>
         <button onClick={() => adjustFontSize(false)}>
-          <AIcon
+          <ArrowDownwardIcon
             fontSize="large"
             style={{ color: darkMode ? "#fff" : "#000" }}
           />
@@ -234,6 +242,7 @@ const ExcerptComponent = () => {
         <button onClick={toggleTheme}>
           <WbIncandescentIcon
             fontSize="large"
+            className={`rotate ${darkMode ? "dark" : ""}`} // Applica la classe 'dark' quando darkMode è attivo
             style={{ color: darkMode ? "#fff" : "#000" }}
           />
         </button>
@@ -282,15 +291,36 @@ const ExcerptComponent = () => {
           >
             <button
               onClick={generateRandomExcerpt}
-              style={{ backgroundColor: "#FF9800", padding: "10px" }}
+              style={{
+                backgroundColor: "#FF1744",
+                borderRadius: "50%",
+                padding: "15px",
+                border: "none",
+                cursor: "pointer",
+                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
+                transition: "transform 0.3s ease",
+              }}
+              onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
+              onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
             >
-              🤮
+              <ClearIcon style={{ color: "#fff", fontSize: "30px" }} />
             </button>
+
             <button
               onClick={handleBookDetails}
-              style={{ backgroundColor: "#FF1744", padding: "10px" }}
+              style={{
+                backgroundColor: "#FF9900",
+                borderRadius: "50%",
+                padding: "15px",
+                border: "none",
+                cursor: "pointer",
+                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
+                transition: "transform 0.3s ease",
+              }}
+              onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
+              onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
             >
-              ❤️
+              <FavoriteIcon style={{ color: "#fff", fontSize: "30px" }} />
             </button>
           </div>
         </>
