@@ -18,6 +18,8 @@ import romanceData from "./romance.json";
 import scienceFictionData from "./science_fiction.json";
 import historicalData from "./historical.json";
 import mysteryData from "./mystery.json";
+import fantasyData from "./fantasy.json";
+import horrorData from "./horror.json";
 
 // Funzione per normalizzare il testo
 const normalizeExcerpt = (excerpt) => {
@@ -105,6 +107,10 @@ const getGenreData = (genre) => {
       return historicalData.Historical;
     case "Mystery":
       return mysteryData.Mystery;
+    case "Fantasy":
+      return fantasyData.Fantasy;
+    case "Horror":
+      return horrorData.Horror;
     default:
       console.error("Genere non trovato:", genre);
       return [];
