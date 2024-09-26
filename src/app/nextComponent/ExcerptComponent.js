@@ -5,10 +5,10 @@ import { useSearchParams, useRouter } from "next/navigation";
 import Lottie from "react-lottie";
 import AIcon from "@mui/icons-material/TextIncrease";
 import ArrowDownwardIcon from "@mui/icons-material/TextDecrease";
-import FavoriteIcon from "@mui/icons-material/Favorite"; // Cuore per il like
-import ClearIcon from "@mui/icons-material/Clear"; // X per il dislike
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import ClearIcon from "@mui/icons-material/Clear";
 import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
-import CoffeeIcon from "@mui/icons-material/LocalCafe"; // Icona CoffeeApp
+import CoffeeIcon from "@mui/icons-material/LocalCafe";
 import loadingAnimation from "./alien.json";
 import "./transitionStyles.css";
 import { useMediaQuery } from "@mui/material";
@@ -31,10 +31,8 @@ const normalizeExcerpt = (excerpt) => {
     .trim(); // Rimuove spazi all'inizio e alla fine
 };
 
-const MINIMUM_CHARACTERS = 100; // Numero minimo di caratteri per un estratto valido
-const REFERENCE_TEXT =
-  `Seduta sul ciglio della strada Lena guarda il carretto salire verso di lei, e pensa "Vengo dall'Alabama. Quanta strada! Tutto a piedi dall'Alabama, un bel pezzo di strada!". Pensando al tempo stesso "e sono già nel Mississippi dopo neanche un mese che cammino, più lontano da casa di quanto non sia mai stata, più lontano dalla segheria di Doane`
-    .length;
+const MINIMUM_CHARACTERS = 100;
+const REFERENCE_TEXT = 200; // Lunghezza minima per la validità
 
 const allGenres = [
   "Fantasy",
@@ -48,14 +46,13 @@ const allGenres = [
   "Adventure",
 ];
 
-// Funzione per estrarre l'estratto specifico
 const fetchExcerptFromEndpoint = async (book) => {
   if (!book || !book.endpoint) {
     console.error("Book or endpoint is undefined");
     return { title: book.titolo, excerpt: "" };
   }
 
-  const apiKey = "57e9398e9ab6a85b25af676d55e25278"; // Sostituisci con la tua chiave ScraperAPI
+  const apiKey = "57e9398e9ab6a85b25af676d55e25278"; // ScraperAPI key
   const proxyUrl = `https://api.scraperapi.com?api_key=${apiKey}&url=${encodeURIComponent(
     book.endpoint
   )}`;
@@ -97,9 +94,8 @@ const fetchExcerptFromEndpoint = async (book) => {
 
     let normalizedExcerpt = normalizeExcerpt(excerpt.trim());
 
-    // Verifica se l'estratto soddisfa i requisiti minimi
     if (normalizedExcerpt.length < MINIMUM_CHARACTERS) {
-      normalizedExcerpt = ""; // Scarta estratti non validi
+      normalizedExcerpt = "";
     }
 
     return {
@@ -120,7 +116,6 @@ const getRandomGenre = (selectedGenres) => {
   return selectedGenres[Math.floor(Math.random() * selectedGenres.length)];
 };
 
-// Funzione per ottenere i dati JSON relativi a un genere
 const getGenreData = (genre) => {
   switch (genre) {
     case "Poetry":
@@ -145,13 +140,11 @@ const getGenreData = (genre) => {
   }
 };
 
-// Funzione per trovare l'autore basato sul titolo
 const findAuthorByTitle = (genreData, bookTitle) => {
   const book = genreData.find((book) => book.titolo === bookTitle);
   return book ? book.autore : "Autore sconosciuto";
 };
 
-// Funzione per selezionare un libro casuale
 const getRandomBookFromGenre = (genreData) => {
   if (!genreData || genreData.length === 0) {
     console.error("Nessun libro trovato per il genere selezionato");
@@ -165,13 +158,14 @@ const ExcerptComponent = () => {
   const router = useRouter();
   const [selectedGenres, setSelectedGenres] = useState([]);
   const [bookData, setBookData] = useState(null);
+  const [nextBookData, setNextBookData] = useState(null); // Per il pre-caricamento
   const [loading, setLoading] = useState(true);
   const [fontSize, setFontSize] = useState(26);
   const [darkMode, setDarkMode] = useState(true);
   const isMobile = useMediaQuery("(max-width:600px)");
 
   const [isRotating, setIsRotating] = useState(false);
-  const [excerptCount, setExcerptCount] = useState(0); // Count for excerpts
+  const [excerptCount, setExcerptCount] = useState(0);
 
   useEffect(() => {
     const genresQuery = searchParams.get("genres");
@@ -185,6 +179,14 @@ const ExcerptComponent = () => {
   const generateRandomExcerpt = async () => {
     setLoading(true);
 
+    if (nextBookData) {
+      setBookData(nextBookData); // Imposta il libro pre-caricato come attuale
+      setNextBookData(null); // Resetta il prossimo estratto
+      preLoadNextExcerpt(); // Pre-carica il prossimo
+      setLoading(false);
+      return;
+    }
+
     const randomGenre = getRandomGenre(selectedGenres);
     const genreData = getGenreData(randomGenre);
 
@@ -195,7 +197,6 @@ const ExcerptComponent = () => {
 
     let validExcerptFound = false;
 
-    // Continua a cercare un estratto finché non ne trovi uno valido
     while (!validExcerptFound) {
       const randomBook = getRandomBookFromGenre(genreData);
 
@@ -206,21 +207,48 @@ const ExcerptComponent = () => {
 
       const { title, excerpt } = await fetchExcerptFromEndpoint(randomBook);
 
-      // Se trovi un estratto valido, aggiorna lo stato
       if (excerpt && excerpt !== "Estratto non disponibile") {
-        const author = findAuthorByTitle(genreData, randomBook.titolo); // Trova l'autore dal JSON
+        const author = findAuthorByTitle(genreData, randomBook.titolo);
         validExcerptFound = true;
         setBookData({
           title,
-          author, // Autore preso dal JSON
+          author,
           excerpt,
           cover_src: randomBook.cover_src,
         });
-        setExcerptCount((prevCount) => prevCount + 1); // Increase the count
+        setExcerptCount((prevCount) => prevCount + 1);
+        preLoadNextExcerpt(); // Pre-carica il prossimo estratto
       }
     }
 
     setLoading(false);
+  };
+
+  const preLoadNextExcerpt = async () => {
+    const randomGenre = getRandomGenre(selectedGenres);
+    const genreData = getGenreData(randomGenre);
+
+    let validExcerptFound = false;
+    while (!validExcerptFound) {
+      const randomBook = getRandomBookFromGenre(genreData);
+
+      if (!randomBook) {
+        return;
+      }
+
+      const { title, excerpt } = await fetchExcerptFromEndpoint(randomBook);
+
+      if (excerpt && excerpt !== "Estratto non disponibile") {
+        const author = findAuthorByTitle(genreData, randomBook.titolo);
+        validExcerptFound = true;
+        setNextBookData({
+          title,
+          author,
+          excerpt,
+          cover_src: randomBook.cover_src,
+        });
+      }
+    }
   };
 
   const handleBookDetails = () => {
@@ -232,7 +260,7 @@ const ExcerptComponent = () => {
       title: bookData.title,
       author: bookData.author,
       cover_src: bookData.cover_src,
-      genres: genresToPass.join(","), // Passiamo tutti i generi o quelli selezionati
+      genres: genresToPass.join(","),
     }).toString();
 
     router.push(`/book-details?${queryParams}`);
@@ -240,8 +268,8 @@ const ExcerptComponent = () => {
 
   const toggleTheme = () => {
     setDarkMode(!darkMode);
-    setIsRotating(true); // Attiva la rotazione
-    setTimeout(() => setIsRotating(false), 500); // Disattiva la rotazione dopo 500ms
+    setIsRotating(true);
+    setTimeout(() => setIsRotating(false), 500);
   };
 
   const adjustFontSize = (increase) =>
@@ -286,7 +314,7 @@ const ExcerptComponent = () => {
         <button onClick={toggleTheme}>
           <WbIncandescentIcon
             fontSize="large"
-            className={`rotate ${darkMode ? "dark" : ""}`} // Applica la classe 'dark' quando darkMode è attivo
+            className={`rotate ${darkMode ? "dark" : ""}`}
             style={{ color: darkMode ? "#fff" : "#000" }}
           />
         </button>
