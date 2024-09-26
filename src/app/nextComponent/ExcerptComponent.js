@@ -5,11 +5,10 @@ import { useSearchParams, useRouter } from "next/navigation";
 import Lottie from "react-lottie";
 import AIcon from "@mui/icons-material/TextIncrease";
 import ArrowDownwardIcon from "@mui/icons-material/TextDecrease";
-
 import FavoriteIcon from "@mui/icons-material/Favorite"; // Cuore per il like
 import ClearIcon from "@mui/icons-material/Clear"; // X per il dislike
-
 import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
+import CoffeeIcon from "@mui/icons-material/LocalCafe"; // Icona CoffeeApp
 import loadingAnimation from "./alien.json";
 import "./transitionStyles.css";
 import { useMediaQuery } from "@mui/material";
@@ -33,6 +32,9 @@ const normalizeExcerpt = (excerpt) => {
 };
 
 const MINIMUM_CHARACTERS = 100; // Numero minimo di caratteri per un estratto valido
+const REFERENCE_TEXT =
+  `Seduta sul ciglio della strada Lena guarda il carretto salire verso di lei, e pensa "Vengo dall'Alabama. Quanta strada! Tutto a piedi dall'Alabama, un bel pezzo di strada!". Pensando al tempo stesso "e sono già nel Mississippi dopo neanche un mese che cammino, più lontano da casa di quanto non sia mai stata, più lontano dalla segheria di Doane`
+    .length;
 
 const allGenres = [
   "Fantasy",
@@ -169,6 +171,7 @@ const ExcerptComponent = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
 
   const [isRotating, setIsRotating] = useState(false);
+  const [excerptCount, setExcerptCount] = useState(0); // Count for excerpts
 
   useEffect(() => {
     const genresQuery = searchParams.get("genres");
@@ -213,6 +216,7 @@ const ExcerptComponent = () => {
           excerpt,
           cover_src: randomBook.cover_src,
         });
+        setExcerptCount((prevCount) => prevCount + 1); // Increase the count
       }
     }
 
@@ -242,6 +246,9 @@ const ExcerptComponent = () => {
 
   const adjustFontSize = (increase) =>
     setFontSize((prevSize) => (increase ? prevSize + 2 : prevSize - 2));
+
+  const shouldShowDonation =
+    excerptCount >= 5 && bookData.excerpt.length < REFERENCE_TEXT;
 
   return (
     <div
@@ -312,6 +319,47 @@ const ExcerptComponent = () => {
             <p style={{ fontSize: `${fontSize}px`, textAlign: "justify" }}>
               {bookData.excerpt}
             </p>
+
+            {shouldShowDonation && (
+              <div
+                style={{
+                  marginTop: "1rem",
+                  padding: "0.5rem",
+                  border: darkMode ? "1px solid #FFCC00" : "1px solid #FF9900",
+                  backgroundColor: darkMode ? "#222" : "#fafafa",
+                  color: darkMode ? "#FFCC00" : "#FF9900",
+                  textAlign: "center",
+                  borderRadius: "8px",
+                }}
+              >
+                <p>
+                  Questo sito è offerto gratuitamente! Se vuoi supportare lo
+                  sviluppo, considera una piccola donazione!
+                </p>
+                <a
+                  href="https://buymeacoffee.com/massimiliaf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textDecoration: "none",
+                    color: darkMode ? "#FFCC00" : "#FF9900",
+                    fontWeight: "bold",
+                  }}
+                >
+                  <CoffeeIcon
+                    style={{
+                      marginRight: "0.5rem",
+                      fontSize: "30px",
+                      color: darkMode ? "#FFCC00" : "#FF9900",
+                    }}
+                  />
+                  Supportami con un caffè!
+                </a>
+              </div>
+            )}
           </div>
 
           <div
