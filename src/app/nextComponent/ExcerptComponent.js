@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Lottie from "react-lottie";
+import { CSSTransition } from "react-transition-group"; // Importiamo CSSTransition
 import AIcon from "@mui/icons-material/TextIncrease";
 import ArrowDownwardIcon from "@mui/icons-material/TextDecrease";
 import FavoriteIcon from "@mui/icons-material/Favorite";
@@ -167,6 +168,8 @@ const ExcerptComponent = () => {
   const [isRotating, setIsRotating] = useState(false);
   const [excerptCount, setExcerptCount] = useState(0);
 
+  const [inTransition, setInTransition] = useState(false); // Aggiunto stato per la transizione
+
   useEffect(() => {
     const genresQuery = searchParams.get("genres");
     if (genresQuery) setSelectedGenres(genresQuery.split(","));
@@ -177,13 +180,16 @@ const ExcerptComponent = () => {
   }, [selectedGenres]);
 
   const generateRandomExcerpt = async () => {
-    setLoading(true);
+    setInTransition(true); // Inizia la transizione
 
     if (nextBookData) {
-      setBookData(nextBookData); // Imposta il libro pre-caricato come attuale
-      setNextBookData(null); // Resetta il prossimo estratto
-      preLoadNextExcerpt(); // Pre-carica il prossimo
-      setLoading(false);
+      setTimeout(() => {
+        setBookData(nextBookData); // Imposta il libro pre-caricato come attuale
+        setNextBookData(null); // Resetta il prossimo estratto
+        preLoadNextExcerpt(); // Pre-carica il prossimo
+        setLoading(false);
+        setInTransition(false); // Termina la transizione
+      }, 500); // Tempo per la transizione
       return;
     }
 
@@ -222,6 +228,7 @@ const ExcerptComponent = () => {
     }
 
     setLoading(false);
+    setInTransition(false); // Termina la transizione
   };
 
   const preLoadNextExcerpt = async () => {
@@ -336,59 +343,68 @@ const ExcerptComponent = () => {
         </div>
       ) : (
         <>
-          <div
-            style={{
-              flex: 1,
-              overflowY: "auto",
-              padding: "0.5rem",
-              maxHeight: "calc(100vh - 140px)",
-            }}
+          <CSSTransition
+            in={!inTransition}
+            timeout={500}
+            classNames="fade"
+            unmountOnExit
           >
-            <p style={{ fontSize: `${fontSize}px`, textAlign: "justify" }}>
-              {bookData.excerpt}
-            </p>
+            <div
+              style={{
+                flex: 1,
+                overflowY: "auto",
+                padding: "0.5rem",
+                maxHeight: "calc(100vh - 140px)",
+              }}
+            >
+              <p style={{ fontSize: `${fontSize}px`, textAlign: "justify" }}>
+                {bookData.excerpt}
+              </p>
 
-            {shouldShowDonation && (
-              <div
-                style={{
-                  marginTop: "1rem",
-                  padding: "0.5rem",
-                  border: darkMode ? "1px solid #FFCC00" : "1px solid #FF9900",
-                  backgroundColor: darkMode ? "#222" : "#fafafa",
-                  color: darkMode ? "#FFCC00" : "#FF9900",
-                  textAlign: "center",
-                  borderRadius: "8px",
-                }}
-              >
-                <p>
-                  Questo sito è offerto gratuitamente! Se vuoi supportare lo
-                  sviluppo, considera una piccola donazione!
-                </p>
-                <a
-                  href="https://buymeacoffee.com/massimiliaf"
-                  target="_blank"
-                  rel="noopener noreferrer"
+              {shouldShowDonation && (
+                <div
                   style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    textDecoration: "none",
+                    marginTop: "1rem",
+                    padding: "0.5rem",
+                    border: darkMode
+                      ? "1px solid #FFCC00"
+                      : "1px solid #FF9900",
+                    backgroundColor: darkMode ? "#222" : "#fafafa",
                     color: darkMode ? "#FFCC00" : "#FF9900",
-                    fontWeight: "bold",
+                    textAlign: "center",
+                    borderRadius: "8px",
                   }}
                 >
-                  <CoffeeIcon
+                  <p>
+                    Questo sito è offerto gratuitamente! Se vuoi supportare lo
+                    sviluppo, considera una piccola donazione!
+                  </p>
+                  <a
+                    href="https://buymeacoffee.com/massimiliaf"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{
-                      marginRight: "0.5rem",
-                      fontSize: "30px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      textDecoration: "none",
                       color: darkMode ? "#FFCC00" : "#FF9900",
+                      fontWeight: "bold",
                     }}
-                  />
-                  Supportami con un caffè!
-                </a>
-              </div>
-            )}
-          </div>
+                  >
+                    <CoffeeIcon
+                      style={{
+                        marginRight: "0.5rem",
+                        fontSize: "30px",
+                        color: darkMode ? "#FFCC00" : "#FF9900",
+                      }}
+                    />
+                    Supportami con un caffè!
+                  </a>
+                </div>
+              )}
+            </div>
+          </CSSTransition>
 
           <div
             style={{
