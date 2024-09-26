@@ -20,6 +20,7 @@ import historicalData from "./historical.json";
 import mysteryData from "./mystery.json";
 import fantasyData from "./fantasy.json";
 import horrorData from "./horror.json";
+import adventureData from "./adventure.json";
 
 // Funzione per normalizzare e ripulire l'estratto
 const normalizeExcerpt = (excerpt) => {
@@ -42,6 +43,7 @@ const allGenres = [
   "Historical",
   "Adventure",
   "Poetry",
+  "Adventure",
 ];
 
 // Funzione per estrarre l'estratto specifico
@@ -133,6 +135,8 @@ const getGenreData = (genre) => {
       return fantasyData.Fantasy;
     case "Horror":
       return horrorData.Horror;
+    case "Adventure":
+      return adventureData.Adventure;
     default:
       console.error("Genere non trovato:", genre);
       return [];
