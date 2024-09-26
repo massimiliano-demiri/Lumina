@@ -21,6 +21,7 @@ import mysteryData from "./mystery.json";
 import fantasyData from "./fantasy.json";
 import horrorData from "./horror.json";
 import adventureData from "./adventure.json";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 // Funzione per normalizzare e ripulire l'estratto
 const normalizeExcerpt = (excerpt) => {
@@ -280,94 +281,117 @@ const ExcerptComponent = () => {
   };
 
   const adjustFontSize = (increase) =>
-    setFontSize((prevSize) => (increase ? prevSize + 2 : prevSize - 2));
+    setFontSize((prevSize) => (increase ? (prevSize<28? prevSize + 2: prevSize) : (prevSize>14? prevSize - 2: prevSize)));
 
   const shouldShowDonation =
     excerptCount >= 5 && bookData.excerpt.length < REFERENCE_TEXT;
 
   return (
     <div
+        className={"w-full h-full p-4 flex flex-col justify-between items-center"}
       style={{
-        padding: "0.5rem",
         backgroundColor: darkMode ? "#121212" : "#f0f0f0",
         color: darkMode ? "#fff" : "#000",
-        minHeight: "100vh",
         fontFamily: "'Noto Serif', serif",
-        display: "flex",
-        flexDirection: "column",
-        maxWidth: "100vw",
       }}
     >
       <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "15px",
-          marginBottom: "0.5rem",
-        }}
+          className={`flex ${!loading ? "justify-between" : "justify-center"} w-full gap-6 h-1/12 items-center`}
       >
-        <button onClick={() => adjustFontSize(true)}>
-          <AIcon
-            fontSize="large"
-            style={{ color: darkMode ? "#fff" : "#000" }}
-          />
-        </button>
-        <button onClick={() => adjustFontSize(false)}>
-          <ArrowDownwardIcon
-            fontSize="large"
-            style={{ color: darkMode ? "#fff" : "#000" }}
-          />
-        </button>
-        <button onClick={toggleTheme}>
-          <WbIncandescentIcon
-            fontSize="large"
-            className={`rotate ${darkMode ? "dark" : ""}`}
-            style={{ color: darkMode ? "#fff" : "#000" }}
-          />
-        </button>
-      </div>
+        {!loading ? (
+            <>
+              <ArrowBackIcon onClick={() => router.push("/selectGenre")}/>
+              <div className={`flex justify-center gap-6 h-full items-center`}>
+                <button onClick={() => adjustFontSize(true)}>
+                  <AIcon
+                      fontSize="large"
+                      style={{color: darkMode ? "#fff" : "#000"}}
+                  />
+                </button>
+                <button onClick={() => adjustFontSize(false)}>
+                  <ArrowDownwardIcon
+                      fontSize="large"
+                      style={{color: darkMode ? "#fff" : "#000"}}
+                  />
+                </button>
+                <button onClick={toggleTheme}>
+                  <WbIncandescentIcon
+                      fontSize="large"
+                      className={`rotate ${darkMode ? "dark" : ""}`}
+                      style={{color: darkMode ? "#fff" : "#000"}}
+                  />
+                </button>
+              </div>
+              <div></div>
+            </>
+            ) :
+              <button onClick={toggleTheme}>
+                <WbIncandescentIcon
+                    fontSize="large"
+                    className={`rotate ${darkMode ? "dark" : ""}`}
+                    style={{color: darkMode ? "#fff" : "#000"}}
+                />
+              </button>
+      }
 
-      {loading ? (
-        <div
-          style={{ display: "flex", justifyContent: "center", height: "60vh" }}
-        >
-          <Lottie
-            options={{
-              loop: true,
-              autoplay: true,
-              animationData: loadingAnimation,
-            }}
-            height={200}
-            width={200}
-          />
-        </div>
-      ) : (
-        <>
-          <CSSTransition
-            in={!inTransition}
-            timeout={500}
-            classNames="fade"
-            unmountOnExit
-          >
+    </div>
+
+{loading ? (
+          <>
             <div
-              style={{
-                flex: 1,
-                overflowY: "auto",
-                padding: "0.5rem",
-                maxHeight: "calc(100vh - 140px)",
-              }}
+                className={"flex justify-center h-[60%] items-center"}
             >
-              <p style={{ fontSize: `${fontSize}px`, textAlign: "justify" }}>
-                {bookData.excerpt}
-              </p>
+              <Lottie
+                options={{
+                  loop: true,
+                  autoplay: true,
+                  animationData: loadingAnimation,
+                }}
+                height={200}
+                width={200}
+              />
+            </div>
+            <div
+                onClick={() => router.push("/selectGenre")}
+                className={'cursor-pointer flex items-center justify-center px-5 py-3'}
+                style={{
+                  borderRadius: "30px",
+                  backgroundColor: "#282828",
+                  color: "#fff",
+                  fontSize: "1rem",
+                  fontWeight: "500",
+                  transition: "background-color 0.3s ease, transform 0.3s ease",
+                }}
+                onMouseEnter={(e) => (e.target.style.transform = "scale(1.05)")}
+                onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+            >
+              <ArrowBackIcon style={{marginRight: "8px"}}/>
+              Torna ai generi
+            </div>
+          </>
+      ) : (
+          <>
+            <CSSTransition
+                in={!inTransition}
+                timeout={500}
+                classNames="fade"
+                unmountOnExit
+            >
+              <div
+                  className={"flex flex-col items-center gap-2 overflow-y-auto p-2 h-[80%]"}
 
-              {shouldShowDonation && (
-                <div
-                  style={{
-                    marginTop: "1rem",
-                    padding: "0.5rem",
-                    border: darkMode
-                      ? "1px solid #FFCC00"
+              >
+                <p style={{fontSize: `${fontSize}px`, textAlign: "justify"}}>
+                  {bookData.excerpt}
+                </p>
+
+                {shouldShowDonation && (
+                    <div
+                        style={{
+                          marginTop: "1rem",
+                          padding: "0.5rem",
+                          border: darkMode
+                              ? "1px solid #FFCC00"
                       : "1px solid #FF9900",
                     backgroundColor: darkMode ? "#222" : "#fafafa",
                     color: darkMode ? "#FFCC00" : "#FF9900",
@@ -407,16 +431,7 @@ const ExcerptComponent = () => {
           </CSSTransition>
 
           <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              gap: "20px",
-              position: "fixed",
-              bottom: "20px",
-              left: "50%",
-              transform: "translateX(-50%)",
-              zIndex: 1,
-            }}
+              className={"h-10% flex justify-center gap-6 "}
           >
             <button
               onClick={generateRandomExcerpt}

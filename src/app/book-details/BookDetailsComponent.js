@@ -81,21 +81,15 @@ const BookDetailsComponent = () => {
 
   return (
     <div
+        className={"p-4 h-full w-full flex flex-col items-center justify-between relative overflow-hidden"}
       style={{
-        padding: "2rem",
-        backgroundColor: "#121212",
-        color: "#fff",
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        position: "relative",
-        overflow: "hidden",
-      }}
+            backgroundColor: "#121212",
+            color: "#fff"
+          }}
     >
       {isLoaded ? (
         <>
+          <div></div>
           {coverImage ? (
             <img
               src={coverImage}
@@ -136,7 +130,7 @@ const BookDetailsComponent = () => {
             </div>
           )}
 
-          <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
+          <div style={{ textAlign: "center" }}>
             <h2 style={{ fontSize: "2rem", fontWeight: "bold" }}>{title}</h2>
             <h3
               style={{
@@ -152,9 +146,8 @@ const BookDetailsComponent = () => {
           <div
             style={{
               textAlign: "center",
-              marginTop: "1.5rem",
               maxWidth: "600px",
-              maxHeight: "20vh",
+              maxHeight: "20%",
               overflow: "auto",
             }}
           >
@@ -195,14 +188,8 @@ const BookDetailsComponent = () => {
 
           <div
             onClick={() => router.back()}
+            className={'cursor-pointer flex items-center justify-center px-5 py-3'}
             style={{
-              position: "absolute",
-              bottom: "20px",
-              cursor: "pointer",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              padding: "0.8rem 1.5rem",
               borderRadius: "30px",
               backgroundColor: "#282828",
               color: "#fff",
@@ -218,16 +205,18 @@ const BookDetailsComponent = () => {
           </div>
         </>
       ) : (
-        <Lottie
-          options={{
-            loop: true,
-            autoplay: true,
-            animationData: bookLoadingAnimation,
-            rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
-          }}
-          height={200}
-          width={200}
-        />
+          <div className={"w-full h-full flex items-center justify-center"}>
+            <Lottie
+              options={{
+                loop: true,
+                autoplay: true,
+                animationData: bookLoadingAnimation,
+                rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
+              }}
+              height={200}
+              width={200}
+            />
+          </div>
       )}
     </div>
   );

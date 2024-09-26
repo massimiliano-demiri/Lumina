@@ -55,16 +55,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
       <div
-        style={{
-          position: "relative",
-          height: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          flexDirection: "column",
-          padding: "0 20px",
-          boxSizing: "border-box",
-        }}
+          className={"h-full w-full flex flex-col p-4 items-center justify-around relative"}
       >
         {/* Particelle animate */}
         <ParticlesComponent />
@@ -78,9 +69,10 @@ export default function Home() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            justifyContent: "center",
+            justifyContent: "space-around",
             gap: "24px",
             width: "100%",
+            height: "100%",
             transform: "translate(var(--parallax-x), var(--parallax-y))",
             transition: "transform 0.1s ease-out",
           }}
@@ -91,7 +83,6 @@ export default function Home() {
               fontFamily: "'Playfair Display', serif",
               fontWeight: "bold",
               color: "#ffffff",
-              marginBottom: "16px",
               letterSpacing: "0.05em",
             }}
           >
@@ -106,7 +97,6 @@ export default function Home() {
               fontFamily: "'Roboto', sans-serif",
               fontSize: "18px",
               color: "#ccc",
-              marginBottom: "20px", // Spazio inferiore ridotto
               maxWidth: "600px",
               lineHeight: "1.5",
             }}

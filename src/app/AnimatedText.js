@@ -98,12 +98,12 @@ const TypingEffect = () => {
       component="p"
       sx={{
         color: "#f0f0f0",
-        marginBottom: "2rem",
         fontFamily: "'Roboto', sans-serif",
         fontSize: "24px",
         maxWidth: "600px",
         textAlign: "center",
         minHeight: "60px",
+        height: "20%",
       }}
     >
       {currentPhrase}

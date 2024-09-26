@@ -131,9 +131,10 @@ const SelectGenre = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center",
-        height: "100vh",
-        padding: isMobile ? "0.5rem" : "1rem",
+        justifyContent: "space-around",
+        height: "100%",
+        width: "100%",
+        padding: isMobile ? "1rem" : "2rem",
         color: "#fff",
         backgroundColor: "#121212",
         overflowY: "hidden", // Disabilita lo scrolling verticale
@@ -145,7 +146,7 @@ const SelectGenre = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            height: "100vh",
+            height: "100%",
             width: "100%",
           }}
         >
@@ -162,6 +163,7 @@ const SelectGenre = () => {
           {/* Scritta iniziale o emoticon a seconda della selezione */}
           {selectedGenres.length === 0 ? (
             <motion.div
+                className={'h-[10%]'}
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -176,11 +178,12 @@ const SelectGenre = () => {
                   fontSize: isMobile ? "1.4rem" : "2rem",
                 }}
               >
-                Cosa ti piace leggere? Scegli fino a 3 generi!
+                Scegli fino a 3 generi!
               </Typography>
             </motion.div>
           ) : (
             <motion.div
+                className={'h-[10%]'}
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.6 }}
@@ -212,10 +215,11 @@ const SelectGenre = () => {
           )}
 
           {/* Generi */}
-          <Grid container spacing={1} justifyContent="center">
+          <Grid container spacing={1} justifyContent="center" height={"40%"}>
             {genres.map((genre) => (
               <Grid item key={genre.id} xs={4} sm={4}>
                 <motion.div
+                    className={"h-full"}
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: genre.id * 0.1 }}
@@ -225,7 +229,7 @@ const SelectGenre = () => {
                   <Card
                     onClick={() => handleGenreClick(genre.name)}
                     sx={{
-                      height: isMobile ? 80 : 100,
+                      height: '100%',
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -264,22 +268,19 @@ const SelectGenre = () => {
 
           {/* Filtro per selezionare l'anno */}
           <motion.div
+              className={'w-full flex flex-col items-center'}
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <Box
-              sx={{
-                width: "80%",
-                marginBottom: "1rem",
-                marginTop: "1rem",
-              }}
+            <div
+              className={"w-4/5 flex flex-col items-center gap-2"}
             >
               <Typography
                 variant="body1"
-                sx={{ color: "#90caf9", fontWeight: "bold" }}
+                sx={{ color: "#90caf9", fontWeight: "bold", textAlign: "center" }}
               >
-                Seleziona un intervallo di anni:
+                Periodo
               </Typography>
               <Slider
                 value={yearRange}
@@ -288,7 +289,7 @@ const SelectGenre = () => {
                 valueLabelFormat={(x) => `${x}`}
                 min={1900}
                 max={2023}
-                sx={{ color: "#7986cb", marginBottom: "1rem" }}
+                sx={{ color: "#7986cb"}}
               />
               <Typography
                 variant="body2"
@@ -299,14 +300,15 @@ const SelectGenre = () => {
                   fontSize: "0.85rem",
                 }}
               >
-                Intervallo: {yearRange[0]} - {yearRange[1]}
+                {yearRange[0]} - {yearRange[1]}
               </Typography>
-            </Box>
+            </div>
           </motion.div>
 
           {/* Bottone per iniziare il viaggio */}
-          {selectedGenres.length > 0 && (
+          {selectedGenres.length > 0 ? (
             <motion.div
+                className={"h-[10%]"}
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.6 }}
@@ -329,7 +331,7 @@ const SelectGenre = () => {
                 Inizia il tuo viaggio!
               </Button>
             </motion.div>
-          )}
+          ):<div className={"h-[10%]"}></div>}
         </>
       )}
     </Box>
