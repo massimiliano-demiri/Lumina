@@ -29,6 +29,17 @@ const normalizeExcerpt = (excerpt) => {
     .replace(/[^\w\s.,!?'"()]/g, ""); // Rimuove caratteri speciali
 };
 
+const allGenres = [
+  "Fantasy",
+  "Horror",
+  "Mystery",
+  "Romance",
+  "Science Fiction",
+  "Historical",
+  "Adventure",
+  "Poetry",
+];
+
 // Funzione per estrarre l'estratto specifico
 const fetchExcerptFromEndpoint = async (book) => {
   if (!book || !book.endpoint) {
@@ -88,8 +99,10 @@ const fetchExcerptFromEndpoint = async (book) => {
   }
 };
 
-// Funzione per scegliere un genere casuale
 const getRandomGenre = (selectedGenres) => {
+  if (selectedGenres.includes("Random")) {
+    return allGenres[Math.floor(Math.random() * allGenres.length)];
+  }
   if (selectedGenres.length === 1) return selectedGenres[0];
   return selectedGenres[Math.floor(Math.random() * selectedGenres.length)];
 };
@@ -194,12 +207,17 @@ const ExcerptComponent = () => {
   };
 
   const handleBookDetails = () => {
+    const genresToPass = selectedGenres.includes("Random")
+      ? allGenres
+      : selectedGenres;
+
     const queryParams = new URLSearchParams({
       title: bookData.title,
       author: bookData.author,
       cover_src: bookData.cover_src,
-      genres: selectedGenres.join(","), // Passiamo i generi come array
+      genres: genresToPass.join(","), // Passiamo tutti i generi o quelli selezionati
     }).toString();
+
     router.push(`/book-details?${queryParams}`);
   };
 
