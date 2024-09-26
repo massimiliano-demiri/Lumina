@@ -21,13 +21,24 @@ import mysteryData from "./mystery.json";
 import fantasyData from "./fantasy.json";
 import horrorData from "./horror.json";
 
-// Funzione per normalizzare il testo
+// Funzione per normalizzare e ripulire l'estratto
 const normalizeExcerpt = (excerpt) => {
   return excerpt
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^\w\s.,!?'"()]/g, ""); // Rimuove caratteri speciali
+    .replace(/[\u0300-\u036f]/g, "") // Rimuove accenti
+    .replace(/[^\w\s.,!?'"()]/g, "") // Rimuove caratteri speciali
+    .replace(/\s+/g, " ") // Rimuove spazi multipli
+    .trim(); // Rimuove spazi all'inizio e alla fine
 };
+
+// Controlla se la prima parola dell'estratto è italiana (base semplificata)
+const isFirstWordItalian = (excerpt) => {
+  const firstWord = excerpt.split(" ")[0].toLowerCase();
+  const italianWords = ["il", "la", "i", "gli", "le", "un", "una", "e", "di"]; // Puoi espandere questa lista
+  return italianWords.includes(firstWord);
+};
+
+const MINIMUM_CHARACTERS = 100; // Numero minimo di caratteri per un estratto valido
 
 const allGenres = [
   "Fantasy",
@@ -87,7 +98,15 @@ const fetchExcerptFromEndpoint = async (book) => {
       }
     }
 
-    const normalizedExcerpt = normalizeExcerpt(excerpt.trim());
+    let normalizedExcerpt = normalizeExcerpt(excerpt.trim());
+
+    // Verifica se l'estratto soddisfa i requisiti minimi
+    if (
+      normalizedExcerpt.length < MINIMUM_CHARACTERS ||
+      !isFirstWordItalian(normalizedExcerpt)
+    ) {
+      normalizedExcerpt = ""; // Scarta estratti non validi
+    }
 
     return {
       title: book.titolo,
