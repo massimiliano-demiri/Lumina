@@ -187,6 +187,7 @@ const ExcerptComponent = () => {
       setTimeout(() => {
         setBookData(nextBookData); // Imposta il libro pre-caricato come attuale
         setNextBookData(null); // Resetta il prossimo estratto
+        setExcerptCount((prevCount) => prevCount + 1); // Incrementa il contatore solo quando l'utente vede l'estratto
         preLoadNextExcerpt(); // Pre-carica il prossimo
         setLoading(false);
         setInTransition(false); // Termina la transizione
@@ -223,7 +224,7 @@ const ExcerptComponent = () => {
           excerpt,
           cover_src: randomBook.cover_src,
         });
-        setExcerptCount((prevCount) => prevCount + 1);
+        setExcerptCount((prevCount) => prevCount + 1); // Incrementa il contatore solo quando l'utente vede l'estratto
         preLoadNextExcerpt(); // Pre-carica il prossimo estratto
       }
     }
@@ -281,14 +282,22 @@ const ExcerptComponent = () => {
   };
 
   const adjustFontSize = (increase) =>
-    setFontSize((prevSize) => (increase ? (prevSize<28? prevSize + 2: prevSize) : (prevSize>14? prevSize - 2: prevSize)));
+    setFontSize((prevSize) =>
+      increase
+        ? prevSize < 28
+          ? prevSize + 2
+          : prevSize
+        : prevSize > 14
+        ? prevSize - 2
+        : prevSize
+    );
 
   const shouldShowDonation =
     excerptCount >= 5 && bookData.excerpt.length < REFERENCE_TEXT;
 
   return (
     <div
-        className={"w-full h-full p-4 flex flex-col justify-between items-center"}
+      className={"w-full h-full p-4 flex flex-col justify-between items-center"}
       style={{
         backgroundColor: darkMode ? "#121212" : "#f0f0f0",
         color: darkMode ? "#fff" : "#000",
@@ -296,102 +305,104 @@ const ExcerptComponent = () => {
       }}
     >
       <div
-          className={`flex ${!loading ? "justify-between" : "justify-center"} w-full gap-6 h-1/12 items-center`}
+        className={`flex ${
+          !loading ? "justify-between" : "justify-center"
+        } w-full gap-6 h-1/12 items-center`}
       >
         {!loading ? (
-            <>
-              <ArrowBackIcon onClick={() => router.push("/selectGenre")}/>
-              <div className={`flex justify-center gap-6 h-full items-center`}>
-                <button onClick={() => adjustFontSize(true)}>
-                  <AIcon
-                      fontSize="large"
-                      style={{color: darkMode ? "#fff" : "#000"}}
-                  />
-                </button>
-                <button onClick={() => adjustFontSize(false)}>
-                  <ArrowDownwardIcon
-                      fontSize="large"
-                      style={{color: darkMode ? "#fff" : "#000"}}
-                  />
-                </button>
-                <button onClick={toggleTheme}>
-                  <WbIncandescentIcon
-                      fontSize="large"
-                      className={`rotate ${darkMode ? "dark" : ""}`}
-                      style={{color: darkMode ? "#fff" : "#000"}}
-                  />
-                </button>
-              </div>
-              <div></div>
-            </>
-            ) :
-              <button onClick={toggleTheme}>
-                <WbIncandescentIcon
-                    fontSize="large"
-                    className={`rotate ${darkMode ? "dark" : ""}`}
-                    style={{color: darkMode ? "#fff" : "#000"}}
+          <>
+            <ArrowBackIcon onClick={() => router.push("/selectGenre")} />
+            <div className={`flex justify-center gap-6 h-full items-center`}>
+              <button onClick={() => adjustFontSize(true)}>
+                <AIcon
+                  fontSize="large"
+                  style={{ color: darkMode ? "#fff" : "#000" }}
                 />
               </button>
-      }
-
-    </div>
-
-{loading ? (
-          <>
-            <div
-                className={"flex justify-center h-[60%] items-center"}
-            >
-              <Lottie
-                options={{
-                  loop: true,
-                  autoplay: true,
-                  animationData: loadingAnimation,
-                }}
-                height={200}
-                width={200}
-              />
+              <button onClick={() => adjustFontSize(false)}>
+                <ArrowDownwardIcon
+                  fontSize="large"
+                  style={{ color: darkMode ? "#fff" : "#000" }}
+                />
+              </button>
+              <button onClick={toggleTheme}>
+                <WbIncandescentIcon
+                  fontSize="large"
+                  className={`rotate ${darkMode ? "dark" : ""}`}
+                  style={{ color: darkMode ? "#fff" : "#000" }}
+                />
+              </button>
             </div>
-            <div
-                onClick={() => router.push("/selectGenre")}
-                className={'cursor-pointer flex items-center justify-center px-5 py-3'}
-                style={{
-                  borderRadius: "30px",
-                  backgroundColor: "#282828",
-                  color: "#fff",
-                  fontSize: "1rem",
-                  fontWeight: "500",
-                  transition: "background-color 0.3s ease, transform 0.3s ease",
-                }}
-                onMouseEnter={(e) => (e.target.style.transform = "scale(1.05)")}
-                onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
-            >
-              <ArrowBackIcon style={{marginRight: "8px"}}/>
-              Torna ai generi
-            </div>
+            <div></div>
           </>
+        ) : (
+          <button onClick={toggleTheme}>
+            <WbIncandescentIcon
+              fontSize="large"
+              className={`rotate ${darkMode ? "dark" : ""}`}
+              style={{ color: darkMode ? "#fff" : "#000" }}
+            />
+          </button>
+        )}
+      </div>
+
+      {loading ? (
+        <>
+          <div className={"flex justify-center h-[60%] items-center"}>
+            <Lottie
+              options={{
+                loop: true,
+                autoplay: true,
+                animationData: loadingAnimation,
+              }}
+              height={200}
+              width={200}
+            />
+          </div>
+          <div
+            onClick={() => router.push("/selectGenre")}
+            className={
+              "cursor-pointer flex items-center justify-center px-5 py-3"
+            }
+            style={{
+              borderRadius: "30px",
+              backgroundColor: "#282828",
+              color: "#fff",
+              fontSize: "1rem",
+              fontWeight: "500",
+              transition: "background-color 0.3s ease, transform 0.3s ease",
+            }}
+            onMouseEnter={(e) => (e.target.style.transform = "scale(1.05)")}
+            onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+          >
+            <ArrowBackIcon style={{ marginRight: "8px" }} />
+            Torna ai generi
+          </div>
+        </>
       ) : (
-          <>
-            <CSSTransition
-                in={!inTransition}
-                timeout={500}
-                classNames="fade"
-                unmountOnExit
+        <>
+          <CSSTransition
+            in={!inTransition}
+            timeout={500}
+            classNames="fade"
+            unmountOnExit
+          >
+            <div
+              className={
+                "flex flex-col items-center gap-2 overflow-y-auto p-2 h-[80%]"
+              }
             >
-              <div
-                  className={"flex flex-col items-center gap-2 overflow-y-auto p-2 h-[80%]"}
+              <p style={{ fontSize: `${fontSize}px`, textAlign: "justify" }}>
+                {bookData.excerpt}
+              </p>
 
-              >
-                <p style={{fontSize: `${fontSize}px`, textAlign: "justify"}}>
-                  {bookData.excerpt}
-                </p>
-
-                {shouldShowDonation && (
-                    <div
-                        style={{
-                          marginTop: "1rem",
-                          padding: "0.5rem",
-                          border: darkMode
-                              ? "1px solid #FFCC00"
+              {shouldShowDonation && (
+                <div
+                  style={{
+                    marginTop: "1rem",
+                    padding: "0.5rem",
+                    border: darkMode
+                      ? "1px solid #FFCC00"
                       : "1px solid #FF9900",
                     backgroundColor: darkMode ? "#222" : "#fafafa",
                     color: darkMode ? "#FFCC00" : "#FF9900",
@@ -430,9 +441,7 @@ const ExcerptComponent = () => {
             </div>
           </CSSTransition>
 
-          <div
-              className={"h-10% flex justify-center gap-6 "}
-          >
+          <div className={"h-10% flex justify-center gap-6"}>
             <button
               onClick={generateRandomExcerpt}
               style={{
@@ -441,13 +450,32 @@ const ExcerptComponent = () => {
                 padding: "15px",
                 border: "none",
                 cursor: "pointer",
-                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
-                transition: "transform 0.3s ease",
+                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.15)",
+                transition: "transform 0.3s ease, background-color 0.3s ease",
               }}
-              onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
-              onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+              onMouseEnter={(e) => {
+                e.target.style.transform = "scale(1.3)";
+                e.target.style.backgroundColor = "#FF4561";
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.transform = "scale(1)";
+                e.target.style.backgroundColor = "#FF1744";
+              }}
             >
-              <ClearIcon style={{ color: "#fff", fontSize: "30px" }} />
+              <ClearIcon
+                style={{
+                  color: "#fff",
+                  fontSize: "26px",
+                  transition: "transform 0.3s ease, opacity 0.3s ease",
+                  opacity: 0.9,
+                }}
+                onMouseEnter={(e) =>
+                  (e.target.style.transform = "rotate(20deg)")
+                }
+                onMouseLeave={(e) =>
+                  (e.target.style.transform = "rotate(0deg)")
+                }
+              />
             </button>
 
             <button
@@ -458,13 +486,32 @@ const ExcerptComponent = () => {
                 padding: "15px",
                 border: "none",
                 cursor: "pointer",
-                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
-                transition: "transform 0.3s ease",
+                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.15)",
+                transition: "transform 0.3s ease, background-color 0.3s ease",
               }}
-              onMouseEnter={(e) => (e.target.style.transform = "scale(1.2)")}
-              onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
+              onMouseEnter={(e) => {
+                e.target.style.transform = "scale(1.3)";
+                e.target.style.backgroundColor = "#FFB84D";
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.transform = "scale(1)";
+                e.target.style.backgroundColor = "#FF9900";
+              }}
             >
-              <FavoriteIcon style={{ color: "#fff", fontSize: "30px" }} />
+              <FavoriteIcon
+                style={{
+                  color: "#fff",
+                  fontSize: "26px",
+                  transition: "transform 0.3s ease, opacity 0.3s ease",
+                  opacity: 0.9,
+                }}
+                onMouseEnter={(e) =>
+                  (e.target.style.transform = "rotate(-20deg)")
+                }
+                onMouseLeave={(e) =>
+                  (e.target.style.transform = "rotate(0deg)")
+                }
+              />
             </button>
           </div>
         </>
