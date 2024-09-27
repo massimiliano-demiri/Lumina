@@ -445,72 +445,64 @@ const ExcerptComponent = () => {
             <button
               onClick={generateRandomExcerpt}
               style={{
-                backgroundColor: "#FF1744",
+                background: "linear-gradient(135deg, #7986cb, #5c6bc0)",
                 borderRadius: "50%",
                 padding: "15px",
                 border: "none",
                 cursor: "pointer",
-                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.15)",
-                transition: "transform 0.3s ease, background-color 0.3s ease",
+                boxShadow: "0px 8px 16px rgba(121, 134, 203, 0.7)",
+                transition: "transform 0.3s ease, background 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 e.target.style.transform = "scale(1.3)";
-                e.target.style.backgroundColor = "#FF4561";
+                e.target.style.background =
+                  "linear-gradient(135deg, #5c6bc0, #303f9f)";
               }}
               onMouseLeave={(e) => {
                 e.target.style.transform = "scale(1)";
-                e.target.style.backgroundColor = "#FF1744";
+                e.target.style.background =
+                  "linear-gradient(135deg, #7986cb, #5c6bc0)";
               }}
             >
               <ClearIcon
                 style={{
                   color: "#fff",
                   fontSize: "26px",
-                  transition: "transform 0.3s ease, opacity 0.3s ease",
+                  transition: "transform 0.3s ease",
                   opacity: 0.9,
                 }}
-                onMouseEnter={(e) =>
-                  (e.target.style.transform = "rotate(20deg)")
-                }
-                onMouseLeave={(e) =>
-                  (e.target.style.transform = "rotate(0deg)")
-                }
               />
             </button>
 
             <button
               onClick={handleBookDetails}
               style={{
-                backgroundColor: "#FF9900",
+                background: "linear-gradient(135deg, #5c6bc0, #7986cb)",
                 borderRadius: "50%",
                 padding: "15px",
                 border: "none",
                 cursor: "pointer",
-                boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.15)",
-                transition: "transform 0.3s ease, background-color 0.3s ease",
+                boxShadow: "0px 8px 16px rgba(121, 134, 203, 0.7)",
+                transition: "transform 0.3s ease, background 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 e.target.style.transform = "scale(1.3)";
-                e.target.style.backgroundColor = "#FFB84D";
+                e.target.style.background =
+                  "linear-gradient(135deg, #303f9f, #5c6bc0)";
               }}
               onMouseLeave={(e) => {
                 e.target.style.transform = "scale(1)";
-                e.target.style.backgroundColor = "#FF9900";
+                e.target.style.background =
+                  "linear-gradient(135deg, #5c6bc0, #7986cb)";
               }}
             >
               <FavoriteIcon
                 style={{
                   color: "#fff",
                   fontSize: "26px",
-                  transition: "transform 0.3s ease, opacity 0.3s ease",
+                  transition: "transform 0.3s ease",
                   opacity: 0.9,
                 }}
-                onMouseEnter={(e) =>
-                  (e.target.style.transform = "rotate(-20deg)")
-                }
-                onMouseLeave={(e) =>
-                  (e.target.style.transform = "rotate(0deg)")
-                }
               />
             </button>
           </div>
