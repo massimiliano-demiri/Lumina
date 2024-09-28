@@ -1,57 +1,21 @@
 {
     "Horror": [
         {
-            "autore": "Sant'Agostino (Agostino Aurelio)",
-            "titolo": "I Nibelunghi",
-            "genere": "Horror",
-            "isbn": "9788806236618",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806236618-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Muriel Barbery",
-            "titolo": "Mal'aria",
-            "genere": "Horror",
-            "isbn": "9788876845185",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788876845185-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Anton Giulio Barrili",
             "titolo": "Il capolavoro sconosciuto",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Camillo Boito",
-            "titolo": "Les diaboliques",
-            "genere": "Horror",
-            "isbn": "0874160669",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0874160669-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "George Borrow",
             "titolo": "Un crimine bellissimo",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Dante Alighieri",
-            "titolo": "Bosque (Bosque)",
-            "genere": "Horror",
-            "isbn": "225311989X",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/225311989X-L.jpg",
             "genere_macro": "Horror"
         },
         {
@@ -73,15 +37,6 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Diego De Silva",
-            "titolo": "Gorilla blues",
-            "genere": "Horror",
-            "isbn": "9788804509899",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804509899-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "David Deutsch",
             "titolo": "Il karma del Gorilla",
             "genere": "Horror",
@@ -91,55 +46,19 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Michael Dobbs",
-            "titolo": "The Three Stigmata of Palmer Eldritch",
-            "genere": "Horror",
-            "isbn": "0679736662",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0679736662-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Carlo Dossi (Carlo Alberto Pisani Dossi)",
-            "titolo": "Bleak House",
-            "genere": "Horror",
-            "isbn": "9781443414005",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781443414005-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Ranpo Edogawa (Taro Hirai)",
             "titolo": "La paura è un virus",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipite.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Gianni Farinetti",
-            "titolo": "Io uccido",
-            "genere": "Horror",
-            "isbn": "9788884905666",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788884905666-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "Ann Featherstone",
             "titolo": "Un anno terribile",
             "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Malika Ferdjoukh",
-            "titolo": "The Case of the Haunted Writer (Il caso dello scrittore tormentato)",
-            "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitf.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -148,36 +67,9 @@
             "autore": "Francis Scott Fitzgerald",
             "titolo": "Dissolvenza incrociata",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitf.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Ennio Flaiano",
-            "titolo": "Seven Dead",
-            "genere": "Horror",
-            "isbn": "146420909X",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/146420909X-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Valentin-Esprit Fléchier",
-            "titolo": "As I Lay Dying",
-            "genere": "Horror",
-            "isbn": "0824068092",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0824068092-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Jean-Pierre Claris de Florian",
-            "titolo": "The Sound and the Fury",
-            "genere": "Horror",
-            "isbn": "9798650533665",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9798650533665-L.jpg",
             "genere_macro": "Horror"
         },
         {
@@ -190,51 +82,6 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Gao Xingjian",
-            "titolo": "The Fiery Cross",
-            "genere": "Horror",
-            "isbn": "0440221668",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0440221668-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Erle Stanley Gardner",
-            "titolo": "A Breath of Snow and Ashes",
-            "genere": "Horror",
-            "isbn": "0385340397",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0385340397-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Ada Gobetti",
-            "titolo": "Unruhige Nacht (Notte inquieta)",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Nikolaj Vasil'evich Gogol'",
-            "titolo": "Urfaust",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Arthur Golden",
-            "titolo": "Urfaust",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Oliver Goldsmith",
             "titolo": "I dolori del giovane Werther",
             "genere": "Horror",
@@ -244,64 +91,10 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Gottfried von Strassburg",
-            "titolo": "Peterburgskie povesti: Nos",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Kenneth Grahame",
-            "titolo": "Pochozdenija Cicikova ili mertvyja dushi (Le anime morte)",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Egyd Gstättner",
-            "titolo": "Un'arma in casa",
-            "genere": "Horror",
-            "isbn": "9788807015441",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788807015441-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Alex Haley",
             "titolo": "Lo strano caso del cane ucciso a mezzanotte",
             "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Knut Hamsun",
-            "titolo": "Meurtre dans un manoir anglais (Il gioco del delitto)",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Thea von Harbou Lang",
-            "titolo": "The Speckled People",
-            "genere": "Horror",
-            "isbn": "0007705425",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0007705425-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Natalie Haynes",
-            "titolo": "Der Chinese des Schmerzes (Il cinese del dolore)",
-            "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipith.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -310,53 +103,17 @@
             "autore": "Robert Anson Heinlein",
             "titolo": "Wunschloses Unglück (Infelicità senza desideri)",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipith.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Frank Patrick Herbert",
-            "titolo": "Bloodstone",
-            "genere": "Horror",
-            "isbn": "9780446306294",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780446306294-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Jack Iams (Samuel Harvey Iams Jr.)",
-            "titolo": "Dos crímenes (Due delitti)",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipiti.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Vsevolod Vjaceslavovic Ivanov",
-            "titolo": "Last Night in Twisted River (...)",
-            "genere": "Horror",
-            "isbn": "1588369005",
-            "endpoint": "https://www.incipitario.com/incipiti.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1588369005-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "Richard Jefferies",
             "titolo": "Sous l'acacia d'Occidente (L'ultimo nemico)",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitj.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Faye Kellerman",
-            "titolo": "The Curse of the House of Fosket",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitk.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
         },
@@ -364,25 +121,7 @@
             "autore": "Mary Kelly",
             "titolo": "La maledizione di casa Foskett",
             "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitk.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Milward Kennedy",
-            "titolo": "Death Descends on Saturn Villa",
-            "genere": "Horror",
-            "isbn": "9781781859704",
-            "endpoint": "https://www.incipitario.com/incipitk.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781781859704-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Ken Kesey",
-            "titolo": "Schlaffstunde (Le scarpe di Fellini)",
-            "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitk.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -391,34 +130,16 @@
             "autore": "Camilla Läckberg",
             "titolo": "Ferito a morte",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitlale.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Shulamit Lapid",
-            "titolo": "La ferocia",
-            "genere": "Horror",
-            "isbn": "9788806214562",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788806214562-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Brunetto Latini",
-            "titolo": "Death and the Black Pyramid",
-            "genere": "Horror",
-            "isbn": "9781780100883",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781780100883-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "José Latour",
             "titolo": "La morte e la piramide nera",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitlale.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -427,43 +148,25 @@
             "autore": "Keith Laumer",
             "titolo": "La moscheide overo Domiziano il moschicida",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitlale.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Ann Leckie",
-            "titolo": "Edge of Dark Water",
-            "genere": "Horror",
-            "isbn": "9780316188432",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780316188432-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "Stanislaw Lem",
             "titolo": "Scia di morte. L'ultimo viaggio del",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitlale.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Charlotte Lennox",
-            "titolo": "Thunderstruck",
-            "genere": "Horror",
-            "isbn": "9780307351920",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780307351920-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "Leonardo da Vinci",
             "titolo": "Drömmar vid havet (Il porto dei sogni incrociati)",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitlale.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -487,24 +190,6 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Nagib Mahfuz",
-            "titolo": "La Regina disadorna",
-            "genere": "Horror",
-            "isbn": "8807815931",
-            "endpoint": "https://www.incipitario.com/incipitma.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/8807815931-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Raffaele Mangano",
-            "titolo": "The Naked and the Dead",
-            "genere": "Horror",
-            "isbn": "9780805060171",
-            "endpoint": "https://www.incipitario.com/incipitma.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780805060171-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Marco Manilio",
             "titolo": "Il nudo e il morto",
             "genere": "Horror",
@@ -520,15 +205,6 @@
             "isbn": "9788804320593",
             "endpoint": "https://www.incipitario.com/incipitma.html",
             "cover_src": "http://covers.openlibrary.org/b/isbn/9788804320593-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Victor Margueritte",
-            "titolo": "Le soleil nait derrière le Louvre (Il sole sorge dietro il Louvre)",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitma.html",
-            "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
         },
         {
@@ -553,7 +229,7 @@
             "autore": "Yann Martel",
             "titolo": "Que d'os (Piovono morti)",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitma.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -568,15 +244,6 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Charles Robert Maturin",
-            "titolo": "Ultimi vampiri",
-            "genere": "Horror",
-            "isbn": "8889541350",
-            "endpoint": "https://www.incipitario.com/incipitma.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/8889541350-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Margaret Mazzantini",
             "titolo": "Dall'inferno",
             "genere": "Horror",
@@ -586,93 +253,21 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Colleen McCullough",
-            "titolo": "The Stray Sod Country (...)",
-            "genere": "Horror",
-            "isbn": "1408808471",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1408808471-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Ana Menendez",
-            "titolo": "No Country for Old Men",
-            "genere": "Horror",
-            "isbn": "9780330440301",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780330440301-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Madeline Miller",
-            "titolo": "An Indecent Obsession",
-            "genere": "Horror",
-            "isbn": "0354048147",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0354048147-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Miyuki Miyabe",
-            "titolo": "The Thorn Birds",
-            "genere": "Horror",
-            "isbn": "9780899261515",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780899261515-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Federico Moccia",
             "titolo": "Uccelli di rovo",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitmbmz.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Eugenio Montale",
-            "titolo": "Desolation Road",
-            "genere": "Horror",
-            "isbn": "0349426732",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0349426732-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Raul Montanari",
-            "titolo": "Desolation Road",
-            "genere": "Horror",
-            "isbn": "0349426732",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0349426732-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "Giorgio Montefoschi",
             "titolo": "Blackwater I. La piena",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitmbmz.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Antonio Moresco",
-            "titolo": "Black Dogs",
-            "genere": "Horror",
-            "isbn": "0099277085",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0099277085-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Toni Morrison (Chloe Anthony Wofford)",
-            "titolo": "The Cockroach",
-            "genere": "Horror",
-            "isbn": "0679722122",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0679722122-L.jpg",
             "genere_macro": "Horror"
         },
         {
@@ -682,24 +277,6 @@
             "isbn": "8804622830",
             "endpoint": "https://www.incipitario.com/incipitmbmz.html",
             "cover_src": "http://covers.openlibrary.org/b/isbn/8804622830-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Robert Musil",
-            "titolo": "Asylum",
-            "genere": "Horror",
-            "isbn": "9781467662260",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781467662260-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Alfred de Musset",
-            "titolo": "Dr Haggard's Disease",
-            "genere": "Horror",
-            "isbn": "9780679752615",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780679752615-L.jpg",
             "genere_macro": "Horror"
         },
         {
@@ -721,57 +298,12 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Flann O'Brien (Brian O'Nolan)",
-            "titolo": "Freaky Green Eyes",
-            "genere": "Horror",
-            "isbn": "9780066237572",
-            "endpoint": "https://www.incipitario.com/incipito.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780066237572-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Rosario Palazzolo",
             "titolo": "Nel chiaror della luna",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitpape.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Orhan Pamuk",
-            "titolo": "L'eau des collines: Manon des sources (L'acqua delle colline: Manon delle sorgenti)",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitpape.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Goffredo Parise",
-            "titolo": "Choke",
-            "genere": "Horror",
-            "isbn": "0307388921",
-            "endpoint": "https://www.incipitario.com/incipitpape.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0307388921-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Tim Parks",
-            "titolo": "Fight Club",
-            "genere": "Horror",
-            "isbn": "9786073106672",
-            "endpoint": "https://www.incipitario.com/incipitpape.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9786073106672-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Valeria Parrella",
-            "titolo": "Fight Club",
-            "genere": "Horror",
-            "isbn": "9786073106672",
-            "endpoint": "https://www.incipitario.com/incipitpape.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9786073106672-L.jpg",
             "genere_macro": "Horror"
         },
         {
@@ -784,57 +316,12 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Oliver Pötzsch",
-            "titolo": "Tornatràs",
-            "genere": "Horror",
-            "isbn": "9788804476115",
-            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788804476115-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Laura Pugno",
-            "titolo": "The Black Cat",
-            "genere": "Horror",
-            "isbn": "1429096233",
-            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1429096233-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Raymond Queneau",
-            "titolo": "Calamity Town",
-            "genere": "Horror",
-            "isbn": "9789577083531",
-            "endpoint": "https://www.incipitario.com/incipitq.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9789577083531-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Liu Qingbang",
             "titolo": "Il paese del maleficio",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitq.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Quino (Joaquin Lavado)",
-            "titolo": "The Devil to Pay",
-            "genere": "Horror",
-            "isbn": "9780373051878",
-            "endpoint": "https://www.incipitario.com/incipitq.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780373051878-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Patrick Rambaud",
-            "titolo": "The Well of Loneliness",
-            "genere": "Horror",
-            "isbn": "7532754308",
-            "endpoint": "https://www.incipitario.com/incipitr.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/7532754308-L.jpg",
             "genere_macro": "Horror"
         },
         {
@@ -850,79 +337,25 @@
             "autore": "Domenico Rea",
             "titolo": "Domicilio sconosciuto",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitr.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Laurie Viera Rigler",
-            "titolo": "I killer non vanno in pensione",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitr.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Antoine de Rivarol",
-            "titolo": "Ofrenda a la tormenta",
-            "genere": "Horror",
-            "isbn": "8423348687",
-            "endpoint": "https://www.incipitario.com/incipitr.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/8423348687-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "Alain Robbe-Grillet",
             "titolo": "Offerta alla tormenta",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitr.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Kim Stanley Robinson",
-            "titolo": "The Old English Baron, a Gothic Story",
-            "genere": "Horror",
-            "isbn": "9781419176036",
-            "endpoint": "https://www.incipitario.com/incipitr.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781419176036-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "José Rodrigues dos Santos",
             "titolo": "Dead Man Control (Il segreto del milionario)",
             "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitr.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Sally Rooney",
-            "titolo": "The Monster in the Box",
-            "genere": "Horror",
-            "isbn": "9781410420152",
-            "endpoint": "https://www.incipitario.com/incipitr.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781410420152-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Joseph Roth",
-            "titolo": "Le paysan perverti (...)",
-            "genere": "Horror",
-            "isbn": "9782264009258",
-            "endpoint": "https://www.incipitario.com/incipitr.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9782264009258-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Jean-Jacques Rousseau",
-            "titolo": "Gabrel's Inferno",
-            "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitr.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -931,16 +364,7 @@
             "autore": "Giuseppe Rovani",
             "titolo": "Gabrel's Inferno. Tentazione e castigo",
             "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitr.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Joanne Kathleen Rowling",
-            "titolo": "Drop to his Death (Discesa fatale)",
-            "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitr.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -949,7 +373,7 @@
             "autore": "Isabella Santacroce",
             "titolo": "Jesus liebt mich (L'orribile attesa del Giudizio Universale)",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitsasf.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -958,54 +382,9 @@
             "autore": "Marco Santagata",
             "titolo": "Mieses Karma (L'orribile karma della formica)",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitsasf.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Roberto Saviano",
-            "titolo": "The Unbearable Bassington (...)",
-            "genere": "Horror",
-            "isbn": "1072484064",
-            "endpoint": "https://www.incipitario.com/incipitsasf.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1072484064-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Isabel Sheehan",
-            "titolo": "Monster: The Autobiography of an L.A. Gang Member",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Ignazio Silone",
-            "titolo": "Wilt on High",
-            "genere": "Horror",
-            "isbn": "0394743210",
-            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0394743210-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Dan Simmons",
-            "titolo": "Frankenstein",
-            "genere": "Horror",
-            "isbn": "1079484035",
-            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1079484035-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Saverio Simonelli",
-            "titolo": "Frankenstein",
-            "genere": "Horror",
-            "isbn": "1079484035",
-            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1079484035-L.jpg",
             "genere_macro": "Horror"
         },
         {
@@ -1018,42 +397,6 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Massimo Tallone",
-            "titolo": "Requiem",
-            "genere": "Horror",
-            "isbn": "9780884360551",
-            "endpoint": "https://www.incipitario.com/incipitt.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780884360551-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Giuseppina Torregrossa",
-            "titolo": "Just One Damned Thing After Another",
-            "genere": "Horror",
-            "isbn": "9781597808682",
-            "endpoint": "https://www.incipitario.com/incipitt.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781597808682-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Sue (Susan Lillian) Townsend",
-            "titolo": "Day of no Return",
-            "genere": "Horror",
-            "isbn": "9781413411812",
-            "endpoint": "https://www.incipitario.com/incipitt.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781413411812-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Giancarlo Tramutoli",
-            "titolo": "Daughter of Smoke & Bone",
-            "genere": "Horror",
-            "isbn": "0316459186",
-            "endpoint": "https://www.incipitario.com/incipitt.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0316459186-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Andrés Trapiello",
             "titolo": "La chimera di Praga",
             "genere": "Horror",
@@ -1063,37 +406,10 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Ayelet Tsabari",
-            "titolo": "La torre",
-            "genere": "Horror",
-            "isbn": "9788401426018",
-            "endpoint": "https://www.incipitario.com/incipitt.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788401426018-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Fernando Vallejo",
-            "titolo": "The Dying Earth (La Terra morente)",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitv.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Birgit Vanderbeke",
-            "titolo": "Nachtblauw",
-            "genere": "Horror",
-            "isbn": "9789075212914",
-            "endpoint": "https://www.incipitario.com/incipitv.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9789075212914-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "S. S. Van Dine (Willard Huntington Wright)",
             "titolo": "Taccuino d'ombre",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitv.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Horror"
@@ -1102,27 +418,9 @@
             "autore": "John Herbert Varley",
             "titolo": "La canarina assassinata",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitv.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Fabrizio Venerandi",
-            "titolo": "The Kennel Murder Case",
-            "genere": "Horror",
-            "isbn": "9798636511205",
-            "endpoint": "https://www.incipitario.com/incipitv.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9798636511205-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Vercors (Jean Bruller)",
-            "titolo": "The Kidnap Murder Case",
-            "genere": "Horror",
-            "isbn": "1473306043",
-            "endpoint": "https://www.incipitario.com/incipitv.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1473306043-L.jpg",
             "genere_macro": "Horror"
         },
         {
@@ -1144,15 +442,6 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Simona Vinci",
-            "titolo": "Debout les morts",
-            "genere": "Horror",
-            "isbn": "2878580680",
-            "endpoint": "https://www.incipitario.com/incipitv.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/2878580680-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Constantin-François Chasseboeuf comte de Volney",
             "titolo": "Il morso della reclusa",
             "genere": "Horror",
@@ -1165,54 +454,18 @@
             "autore": "Carey Wallace",
             "titolo": "Il colore viola",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitw.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Lew Wallace",
-            "titolo": "Brief Interviews with Hideous Man",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Donald Wandrei",
-            "titolo": "The Pale King",
-            "genere": "Horror",
-            "isbn": "9781609417321",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781609417321-L.jpg",
             "genere_macro": "Horror"
         },
         {
             "autore": "Sandi Ward",
             "titolo": "Il re pallido",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitw.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Rebecca West (Cicely Isabel Fairfield)",
-            "titolo": "La tomba insanguinata",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Donald E. Westlake",
-            "titolo": "Big Foot",
-            "genere": "Horror",
-            "isbn": "0440404959",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0440404959-L.jpg",
             "genere_macro": "Horror"
         },
         {
@@ -1225,93 +478,12 @@
             "genere_macro": "Horror"
         },
         {
-            "autore": "Victor Lorenzo Whitechurch",
-            "titolo": "The Clue of the Twisted Candle",
-            "genere": "Horror",
-            "isbn": "1537691589",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1537691589-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Walt Whitman",
-            "titolo": "The Crimson Circle",
-            "genere": "Horror",
-            "isbn": "9798557457590",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9798557457590-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
             "autore": "Oscar Wilde",
             "titolo": "Il cerchio scarlatto",
             "genere": "Horror",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitw.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Thornton Wilder",
-            "titolo": "The Dark Eyes of London",
-            "genere": "Horror",
-            "isbn": "143261326X",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/143261326X-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Kathleen Winter",
-            "titolo": "The Frightened Lady",
-            "genere": "Horror",
-            "isbn": "9781842326862",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781842326862-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Thomas Wiseman",
-            "titolo": "King Kong",
-            "genere": "Horror",
-            "isbn": "9781558616578",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781558616578-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Pelham Grenville Wodehouse",
-            "titolo": "King Kong",
-            "genere": "Horror",
-            "isbn": "9781558616578",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781558616578-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Virginia Woolf",
-            "titolo": "The Terrible People",
-            "genere": "Horror",
-            "isbn": "9798422523856",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9798422523856-L.jpg",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "William Wordsworth",
-            "titolo": "The Traitors Gate",
-            "genere": "Horror",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Horror"
-        },
-        {
-            "autore": "Wu Ming",
-            "titolo": "The Valley of Ghosts",
-            "genere": "Horror",
-            "isbn": "9798829184445",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9798829184445-L.jpg",
             "genere_macro": "Horror"
         }
     ]

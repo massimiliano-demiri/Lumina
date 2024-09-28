@@ -1,19 +1,10 @@
 {
     "Poetry": [
         {
-            "autore": "Carmine Abate",
-            "titolo": "Beowulf",
-            "genere": "Poetry",
-            "isbn": "9780393975802",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780393975802-L.jpg",
-            "genere_macro": "Poetry"
-        },
-        {
             "autore": "Riccardo Bacchelli",
             "titolo": "Il mulino del Po",
             "genere": "Poetry",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Poetry"
@@ -27,71 +18,27 @@
             "genere_macro": "Poetry"
         },
         {
-            "autore": "Charles Bukowski",
-            "titolo": "Dandelion Wine",
-            "genere": "Poetry",
-            "isbn": "9788823526235",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Poetry"
-        },
-        {
             "autore": "Edmondo De Amicis",
             "titolo": "La divina commedia",
             "genere": "Poetry",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Emily Eden",
-            "titolo": "The Patient in Room 18 (La stanza n. 18)",
-            "genere": "Poetry",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipite.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "John Fowles",
-            "titolo": "Sombres Citrouilles (Livide zucche)",
-            "genere": "Poetry",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Poetry"
         },
         {
             "autore": "Hamlin Garland",
             "titolo": "Destini incrociati - Il prezzo della vittoria",
             "genere": "Poetry",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitgagl.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Albrecht Goes",
-            "titolo": "Dichtung und Wahrheit (Poesia e verità)",
-            "genere": "Poetry",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Ursula Kroeber Le Guin",
-            "titolo": "Tao-te Ching (Tao-te Ching)",
-            "genere": "Poetry",
-            "isbn": "9781581733334",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781581733334-L.jpg",
             "genere_macro": "Poetry"
         },
         {
             "autore": "Vera Linhartová",
             "titolo": "I Brokiga Blads vatten (Il pappagallo di Mahler)",
             "genere": "Poetry",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitlflz.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Poetry"
@@ -100,44 +47,8 @@
             "autore": "Melania G. Mazzucco",
             "titolo": "Encomio del tiranno (scritto all'unico scopo di fare dei soldi)",
             "genere": "Poetry",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitma.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Justo Navarro",
-            "titolo": "Pnin",
-            "genere": "Poetry",
-            "isbn": "9781857152722",
-            "endpoint": "https://www.incipitario.com/incipitn.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781857152722-L.jpg",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Mariette Navarro",
-            "titolo": "Pnin",
-            "genere": "Poetry",
-            "isbn": "9781857152722",
-            "endpoint": "https://www.incipitario.com/incipitn.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781857152722-L.jpg",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Patrick O'Brian",
-            "titolo": "Broke Heart Blues",
-            "genere": "Poetry",
-            "isbn": "0452280346",
-            "endpoint": "https://www.incipitario.com/incipito.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0452280346-L.jpg",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Luigi Pintor",
-            "titolo": "Plata quemada (Soldi bruciati)",
-            "genere": "Poetry",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Poetry"
         },
@@ -145,16 +56,7 @@
             "autore": "Giambattista Ramusio",
             "titolo": "Il pozzo della solitudine",
             "genere": "Poetry",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitr.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Mercè Rodoreda",
-            "titolo": "La canción de Dorotea (La canzone di Dorotea)",
-            "genere": "Poetry",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitr.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Poetry"
@@ -163,7 +65,7 @@
             "autore": "Gertrude Stein",
             "titolo": "Lettre à mon judge (Lettera al mio giudice)",
             "genere": "Poetry",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitsgsz.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Poetry"
@@ -172,7 +74,7 @@
             "autore": "Iginio Ugo Tarchetti",
             "titolo": "I volatili del Beato Angelico",
             "genere": "Poetry",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitt.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Poetry"
@@ -181,25 +83,9 @@
             "autore": "Hetty Esther Verolme",
             "titolo": "La dea della vendetta",
             "genere": "Poetry",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitv.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Edmond About",
-            "titolo": "Carmina Burana",
-            "genere": "Literary Criticism",
-            "isbn": "9788817106863",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Felipe Alfau",
-            "titolo": "Nelson",
-            "genere": "Literary Criticism",
-            "isbn": "9781604338201",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
             "genere_macro": "Poetry"
         },
         {
@@ -214,7 +100,7 @@
             "autore": "Eric Ambler",
             "titolo": "Gabriela cravo e canela (Gabriella garofano e cannella)",
             "genere": "Literary Criticism",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitamaz.html",
             "genere_macro": "Poetry"
         },
@@ -230,7 +116,7 @@
             "autore": "Giorgio Bassani",
             "titolo": "Illusioni perdute",
             "genere": "Literary Criticism",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Poetry"
         },
@@ -251,22 +137,6 @@
             "genere_macro": "Poetry"
         },
         {
-            "autore": "Anthony Berkeley (Anthony Berkeley Cox)",
-            "titolo": "The Untouchable",
-            "genere": "Literary Criticism",
-            "isbn": "9781476647159",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Calixthe Beyala",
-            "titolo": "City",
-            "genere": "Literary Criticism",
-            "isbn": "9781846310287",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Poetry"
-        },
-        {
             "autore": "Dorothy Bowers",
             "titolo": "L'uomo meridionale e l'uomo nordico",
             "genere": "Literary Criticism",
@@ -283,34 +153,10 @@
             "genere_macro": "Poetry"
         },
         {
-            "autore": "Edward Bunker",
-            "titolo": "The Martian Chronicles",
-            "genere": "Literary Criticism",
-            "isbn": "9781476686592",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Poetry"
-        },
-        {
             "autore": "Frances (Fanny) Burney (D'Arblay)",
             "titolo": "La morte non è cosa per ragazzine",
             "genere": "Literary Criticism",
             "isbn": "9788877422187",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Wilhelm Busch",
-            "titolo": "Speaking from Among the Bones",
-            "genere": "Literary Criticism",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Samuel Butler",
-            "titolo": "As Chimney Sweepers Come to Dust",
-            "genere": "Literary Criticism",
-            "isbn": "9781108910422",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
             "genere_macro": "Poetry"
         },
@@ -323,56 +169,8 @@
             "genere_macro": "Poetry"
         },
         {
-            "autore": "Daniele Del Giudice",
-            "titolo": "Lettres de mon moulin",
-            "genere": "Literary Criticism",
-            "isbn": "9783476035097",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Roddy Doyle",
-            "titolo": "A Christmas Carol",
-            "genere": "Literary Criticism",
-            "isbn": "9781448139156",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Marguerite Duras",
-            "titolo": "Martin Chuzzlewit",
-            "genere": "Literary Criticism",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Percival Everett",
-            "titolo": "You Shall Know Our Velocity (...)",
-            "genere": "Literary Criticism",
-            "isbn": "9781040091135",
-            "endpoint": "https://www.incipitario.com/incipite.html",
-            "genere_macro": "Poetry"
-        },
-        {
             "autore": "José Manuel Fajardo",
             "titolo": "Sotto la pelle",
-            "genere": "Literary Criticism",
-            "isbn": "9788804374879",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Oriana Fallaci",
-            "titolo": "Cecilia de Noel",
-            "genere": "Literary Criticism",
-            "isbn": "9788804374879",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Jessica Fellowes",
-            "titolo": "Ask the Dust",
             "genere": "Literary Criticism",
             "isbn": "9788804374879",
             "endpoint": "https://www.incipitario.com/incipitf.html",
@@ -387,32 +185,8 @@
             "genere_macro": "Poetry"
         },
         {
-            "autore": "Beppe Fenoglio",
-            "titolo": "The Brotherhood of the Grape",
-            "genere": "Literary Criticism",
-            "isbn": "9788804374879",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Giuseppe Ferrandino",
-            "titolo": "Full of life",
-            "genere": "Literary Criticism",
-            "isbn": "9788804374879",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Poetry"
-        },
-        {
             "autore": "Juan Filloy",
             "titolo": "La tela di Penelope",
-            "genere": "Literary Criticism",
-            "isbn": "9788804374879",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Tibor Fischer",
-            "titolo": "La vie obscure (...)",
             "genere": "Literary Criticism",
             "isbn": "9788804374879",
             "endpoint": "https://www.incipitario.com/incipitf.html",
@@ -435,24 +209,8 @@
             "genere_macro": "Poetry"
         },
         {
-            "autore": "Walter Fontana",
-            "titolo": "Belgravia",
-            "genere": "Literary Criticism",
-            "isbn": "9788804374879",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Poetry"
-        },
-        {
             "autore": "Mary Eleanor Wilkins Freeman",
             "titolo": "I giorni dell'abbandono",
-            "genere": "Literary Criticism",
-            "isbn": "9788804374879",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Renato Fucini",
-            "titolo": "Bridget Jones's Diary",
             "genere": "Literary Criticism",
             "isbn": "9788804374879",
             "endpoint": "https://www.incipitario.com/incipitf.html",
@@ -462,7 +220,7 @@
             "autore": "Carlos Fuentes",
             "titolo": "Il diario di Bridget Jones",
             "genere": "Literary Criticism",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitf.html",
             "genere_macro": "Poetry"
         },
@@ -470,72 +228,8 @@
             "autore": "Pierre Gaspard-Huit",
             "titolo": "La cognizione del dolore",
             "genere": "Literary Criticism",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Stella Gibbons",
-            "titolo": "Neverwhere",
-            "genere": "Literary Criticism",
-            "isbn": "9781789143089",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Zane Grey",
-            "titolo": "Ferdydurke (Ferdydurke)",
-            "genere": "Literary Criticism",
-            "isbn": "9788852071300",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Dashiell Hammett",
-            "titolo": "The Watcher at the Door (Qualcuno alla porta)",
-            "genere": "Literary Criticism",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Ingrid Horrocks",
-            "titolo": "The Mercies",
-            "genere": "Literary Criticism",
-            "isbn": "9780429675256",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Maureen Jennings",
-            "titolo": "In the Kingdom of the Mist",
-            "genere": "Literary Criticism",
-            "isbn": "9781554589289",
-            "endpoint": "https://www.incipitario.com/incipitj.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Imre Kertész",
-            "titolo": "The Shadow Man (Il carnefice)",
-            "genere": "Literary Criticism",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitk.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Cormac McCarthy",
-            "titolo": "Money",
-            "genere": "Literary Criticism",
-            "isbn": "9788864645575",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Elsa Morante",
-            "titolo": "Amsterdam",
-            "genere": "Literary Criticism",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
             "genere_macro": "Poetry"
         },
         {
@@ -544,30 +238,6 @@
             "genere": "Literary Criticism",
             "isbn": "9788864536545",
             "endpoint": "https://www.incipitario.com/incipitn.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Thomas Pynchon",
-            "titolo": "A Descent into the Maelström",
-            "genere": "Literary Criticism",
-            "isbn": "9781000649925",
-            "endpoint": "https://www.incipitario.com/incipitpfpz.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Ioan Slavici",
-            "titolo": "On the Beach (...)",
-            "genere": "Literary Criticism",
-            "isbn": "9783110951943",
-            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Attilio Bertolucci",
-            "titolo": "Les diaboliques",
-            "genere": "Literary Collections",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Poetry"
         },
         {
@@ -584,14 +254,6 @@
             "genere": "Literary Collections",
             "isbn": "9788868435905",
             "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Poetry"
-        },
-        {
-            "autore": "Patricia Highsmith",
-            "titolo": "Life's Little Ironies",
-            "genere": "Literary Collections",
-            "isbn": "9781474617628",
-            "endpoint": "https://www.incipitario.com/incipith.html",
             "genere_macro": "Poetry"
         },
         {

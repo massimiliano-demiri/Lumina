@@ -1,30 +1,6 @@
 {
     "Science Fiction": [
         {
-            "autore": "Giulia Abbate",
-            "titolo": "Bibliothêkê (III-II sec. a.C.)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Gilbert Adair",
-            "titolo": "Edda (IX/XII sec.)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Simonetta Agnello Hornby",
-            "titolo": "Nibelungenlied (1200/1205)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Pamela Aidan",
             "titolo": "Al qur'ano (Il Corano) (630 ca.)",
             "genere": "Fiction",
@@ -49,32 +25,8 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Rabih Alameddine",
-            "titolo": "Sir Tristrem",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Louisa May Alcott",
-            "titolo": "Moon over Soho",
-            "genere": "Fiction",
-            "isbn": "9788826446608",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Sibilla Aleramo (Rina Faccio)",
             "titolo": "Il cercatore di luce",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Jim Al-Khalili",
-            "titolo": "Miss Eliza's English Kitchen",
             "genere": "Fiction",
             "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitaaal.html",
@@ -113,38 +65,6 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Jorge Amado",
-            "titolo": "Dona Flor e Seus Dois Maridos (Dona Flor e i suoi due mariti)",
-            "genere": "Fiction",
-            "isbn": "9788811143925",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Ameng di Wu (pseudonimo di autore ignoto, 1800?)",
-            "titolo": "Jubiabà (Jubiabà)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Stephen Amidon",
-            "titolo": "Suor (Sudore)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Roberto Ampuero",
-            "titolo": "Judgement on Deltchev",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Antonio Amurri",
             "titolo": "Il processo Deltchev",
             "genere": "Fiction",
@@ -155,14 +75,6 @@
         {
             "autore": "Roberto \"Freak\" Antoni",
             "titolo": "La maschera di Dimitrios",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Donald Antrim",
-            "titolo": "The Schirmer Inheritance",
             "genere": "Fiction",
             "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitamaz.html",
@@ -185,14 +97,6 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Reinaldo Arenas",
-            "titolo": "Come Dio comanda",
-            "genere": "Fiction",
-            "isbn": "9788858684023",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Roberto Arlt",
             "titolo": "Ti prendo e ti porto via",
             "genere": "Fiction",
@@ -209,58 +113,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Elizabeth von Arnim (Mary Annette Beauchamp)",
-            "titolo": "El caso Neruda (Il caso Neruda)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Bruno Arpaia",
-            "titolo": "Cita en el Azul Profundo (Appuntamento al Blu Profondo)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Cletto Arrighi (Carlo Righetti)",
-            "titolo": "¿Quién mató a Cristián Kustermann? (Chi ha ucciso Cristian Kustermann?)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Pellegrino Artusi",
-            "titolo": "Quelques clichés de Bruxelles (Alcuni clichés di Bruxelles)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Ruby Constance Ashby",
-            "titolo": "Den grimme Ælling",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Isaac Asimov",
             "titolo": "Il brutto anatroccolo",
             "genere": "Fiction",
             "isbn": "9788858847848",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Charles Asselineau",
-            "titolo": "Kun en Spillemand (Il violinista)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitamaz.html",
             "genere_macro": "Science Fiction"
         },
@@ -273,67 +129,11 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Kate Atkinson",
-            "titolo": "Den lille Pige med Svovlstikkerne",
-            "genere": "Fiction",
-            "isbn": "9788702124842",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Stefania Auci",
-            "titolo": "Prindsessen paa Ærten",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Paul Auster",
-            "titolo": "De røde Sko",
-            "genere": "Fiction",
-            "isbn": "9788858407370",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Silvia Avallone",
-            "titolo": "De vilde Svaner",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Tullio Avoledo",
-            "titolo": "Na Drini ćuprija (Il ponte sulla Drina)",
-            "genere": "Fiction",
-            "isbn": "9788804665038",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Esmahan Aykol",
             "titolo": "Non c'e gusto in Italia ad essere intelligenti : (seguira il dibattito)",
             "genere": "Fiction",
             "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Azorín (pseud. di José Martínez Ruiz)",
-            "titolo": "Elect Mr Robinson for a Better World",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Vittorio Baccelli",
-            "titolo": "Mainframe",
-            "genere": "Fiction",
-            "isbn": "9788887926583",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Science Fiction"
         },
         {
@@ -345,34 +145,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Andrea Bajani",
-            "titolo": "There's non such place as far away",
-            "genere": "Fiction",
-            "isbn": "9788858400067",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Jo Baker",
             "titolo": "Nessun luogo è lontano",
             "genere": "Fiction",
             "isbn": "9788817134897",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Kage Baker",
-            "titolo": "Das dreißigste Jahr (Il trentesimo anno)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "David Baldacci",
-            "titolo": "The Windup Girl",
-            "genere": "Fiction",
-            "isbn": "9781538742051",
             "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Science Fiction"
         },
@@ -401,30 +177,6 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Alessandro Banda",
-            "titolo": "Longbourn",
-            "genere": "Fiction",
-            "isbn": "9788806185848",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Giuseppe Bandi",
-            "titolo": "Longbourn House",
-            "genere": "Fiction",
-            "isbn": "9788806228996",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Iain Banks",
-            "titolo": "In the Garden of Iden",
-            "genere": "Fiction",
-            "isbn": "9781350309692",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Anne Letitia Barbauld",
             "titolo": "L'ultimo spartito di Rossini",
             "genere": "Fiction",
@@ -437,22 +189,6 @@
             "titolo": "La calda notte dell'ispettore Tibbs",
             "genere": "Fiction",
             "isbn": "9788838919510",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Robert Barr",
-            "titolo": "Crash",
-            "genere": "Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Eaton Stannard Barrett",
-            "titolo": "L'avant-propos de la Comédie humaine (...)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Science Fiction"
         },
@@ -473,34 +209,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Catherine Barry",
-            "titolo": "Le cousin Pons",
-            "genere": "Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Donald Barthelme",
             "titolo": "La cugina Betta",
             "genere": "Fiction",
             "isbn": "9788887803648",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Fabio Bartolomei",
-            "titolo": "Eugénie Grandet",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Brian Bates",
-            "titolo": "Le père Goriot",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Science Fiction"
         },
@@ -513,26 +225,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Hedwig (Vicki) Baum",
-            "titolo": "Une ténébreuse affaire",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "M. C. Beaton (Marion McChesney)",
             "titolo": "Novella di Cacasenno figlio del semplice Bertoldino",
             "genere": "Fiction",
             "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Paul Beatty",
-            "titolo": "Corpo a corpo",
-            "genere": "Fiction",
-            "isbn": "9788893250948",
             "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Science Fiction"
         },
@@ -565,22 +261,6 @@
             "titolo": "Arabella e affini",
             "genere": "Fiction",
             "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Maria Bellonci",
-            "titolo": "La camicia bruciata",
-            "genere": "Fiction",
-            "isbn": "9788835734581",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Saul Bellow",
-            "titolo": "Campi Elisi",
-            "genere": "Fiction",
-            "isbn": "9788835727989",
             "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Science Fiction"
         },
@@ -625,30 +305,6 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Benoît de Sainte-Maure",
-            "titolo": "I porci",
-            "genere": "Fiction",
-            "isbn": "9788848800471",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Nina Berberova",
-            "titolo": "The Sea",
-            "genere": "Fiction",
-            "isbn": "9780811211987",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Anya Bergman",
-            "titolo": "Shroud",
-            "genere": "Fiction",
-            "isbn": "9781786581938",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Georges Bernanos",
             "titolo": "One for the road ­ Soliloquio da bancone in 19 giri e un brindisi",
             "genere": "Fiction",
@@ -657,26 +313,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Thomas Bernhard",
-            "titolo": "Sir Bertrand (Sir Bertrand)",
-            "genere": "Fiction",
-            "isbn": "9788845971846",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Luigi Bertelli (pseud.: Vamba)",
             "titolo": "L'ultimo rosa di Lautrec",
             "genere": "Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Francesca Bertini (Elena Seracini Vitiello)",
-            "titolo": "L'élégance du hérisson",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Science Fiction"
         },
@@ -705,42 +345,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Marthe-Lucile Bibesco (Lucile Decaux)",
-            "titolo": "Omero, Iliade",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Raphaëlle Billetdoux",
-            "titolo": "Senza sangue",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Massimo Binarelli",
-            "titolo": "Seta",
-            "genere": "Fiction",
-            "isbn": "9788822732798",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Elin Boardy",
             "titolo": "Corbaccio",
             "genere": "Fiction",
             "isbn": "9788822751294",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Giovanni Boccaccio",
-            "titolo": "Decameron",
-            "genere": "Fiction",
-            "isbn": "9788854140417",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
             "genere_macro": "Science Fiction"
         },
@@ -761,50 +369,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Vladimir Bogomolov",
-            "titolo": "Tænk på et tal (Pensa un numero)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Roberto Bolaño",
             "titolo": "I diabolici",
             "genere": "Fiction",
             "isbn": "9788845929175",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Heinrich Böll",
-            "titolo": "Senso",
-            "genere": "Fiction",
-            "isbn": "9788852088520",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Christopher Bollen",
-            "titolo": "2666 (2666)",
-            "genere": "Fiction",
-            "isbn": "9788845972829",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Sergej Bolmat",
-            "titolo": "Los detective salvajes (I detective selvaggi)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Luigi Bolognini",
-            "titolo": "Monsieur Pain (Monsieur Pain)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
             "genere_macro": "Science Fiction"
         },
@@ -821,14 +389,6 @@
             "titolo": "Gruppenbild mit Dame (Foto di gruppo con signora)",
             "genere": "Fiction",
             "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Claudio Antonio Bosco",
-            "titolo": "Orient",
-            "genere": "Fiction",
-            "isbn": "9788860043528",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
             "genere_macro": "Science Fiction"
         },
@@ -859,30 +419,6 @@
         {
             "autore": "Rhys Bowen (Janet Quin-Harkin)",
             "titolo": "Una partenza contrastata",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Bertha Muzzy Bower",
-            "titolo": "L'homme du midi et l'homme du nord",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Ray Bradbury",
-            "titolo": "Eva ultima",
-            "genere": "Fiction",
-            "isbn": "9788852040092",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Ulrich Bräker",
-            "titolo": "L'Aleph",
             "genere": "Fiction",
             "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
@@ -929,42 +465,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Kate Braverman",
-            "titolo": "Lavengro",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Silvia Bre",
-            "titolo": "Lavengro",
-            "genere": "Fiction",
-            "isbn": "9788869939198",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Sybil Grace Brinton",
             "titolo": "La prima ultima ora",
             "genere": "Fiction",
             "isbn": "9788869939365",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Emily Brontë",
-            "titolo": "Melaenis (...)",
-            "genere": "Fiction",
-            "isbn": "9788869341052",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Rhoda Broughton",
-            "titolo": "La chambre des Dames (La camera delle signore)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
             "genere_macro": "Science Fiction"
         },
@@ -977,26 +481,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Dan Brown",
-            "titolo": "The Twelve Clues of Christmas",
-            "genere": "Fiction",
-            "isbn": "9781472120793",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Thomas Browne",
             "titolo": "Un'incantevole estate in Montana",
             "genere": "Fiction",
             "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Edward George Bulwer-Lytton",
-            "titolo": "Fahrenheit 451",
-            "genere": "Fiction",
-            "isbn": "9782808689526",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
             "genere_macro": "Science Fiction"
         },
@@ -1017,34 +505,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Frances Eliza Hodgson Burnett",
-            "titolo": "The Weed that Strings the Hangmans Bag",
-            "genere": "Fiction",
-            "isbn": "9791280168191",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Augusten Burroughs",
-            "titolo": "A Red Herring Without Mustard",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Edgar Rice Burroughs",
             "titolo": "Aringhe rosse senza mostarda",
             "genere": "Fiction",
             "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "William Burroughs",
-            "titolo": "I Am Half-Sick of Shadows",
-            "genere": "Fiction",
-            "isbn": "9780802197238",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
             "genere_macro": "Science Fiction"
         },
@@ -1073,24 +537,8 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Marco Buticchi",
-            "titolo": "Un segreto per Flavia de Luce",
-            "genere": "Fiction",
-            "isbn": "9788830452350",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Ron Butlin",
             "titolo": "Flavia de Luce e il cadavere nel camino",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Antonia S. Byatt (Antonia Drabble)",
-            "titolo": "Lebensgeschichte und Natürliche Ebentheuer des Armen Mannes im Tockenburg",
             "genere": "Fiction",
             "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
@@ -1125,14 +573,6 @@
             "titolo": "Siempre es dificil volver a casa (È sempre difficile tornare a casa)",
             "genere": "Fiction",
             "isbn": "9788823505971",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Silvio D'Arzo",
-            "titolo": "Morte al telefono",
-            "genere": "Fiction",
-            "isbn": "9788728593455",
             "endpoint": "https://www.incipitario.com/incipitdadh.html",
             "genere_macro": "Science Fiction"
         },
@@ -1185,67 +625,11 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Don DeLillo",
-            "titolo": "Tartarin de Tarascon",
-            "genere": "Fiction",
-            "isbn": "9788823505971",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Lester Del Rey (Ramon Felipe San Juan Mario Silvio Enrico Smith Heathcourt-Brace Sierra y Alvarez-Del Rey y De Los Huerdes)",
-            "titolo": "The Murder in the Laboratory (Omicidio in laboratorio)",
-            "genere": "Fiction",
-            "isbn": "9788823505971",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Felice Del Vecchio",
-            "titolo": "West",
-            "genere": "Fiction",
-            "isbn": "9781507161937",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Emilio De Marchi",
-            "titolo": "The Welsh Girl",
-            "genere": "Fiction",
-            "isbn": "9788823505971",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Fabiano De Micheli",
-            "titolo": "The Party",
-            "genere": "Fiction",
-            "isbn": "9788823505971",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Irina Denezhkina",
-            "titolo": "Il party",
-            "genere": "Fiction",
-            "isbn": "9788806165048",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Giorgio De Rienzo",
             "titolo": "La bellezza è un malinteso",
             "genere": "Fiction",
             "isbn": "9788823505971",
             "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Marco Diamantini",
-            "titolo": "The Brief Wondrous Life of Oscar Wao (La breve e favolosa vita di Oscar Wao)",
-            "genere": "Fiction",
-            "isbn": "9788804689942",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
             "genere_macro": "Science Fiction"
         },
         {
@@ -1257,42 +641,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Tommaso Di Ciaula",
-            "titolo": "Clans of the Alphane moon",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Philip K. Dick",
             "titolo": "Follia per sette clan",
             "genere": "Fiction",
             "isbn": "9788834734162",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Gianluca Di Dio",
-            "titolo": "The Man in the High Castle",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Paul Di Filippo",
-            "titolo": "The Minority Report",
-            "genere": "Fiction",
-            "isbn": "9781472118776",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Dorothy Cameron Disney",
-            "titolo": "Now Wait for Last Year",
-            "genere": "Fiction",
-            "isbn": "9781479423385",
             "endpoint": "https://www.incipitario.com/incipitdidz.html",
             "genere_macro": "Science Fiction"
         },
@@ -1313,50 +665,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Luca Doninelli",
-            "titolo": "Ubik",
-            "genere": "Fiction",
-            "isbn": "9788811687726",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Margaret Anne Doody",
-            "titolo": "The Battle of Life",
-            "genere": "Fiction",
-            "isbn": "9780195104288",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Sergej Dovlatov",
-            "titolo": "The Chimes",
-            "genere": "Fiction",
-            "isbn": "9788893250764",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Margaret Drabble",
             "titolo": "Cantico di Natale",
             "genere": "Fiction",
             "isbn": "9791280035769",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Alessandra Dragoni",
-            "titolo": "The Cricket on the Hearth",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Theodore Dreiser",
-            "titolo": "Dombey and Son",
-            "genere": "Fiction",
-            "isbn": "9781786566935",
             "endpoint": "https://www.incipitario.com/incipitdidz.html",
             "genere_macro": "Science Fiction"
         },
@@ -1369,35 +681,11 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Alexandre Dumas",
-            "titolo": "The Haunted Man and the Ghost's Bargain",
-            "genere": "Fiction",
-            "isbn": "9781786567109",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Daphne Du Maurier",
             "titolo": "Il patto col fantasma",
             "genere": "Fiction",
             "isbn": "9788838902178",
             "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "George Eliot (Mary Ann Evans)",
-            "titolo": "Baudolino",
-            "genere": "Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipite.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Bret Easton Ellis",
-            "titolo": "Numero zero",
-            "genere": "Fiction",
-            "isbn": "9788858412725",
-            "endpoint": "https://www.incipitario.com/incipite.html",
             "genere_macro": "Science Fiction"
         },
         {
@@ -1409,26 +697,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Per Olov Enquist",
-            "titolo": "Belinda",
-            "genere": "Fiction",
-            "isbn": "9788870911848",
-            "endpoint": "https://www.incipitario.com/incipite.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Venedict Vasil'evic Erofeev",
             "titolo": "Il castello Rackrent",
             "genere": "Fiction",
             "isbn": "9788893257107",
-            "endpoint": "https://www.incipitario.com/incipite.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Jenny Erpenbeck",
-            "titolo": "Se nasce femmina",
-            "genere": "Fiction",
-            "isbn": "9788880032076",
             "endpoint": "https://www.incipitario.com/incipite.html",
             "genere_macro": "Science Fiction"
         },
@@ -1449,42 +721,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Corrado Farina",
-            "titolo": "Figurine",
-            "genere": "Fiction",
-            "isbn": "9788886312462",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "William Faulkner",
             "titolo": "Un uomo",
             "genere": "Fiction",
             "isbn": "9788834601594",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Elena Ferrante",
-            "titolo": "Full of life",
-            "genere": "Fiction",
-            "isbn": "9788866320951",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Ernesto Ferrero",
-            "titolo": "The Road to Los Angeles",
-            "genere": "Fiction",
-            "isbn": "9780062013156",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Susan Ferrier",
-            "titolo": "La strada per Los Angeles",
-            "genere": "Fiction",
-            "isbn": "9780062013156",
             "endpoint": "https://www.incipitario.com/incipitf.html",
             "genere_macro": "Science Fiction"
         },
@@ -1505,14 +745,6 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Michael Thomas Ford",
-            "titolo": "Snob",
-            "genere": "Fiction",
-            "isbn": "9780758271945",
-            "endpoint": "https://www.incipitario.com/incipitf.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Carlo Fruttero",
             "titolo": "Matrimonio",
             "genere": "Fiction",
@@ -1529,26 +761,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Emile Gaboriau",
-            "titolo": "Kabalmysteriet (L'enigma del solitario)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "John Galt",
             "titolo": "Il cerchio di pietre - La collina delle fate",
             "genere": "Fiction",
             "isbn": "9788858620359",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Santiago Gamboa",
-            "titolo": "Drums of Autumn",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitgagl.html",
             "genere_macro": "Science Fiction"
         },
@@ -1565,22 +781,6 @@
             "titolo": "Nevi Infuocate - Cannoni per la libertà",
             "genere": "Fiction",
             "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Elizabeth Gaskell",
-            "titolo": "L'Adalgisa",
-            "genere": "Fiction",
-            "isbn": "9788869938986",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Pier Francesco Gasparetto",
-            "titolo": "Un fulmine sul 220",
-            "genere": "Fiction",
-            "isbn": "9788811678489",
             "endpoint": "https://www.incipitario.com/incipitgagl.html",
             "genere_macro": "Science Fiction"
         },
@@ -1605,22 +805,6 @@
             "titolo": "Racconti dispersi: Una fornitura importante",
             "genere": "Fiction",
             "isbn": "9788845260445",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Stéphanie-Félicité Ducrest de Saint-Aubin, Madame de Genlis",
-            "titolo": "Carpenter's Gothic (Gotico Americano)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Giuseppe Genna",
-            "titolo": "The Recognitions",
-            "genere": "Fiction",
-            "isbn": "9788875201104",
             "endpoint": "https://www.incipitario.com/incipitgagl.html",
             "genere_macro": "Science Fiction"
         },
@@ -1657,75 +841,11 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Alessandro Golinelli",
-            "titolo": "Das Märchen",
-            "genere": "Fiction",
-            "isbn": "9788871688183",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Maksim Gor'kij (Aleksej Maksimovich Peshkov)",
-            "titolo": "Der verbotene Fluss",
-            "genere": "Fiction",
-            "isbn": "9788871688183",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Françoise d'Issembourg d'Happoncourt, Madame de Graffigny",
-            "titolo": "Peterburgskie povesti: Zapiski sumasshedshego",
-            "genere": "Fiction",
-            "isbn": "9788871688183",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Jackson Gregory",
             "titolo": "Il vicario di Wakefield",
             "genere": "Fiction",
             "isbn": "9788881120086",
             "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "David Grossman",
-            "titolo": "Madame Gervaisais (...)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Fred Grove (Frederick Herridge)",
-            "titolo": "The Cookbook Collector",
-            "genere": "Fiction",
-            "isbn": "9788871688183",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Einar Már Gudmundsson",
-            "titolo": "La madre",
-            "genere": "Fiction",
-            "isbn": "9788870911138",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Jean Michel Guenassia",
-            "titolo": "Father and Son (...)",
-            "genere": "Fiction",
-            "isbn": "9781782394044",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Hella Haasse",
-            "titolo": "De wegen der verbeelding (Le vie dell'immaginazione)",
-            "genere": "Fiction",
-            "isbn": "9788870910919",
-            "endpoint": "https://www.incipitario.com/incipith.html",
             "genere_macro": "Science Fiction"
         },
         {
@@ -1745,54 +865,6 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Kent Haruf",
-            "titolo": "Svaermere (Sognatori)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Hermann Hesse",
-            "titolo": "Far from the Madding Crowd",
-            "genere": "Fiction",
-            "isbn": "9780553905557",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Friedrich Hölderlin",
-            "titolo": "The Romantic Adventures of a Milkmaid",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Anthony Hope",
-            "titolo": "The Woodlanders",
-            "genere": "Fiction",
-            "isbn": "9781786568397",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Nick Hornby",
-            "titolo": "An English Murder",
-            "genere": "Fiction",
-            "isbn": "9788823527935",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Khaled Hosseini",
-            "titolo": "Vardø. Dopo la tempesta",
-            "genere": "Fiction",
-            "isbn": "9791255020493",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Michel Houellebecq",
             "titolo": "Chocolat",
             "genere": "Fiction",
@@ -1806,30 +878,6 @@
             "genere": "Fiction",
             "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitj.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Erica Jong (Erica Weisman)",
-            "titolo": "The Bostonians",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitj.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "James Joyce",
-            "titolo": "Daisy Miller",
-            "genere": "Fiction",
-            "isbn": "9788858650141",
-            "endpoint": "https://www.incipitario.com/incipitj.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Franz Kafka",
-            "titolo": "America",
-            "genere": "Fiction",
-            "isbn": "9788858651179",
-            "endpoint": "https://www.incipitario.com/incipitk.html",
             "genere_macro": "Science Fiction"
         },
         {
@@ -1851,30 +899,6 @@
         {
             "autore": "Deryn Lake (Dinah Lampitt)",
             "titolo": "Le relazioni pericolose",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Giovan Battista Lalli",
-            "titolo": "Conférences de Notre-Dame de Paris (...)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Jane Langton",
-            "titolo": "La Princesse de Montpensier (...)",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Joe R. Lansdale",
-            "titolo": "Zaïde",
             "genere": "Fiction",
             "isbn": "9788858837788",
             "endpoint": "https://www.incipitario.com/incipitlale.html",
@@ -1913,30 +937,6 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Alain-René Lesage",
-            "titolo": "The fool (Embargo)",
-            "genere": "Fiction",
-            "isbn": "9783967993035",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Nikolaj Semënovič Leskov",
-            "titolo": "Outcast",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitlale.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Françoise Mallet-Joris",
-            "titolo": "Es-Sukkariyya (La via dello zucchero)",
-            "genere": "Fiction",
-            "isbn": "9788858414354",
-            "endpoint": "https://www.incipitario.com/incipitma.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Javier Marías",
             "titolo": "Storia di Re Artù e dei suoi cavalieri",
             "genere": "Fiction",
@@ -1950,22 +950,6 @@
             "genere": "Fiction",
             "isbn": "9788858822128",
             "endpoint": "https://www.incipitario.com/incipitma.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Roberto Mazzucco",
-            "titolo": "Hilarotragoedia",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitma.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Gérard de Nerval (Gérard Labrunie)",
-            "titolo": "Cose trasparenti",
-            "genere": "Fiction",
-            "isbn": "9788845981845",
-            "endpoint": "https://www.incipitario.com/incipitn.html",
             "genere_macro": "Science Fiction"
         },
         {
@@ -1990,22 +974,6 @@
             "genere": "Fiction",
             "isbn": "9788858652336",
             "endpoint": "https://www.incipitario.com/incipitpape.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "F. G. Parke (pseudonimo)",
-            "titolo": "Soffocare",
-            "genere": "Fiction",
-            "isbn": "9788858837788",
-            "endpoint": "https://www.incipitario.com/incipitpape.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Brian Wilson Aldiss",
-            "titolo": "La luna su Soho",
-            "genere": "Science",
-            "isbn": "9788806236342",
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
             "genere_macro": "Science Fiction"
         },
         {
@@ -2049,79 +1017,11 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Coralie Bickford-Smith",
-            "titolo": "Novecento",
-            "genere": "Social Science",
-            "isbn": "9788858772881",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Gianni Biondillo",
-            "titolo": "The Silence of the Girls",
-            "genere": "Social Science",
-            "isbn": "9788861593756",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Luciano De Crescenzo",
-            "titolo": "Casa d'altri",
-            "genere": "Social Science",
-            "isbn": "9788852054372",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Alicia Giménez-Bartlett",
             "titolo": "Il saggiatore",
             "genere": "Social Science",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Torey Hayden",
-            "titolo": "Fingerprints of gods (Impronte degli dei)",
-            "genere": "Social Science",
-            "isbn": "9788850243280",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Francesco Algarotti",
-            "titolo": "Flatlandia",
-            "genere": "Science Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitaaal.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Eraldo Baldini",
-            "titolo": "The New Atlantis",
-            "genere": "Science Fiction",
-            "isbn": "9781425453459",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781425453459-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Girolamo Brusoni",
-            "titolo": "The Sheltering Sky",
-            "genere": "Science Fiction",
-            "isbn": "9781931082198",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9781931082198-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Gesualdo Bufalino",
-            "titolo": "Doctor Criminale (...)",
-            "genere": "Science Fiction",
-            "isbn": "9780670846771",
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780670846771-L.jpg",
             "genere_macro": "Science Fiction"
         },
         {
@@ -2134,24 +1034,6 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Charles Dickens",
-            "titolo": "Counter-Clock World",
-            "genere": "Science Fiction",
-            "isbn": "9780375719332",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780375719332-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Monica Dickens",
-            "titolo": "The Crack in Space (Svegliatevi, dormienti)",
-            "genere": "Science Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Emily Elizabeth Dickinson",
             "titolo": "Cacciatore di androidi",
             "genere": "Science Fiction",
@@ -2161,19 +1043,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Sergio Di Cori",
-            "titolo": "Doctor Bloodmoney (Cronache del dopobomba)",
-            "genere": "Science Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Emma Donoghue",
             "titolo": "The Zap Gun (Il sognatore d'armi)",
             "genere": "Science Fiction",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitdidz.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Science Fiction"
@@ -2197,129 +1070,12 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Neil Gaiman",
-            "titolo": "Outlander",
-            "genere": "Science Fiction",
-            "isbn": "0553714538",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0553714538-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "William Alexander Gerhardie",
-            "titolo": "American Gods",
-            "genere": "Science Fiction",
-            "isbn": "9788073322120",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788073322120-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Tess Gerritsen",
-            "titolo": "American Gods",
-            "genere": "Science Fiction",
-            "isbn": "9788073322120",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788073322120-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "William Gibson",
-            "titolo": "Stardust",
-            "genere": "Science Fiction",
-            "isbn": "8467450312",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/8467450312-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "André Gide",
-            "titolo": "Stardust",
-            "genere": "Science Fiction",
-            "isbn": "8467450312",
-            "endpoint": "https://www.incipitario.com/incipitgagl.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/8467450312-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Gian Marco Griffi",
-            "titolo": "Kosmos (Cosmo)",
-            "genere": "Science Fiction",
-            "isbn": "3422982884",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/3422982884-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Gunnar Gunnarsson",
-            "titolo": "Tristano",
-            "genere": "Science Fiction",
-            "isbn": "9780914671244",
-            "endpoint": "https://www.incipitario.com/incipitgmgz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780914671244-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Robert Harris",
-            "titolo": "The Thin Man",
-            "genere": "Science Fiction",
-            "isbn": "2070378985",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/2070378985-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "O. Henry (William Sydney Porter)",
-            "titolo": "Metropolis (Metropolis)",
-            "genere": "Science Fiction",
-            "isbn": "1980417555",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1980417555-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Helen Humphreys",
-            "titolo": "The Second Sleep",
-            "genere": "Science Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Carolina Invernizio",
-            "titolo": "The Gay Phoenix (Meglio erede che morto)",
-            "genere": "Science Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipiti.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Ian Manook (Patrick Manoukian)",
-            "titolo": "The Fixer",
-            "genere": "Science Fiction",
-            "isbn": "9780140027143",
-            "endpoint": "https://www.incipitario.com/incipitma.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780140027143-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Alfred Edward Woodley Mason",
             "titolo": "I dodici abati di Challant",
             "genere": "Science Fiction",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitma.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "James McBride",
-            "titolo": "The Last Best Hope",
-            "genere": "Science Fiction",
-            "isbn": "0446606731",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/0446606731-L.jpg",
             "genere_macro": "Science Fiction"
         },
         {
@@ -2332,74 +1088,11 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Giuseppe Menconi",
-            "titolo": "The World According to Bertie",
-            "genere": "Science Fiction",
-            "isbn": "1846970172",
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1846970172-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Alan Moore",
-            "titolo": "Blackwater V: The Fortune (Blackwater V. La fortuna)",
-            "genere": "Science Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Christopher Moore",
-            "titolo": "Blackwater VI: Rain (Blackwater II. Pioggia)",
-            "genere": "Science Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitmbmz.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Trevor Noah",
-            "titolo": "Ultramarins",
-            "genere": "Science Fiction",
-            "isbn": "9780140034752",
-            "endpoint": "https://www.incipitario.com/incipitn.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780140034752-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Guido Nobili",
             "titolo": "Ultramarino",
             "genere": "Science Fiction",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitn.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Alberto Ongaro",
-            "titolo": "The House of Splendid Isolation",
-            "genere": "Science Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipito.html",
-            "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Alfredo Oriani",
-            "titolo": "The Light of Evening",
-            "genere": "Science Fiction",
-            "isbn": "9780297851332",
-            "endpoint": "https://www.incipitario.com/incipito.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780297851332-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Matthew Pearl",
-            "titolo": "Lumachino",
-            "genere": "Science Fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitpape.html",
             "cover_src": "https://via.placeholder.com/150",
             "genere_macro": "Science Fiction"
         },
@@ -2407,63 +1100,18 @@
             "autore": "Antonio Pennacchi",
             "titolo": "La vita schifa",
             "genere": "Science Fiction",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitpape.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Rupert Penny (Ernest Basil Charles Thornett)",
-            "titolo": "Atomico dandy",
-            "genere": "Science Fiction",
-            "isbn": "9788807016691",
-            "endpoint": "https://www.incipitario.com/incipitpape.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9788807016691-L.jpg",
             "genere_macro": "Science Fiction"
         },
         {
             "autore": "George Sand (Amandine-Lucie-Aurore Dupin)",
             "titolo": "La nuova Justine ovvero le sciagure della virtù",
             "genere": "Science Fiction",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitsasf.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Robert Cedric Sherriff",
-            "titolo": "T.H.U.G. L.I.F.E. (...)",
-            "genere": "Science Fiction",
-            "isbn": "1555848753",
-            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1555848753-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Robert Silverberg",
-            "titolo": "Immortality Inc.",
-            "genere": "Science Fiction",
-            "isbn": "9780099157410",
-            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780099157410-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Jonathan Swift",
-            "titolo": "Hyperion",
-            "genere": "Science Fiction",
-            "isbn": "1491514973",
-            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1491514973-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "John Millington Synge",
-            "titolo": "Hyperion",
-            "genere": "Science Fiction",
-            "isbn": "1491514973",
-            "endpoint": "https://www.incipitario.com/incipitsgsz.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1491514973-L.jpg",
             "genere_macro": "Science Fiction"
         },
         {
@@ -2479,18 +1127,9 @@
             "autore": "Uwe Tellkamp",
             "titolo": "Chijin no ai (L'amore di uno sciocco)",
             "genere": "Science Fiction",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitt.html",
             "cover_src": "https://via.placeholder.com/150",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Giovanni Testori",
-            "titolo": "Kirin (Kirin)",
-            "genere": "Science Fiction",
-            "isbn": "1892065169",
-            "endpoint": "https://www.incipitario.com/incipitt.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/1892065169-L.jpg",
             "genere_macro": "Science Fiction"
         },
         {
@@ -2503,37 +1142,12 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "David Foster Wallace",
-            "titolo": "The Blind Contessa's New Machine",
-            "genere": "Science Fiction",
-            "isbn": "9780143119319",
-            "endpoint": "https://www.incipitario.com/incipitw.html",
-            "cover_src": "http://covers.openlibrary.org/b/isbn/9780143119319-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "James Harold Wallis",
             "titolo": "La scopa del sistema",
             "genere": "Science Fiction",
             "isbn": "8806220942",
             "endpoint": "https://www.incipitario.com/incipitw.html",
             "cover_src": "http://covers.openlibrary.org/b/isbn/8806220942-L.jpg",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Joaquim Maria Machado de Assis",
-            "titolo": "Den lille Havfrue",
-            "genere": "Brazilian fiction",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitamaz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Laurent Binet",
-            "titolo": "Regeneration",
-            "genere": "Technology & Engineering",
-            "isbn": "9789535103875",
-            "endpoint": "https://www.incipitario.com/incipitbabl.html",
             "genere_macro": "Science Fiction"
         },
         {
@@ -2545,18 +1159,10 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Stefano De Bellis",
-            "titolo": "Malinverno",
-            "genere": "Political Science",
-            "isbn": "9788843095742",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Riccardo De Gennaro",
             "titolo": "L'osteria",
             "genere": "Political Science",
-            "isbn": null,
+            "isbn": "ISBN non trovato",
             "endpoint": "https://www.incipitario.com/incipitdadh.html",
             "genere_macro": "Science Fiction"
         },
@@ -2577,43 +1183,11 @@
             "genere_macro": "Science Fiction"
         },
         {
-            "autore": "Elizabeth Daly",
-            "titolo": "The Great Automatic Grammatisator",
-            "genere": "Juvenile Fiction",
-            "isbn": "9788867151882",
-            "endpoint": "https://www.incipitario.com/incipitdadh.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Ray Coryton Hutchinson",
-            "titolo": "I was Jane Austen best friend",
-            "genere": "Juvenile Fiction",
-            "isbn": "9780330536189",
-            "endpoint": "https://www.incipitario.com/incipith.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
             "autore": "Mary Elizabeth Braddon",
             "titolo": "La vita intensa",
             "genere": "Young Adult Fiction",
             "isbn": "9788835706731",
             "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Éric Bulliard",
-            "titolo": "Fahrenheit 451",
-            "genere": "Science fiction, American",
-            "isbn": null,
-            "endpoint": "https://www.incipitario.com/incipitbmbz.html",
-            "genere_macro": "Science Fiction"
-        },
-        {
-            "autore": "Joël Dicker",
-            "titolo": "Do Androids Dream of Electric Sheep?",
-            "genere": "Androids",
-            "isbn": "9780752864303",
-            "endpoint": "https://www.incipitario.com/incipitdidz.html",
             "genere_macro": "Science Fiction"
         }
     ]
