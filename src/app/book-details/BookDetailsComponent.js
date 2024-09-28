@@ -16,9 +16,9 @@ const BookDetailsComponent = () => {
   const author = searchParams.get("author");
   const coverImage = searchParams.get("cover_src");
   const genres = searchParams.get("genres")?.split(",") || []; // Recupera i generi
+  const isbn = searchParams.get("isbn") || ""; // Retrieve the ISBN
 
   const [isLoaded, setIsLoaded] = useState(false);
-  const [isbn, setIsbn] = useState("");
   const [affiliateLink, setAffiliateLink] = useState("");
   const [description, setDescription] = useState("");
 
@@ -43,16 +43,10 @@ const BookDetailsComponent = () => {
 
       if (data.items && data.items.length > 0) {
         const bookInfo = data.items[0].volumeInfo;
-        const industryIdentifiers = bookInfo.industryIdentifiers || [];
-        const isbnObject = industryIdentifiers.find(
-          (identifier) =>
-            identifier.type === "ISBN_13" || identifier.type === "ISBN_10"
-        );
-        if (isbnObject) {
-          setIsbn(isbnObject.identifier);
-          setAffiliateLink(
-            `https://www.amazon.it/dp/${isbnObject.identifier}?tag=luminaid-21`
-          );
+
+        // Use the ISBN to create the affiliate link
+        if (isbn) {
+          setAffiliateLink(`https://www.amazon.it/dp/${isbn}?tag=luminaid-21`);
         } else {
           const genericAmazonLink = `https://www.amazon.it/s?k=${encodeURIComponent(
             title + " " + author
@@ -81,11 +75,13 @@ const BookDetailsComponent = () => {
 
   return (
     <div
-        className={"p-4 h-full w-full flex flex-col items-center justify-between relative overflow-hidden"}
+      className={
+        "p-4 h-full w-full flex flex-col items-center justify-between relative overflow-hidden"
+      }
       style={{
-            backgroundColor: "#121212",
-            color: "#fff"
-          }}
+        backgroundColor: "#121212",
+        color: "#fff",
+      }}
     >
       {isLoaded ? (
         <>
@@ -188,7 +184,9 @@ const BookDetailsComponent = () => {
 
           <div
             onClick={() => router.back()}
-            className={'cursor-pointer flex items-center justify-center px-5 py-3'}
+            className={
+              "cursor-pointer flex items-center justify-center px-5 py-3"
+            }
             style={{
               borderRadius: "30px",
               backgroundColor: "#282828",
@@ -205,18 +203,18 @@ const BookDetailsComponent = () => {
           </div>
         </>
       ) : (
-          <div className={"w-full h-full flex items-center justify-center"}>
-            <Lottie
-              options={{
-                loop: true,
-                autoplay: true,
-                animationData: bookLoadingAnimation,
-                rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
-              }}
-              height={200}
-              width={200}
-            />
-          </div>
+        <div className={"w-full h-full flex items-center justify-center"}>
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              animationData: bookLoadingAnimation,
+              rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
+            }}
+            height={200}
+            width={200}
+          />
+        </div>
       )}
     </div>
   );

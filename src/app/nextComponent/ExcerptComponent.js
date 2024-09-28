@@ -270,6 +270,7 @@ const ExcerptComponent = () => {
       title: bookData.title,
       author: bookData.author,
       cover_src: bookData.cover_src,
+      isbn: bookData.isbn, // Add the ISBN here
       genres: genresToPass.join(","),
     }).toString();
 
