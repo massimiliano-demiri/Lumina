@@ -224,7 +224,9 @@ const ExcerptComponent = () => {
           author,
           excerpt,
           cover_src: randomBook.cover_src,
+          isbn: randomBook.isbn, // Include ISBN here
         });
+
         setExcerptCount((prevCount) => prevCount + 1); // Incrementa il contatore solo quando l'utente vede l'estratto
         preLoadNextExcerpt(); // Pre-carica il prossimo estratto
       }
