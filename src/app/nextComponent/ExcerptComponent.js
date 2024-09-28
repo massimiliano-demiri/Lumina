@@ -25,12 +25,13 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 // Funzione per normalizzare e ripulire l'estratto
 const normalizeExcerpt = (excerpt) => {
-  return excerpt
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "") // Rimuove accenti
-    .replace(/[^\w\s.,!?'"()]/g, "") // Rimuove caratteri speciali
-    .replace(/\s+/g, " ") // Rimuove spazi multipli
-    .trim(); // Rimuove spazi all'inizio e alla fine
+  // Remove special characters and clean up whitespace
+  const cleanedExcerpt = excerpt
+    .replace(/[^\w\s.,!?'"()àèéìòù]/g, "") // Allow accented characters
+    .replace(/\s+/g, " ") // Remove multiple spaces
+    .trim(); // Trim spaces at the beginning and end
+
+  return cleanedExcerpt;
 };
 
 const MINIMUM_CHARACTERS = 100;
