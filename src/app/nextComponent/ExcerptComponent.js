@@ -55,7 +55,7 @@ const fetchExcerptFromEndpoint = async (book) => {
     return { title: book.titolo, excerpt: "" };
   }
 
-  const apiKey = "57e9398e9ab6a85b25af676d55e25278"; // ScraperAPI key
+  const apiKey = "316d3c6a041e9a2c35e97b3acdd31012"; // ScraperAPI key
   const proxyUrl = `https://api.scraperapi.com?api_key=${apiKey}&url=${encodeURIComponent(
     book.endpoint
   )}`;
