@@ -17,6 +17,8 @@ const BookDetailsComponent = () => {
   const coverImage = searchParams.get("cover_src");
   const genres = searchParams.get("genres")?.split(",") || []; // Recupera i generi
   const isbn = searchParams.get("isbn") || ""; // Retrieve the ISBN
+  const plot = searchParams.get("plot");
+  const year = searchParams.get("anno");
 
   const [isLoaded, setIsLoaded] = useState(false);
   const [affiliateLink, setAffiliateLink] = useState("");
@@ -148,7 +150,7 @@ const BookDetailsComponent = () => {
             }}
           >
             <p style={{ fontStyle: "italic", fontSize: "1.2rem" }}>
-              {description || "Trama non disponibile."}
+              {plot || "Trama non disponibile."}
             </p>
           </div>
 

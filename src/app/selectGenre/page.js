@@ -106,9 +106,12 @@ const SelectGenre = () => {
     setIsLoading(true);
     const bookIds = await fetchBookIdsByGenres(selectedGenres);
     const idsQuery = bookIds.join(",");
-    const genresQuery = selectedGenres.join(","); // Aggiungi i generi selezionati alla query
 
-    console.log("Generi selezionati:", selectedGenres); // Log dei generi
+    // Normalizziamo i generi
+    const normalizedGenres = selectedGenres.map((genre) => genre.trim());
+    const genresQuery = normalizedGenres.join(","); // Aggiungi i generi selezionati alla query
+
+    console.log("Generi selezionati:", normalizedGenres); // Log dei generi
     console.log("ID dei libri:", bookIds); // Log degli ID dei libri
 
     router.push(`/nextComponent?ids=${idsQuery}&genres=${genresQuery}`); // Passa gli ID dei libri e i generi selezionati
@@ -163,7 +166,7 @@ const SelectGenre = () => {
           {/* Scritta iniziale o emoticon a seconda della selezione */}
           {selectedGenres.length === 0 ? (
             <motion.div
-                className={'h-[10%]'}
+              className={"h-[10%]"}
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -183,7 +186,7 @@ const SelectGenre = () => {
             </motion.div>
           ) : (
             <motion.div
-                className={'h-[10%]'}
+              className={"h-[10%]"}
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.6 }}
@@ -219,7 +222,7 @@ const SelectGenre = () => {
             {genres.map((genre) => (
               <Grid item key={genre.id} xs={4} sm={4}>
                 <motion.div
-                    className={"h-full"}
+                  className={"h-full"}
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: genre.id * 0.1 }}
@@ -229,7 +232,7 @@ const SelectGenre = () => {
                   <Card
                     onClick={() => handleGenreClick(genre.name)}
                     sx={{
-                      height: '100%',
+                      height: "100%",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -268,17 +271,19 @@ const SelectGenre = () => {
 
           {/* Filtro per selezionare l'anno */}
           <motion.div
-              className={'w-full flex flex-col items-center'}
+            className={"w-full flex flex-col items-center"}
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <div
-              className={"w-4/5 flex flex-col items-center gap-2"}
-            >
+            <div className={"w-4/5 flex flex-col items-center gap-2"}>
               <Typography
                 variant="body1"
-                sx={{ color: "#90caf9", fontWeight: "bold", textAlign: "center" }}
+                sx={{
+                  color: "#90caf9",
+                  fontWeight: "bold",
+                  textAlign: "center",
+                }}
               >
                 Periodo
               </Typography>
@@ -289,7 +294,7 @@ const SelectGenre = () => {
                 valueLabelFormat={(x) => `${x}`}
                 min={1900}
                 max={2023}
-                sx={{ color: "#7986cb"}}
+                sx={{ color: "#7986cb" }}
               />
               <Typography
                 variant="body2"
@@ -308,7 +313,7 @@ const SelectGenre = () => {
           {/* Bottone per iniziare il viaggio */}
           {selectedGenres.length > 0 ? (
             <motion.div
-                className={"h-[10%]"}
+              className={"h-[10%]"}
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.6 }}
@@ -331,7 +336,9 @@ const SelectGenre = () => {
                 Inizia il tuo viaggio!
               </Button>
             </motion.div>
-          ):<div className={"h-[10%]"}></div>}
+          ) : (
+            <div className={"h-[10%]"}></div>
+          )}
         </>
       )}
     </Box>

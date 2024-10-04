@@ -3,36 +3,25 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Lottie from "react-lottie";
-import { CSSTransition } from "react-transition-group"; // Importiamo CSSTransition
+import { CSSTransition } from "react-transition-group";
 import AIcon from "@mui/icons-material/TextIncrease";
 import ArrowDownwardIcon from "@mui/icons-material/TextDecrease";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ClearIcon from "@mui/icons-material/Clear";
 import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
 import CoffeeIcon from "@mui/icons-material/LocalCafe";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import loadingAnimation from "./alien.json";
 import "./transitionStyles.css";
 import { useMediaQuery } from "@mui/material";
-import poetryData from "./poetry.json";
-import romanceData from "./romance.json";
-import scienceFictionData from "./science_fiction.json";
-import historicalData from "./historical.json";
-import mysteryData from "./mystery.json";
-import fantasyData from "./fantasy.json";
-import horrorData from "./horror.json";
-import adventureData from "./adventure.json";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
-// Funzione per normalizzare e ripulire l'estratto
-const normalizeExcerpt = (excerpt) => {
-  // Remove special characters and clean up whitespace
-  const cleanedExcerpt = excerpt
-    .replace(/[^\w\s.,!?'"()àèéìòù]/g, "") // Allow accented characters
-    .replace(/\s+/g, " ") // Remove multiple spaces
-    .trim(); // Trim spaces at the beginning and end
+// Import Supabase client
+import { createClient } from "@supabase/supabase-js";
 
-  return cleanedExcerpt;
-};
+const supabaseUrl = "https://ujytoqeuszwkokdlfkyh.supabase.co";
+const supabaseAnonKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVqeXRvcWV1c3p3a29rZGxma3loIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjc2MTU2NDQsImV4cCI6MjA0MzE5MTY0NH0.1zSCsFZOdLsiUC6dM_62wrjMhCuDqJYe0y0zmE1gay8";
+const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 const MINIMUM_CHARACTERS = 100;
 const REFERENCE_TEXT = 200; // Lunghezza minima per la validità
@@ -46,68 +35,85 @@ const allGenres = [
   "Historical",
   "Adventure",
   "Poetry",
-  "Adventure",
 ];
 
-const fetchExcerptFromEndpoint = async (book) => {
-  if (!book || !book.endpoint) {
-    console.error("Book or endpoint is undefined");
-    return { title: book.titolo, excerpt: "" };
-  }
+// Funzione per normalizzare e ripulire l'estratto
+const normalizeExcerpt = (excerpt) => {
+  const cleanedExcerpt = excerpt
+    .replace(/[^\w\s.,!?'"()àèéìòù]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  return cleanedExcerpt;
+};
 
-  const apiKey = "316d3c6a041e9a2c35e97b3acdd31012"; // ScraperAPI key
-  const proxyUrl = `https://api.scraperapi.com?api_key=${apiKey}&url=${encodeURIComponent(
-    book.endpoint
-  )}`;
+// Fetch excerpt from Supabase based on genre
+const fetchExcerptFromSupabase = async (selectedGenre) => {
+  const apiUrlCount = `https://ujytoqeuszwkokdlfkyh.supabase.co/rest/v1/books?select=*&genre=eq.${selectedGenre}&language=eq.it`;
+
+  const apiKey =
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVqeXRvcWV1c3p3a29rZGxma3loIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjc2MTU2NDQsImV4cCI6MjA0MzE5MTY0NH0.1zSCsFZOdLsiUC6dM_62wrjMhCuDqJYe0y0zmE1gay8";
 
   try {
-    const response = await fetch(proxyUrl);
-    const html = await response.text();
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
+    // 1. Effettua una prima richiesta per ottenere il numero totale di libri
+    const countResponse = await fetch(apiUrlCount, {
+      headers: {
+        apikey: apiKey,
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+        Prefer: "count=exact", // Richiede il conteggio esatto
+      },
+    });
 
-    const titleElement = Array.from(
-      doc.querySelectorAll("font[size='+1'] b")
-    ).find((b) => b.innerText.trim() === book.titolo);
-
-    if (!titleElement) {
-      console.error("Titolo non trovato nella pagina:", book.titolo);
-      return { title: book.titolo, excerpt: "" };
+    if (!countResponse.ok) {
+      throw new Error("Errore nel conteggio dei libri.");
     }
 
-    let excerpt = "";
-    let currentElement = titleElement.parentElement;
+    const totalBooks = countResponse.headers.get("content-range").split("/")[1]; // Ottiene il numero totale dei libri
 
-    while (currentElement && currentElement.nextSibling) {
-      currentElement = currentElement.nextSibling;
-
-      if (currentElement.nodeName === "BR") continue;
-
-      if (currentElement.nodeType === Node.TEXT_NODE) {
-        excerpt += currentElement.textContent.trim() + " ";
-      }
-
-      if (
-        currentElement.nodeName !== "BR" &&
-        currentElement.nodeType !== Node.TEXT_NODE
-      ) {
-        break;
-      }
+    if (totalBooks === 0) {
+      return { title: "", excerpt: "Nessun libro disponibile" };
     }
 
-    let normalizedExcerpt = normalizeExcerpt(excerpt.trim());
+    // 2. Calcola un offset casuale
+    const randomOffset = Math.floor(Math.random() * totalBooks);
 
+    // 3. Effettua la richiesta per ottenere il libro con l'offset casuale
+    const apiUrl = `https://ujytoqeuszwkokdlfkyh.supabase.co/rest/v1/books?select=*&genre=eq.${selectedGenre}&language=eq.it&limit=1&offset=${randomOffset}`;
+
+    const response = await fetch(apiUrl, {
+      headers: {
+        apikey: apiKey,
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error("Errore nel recupero del libro.");
+    }
+
+    const data = await response.json();
+    if (data.length === 0) {
+      return { title: "", excerpt: "Estratto non disponibile" };
+    }
+
+    const book = data[0];
+    const normalizedExcerpt = book.excerpt.trim();
     if (normalizedExcerpt.length < MINIMUM_CHARACTERS) {
-      normalizedExcerpt = "";
+      return { title: book.title, excerpt: "Estratto non disponibile" };
     }
 
     return {
-      title: book.titolo,
-      excerpt: normalizedExcerpt || "Estratto non disponibile",
+      title: book.title,
+      excerpt: normalizedExcerpt,
+      author: book.author,
+      cover_src: book.cover_src,
+      isbn: book.isbn,
+      plot: book.plot,
     };
   } catch (error) {
     console.error("Errore nel fetch dell'estratto:", error);
-    return { title: book.titolo, excerpt: "" };
+    return { title: "", excerpt: "Estratto non disponibile" };
   }
 };
 
@@ -119,49 +125,12 @@ const getRandomGenre = (selectedGenres) => {
   return selectedGenres[Math.floor(Math.random() * selectedGenres.length)];
 };
 
-const getGenreData = (genre) => {
-  switch (genre) {
-    case "Poetry":
-      return poetryData.Poetry;
-    case "Romance":
-      return romanceData.Romance;
-    case "Science Fiction":
-      return scienceFictionData["Science Fiction"];
-    case "Historical":
-      return historicalData.Historical;
-    case "Mystery":
-      return mysteryData.Mystery;
-    case "Fantasy":
-      return fantasyData.Fantasy;
-    case "Horror":
-      return horrorData.Horror;
-    case "Adventure":
-      return adventureData.Adventure;
-    default:
-      console.error("Genere non trovato:", genre);
-      return [];
-  }
-};
-
-const findAuthorByTitle = (genreData, bookTitle) => {
-  const book = genreData.find((book) => book.titolo === bookTitle);
-  return book ? book.autore : "Autore sconosciuto";
-};
-
-const getRandomBookFromGenre = (genreData) => {
-  if (!genreData || genreData.length === 0) {
-    console.error("Nessun libro trovato per il genere selezionato");
-    return null;
-  }
-  return genreData[Math.floor(Math.random() * genreData.length)];
-};
-
 const ExcerptComponent = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [selectedGenres, setSelectedGenres] = useState([]);
   const [bookData, setBookData] = useState(null);
-  const [nextBookData, setNextBookData] = useState(null); // Per il pre-caricamento
+  const [nextBookData, setNextBookData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [fontSize, setFontSize] = useState(26);
   const [darkMode, setDarkMode] = useState(true);
@@ -169,8 +138,7 @@ const ExcerptComponent = () => {
 
   const [isRotating, setIsRotating] = useState(false);
   const [excerptCount, setExcerptCount] = useState(0);
-
-  const [inTransition, setInTransition] = useState(false); // Aggiunto stato per la transizione
+  const [inTransition, setInTransition] = useState(false);
 
   useEffect(() => {
     const genresQuery = searchParams.get("genres");
@@ -182,84 +150,39 @@ const ExcerptComponent = () => {
   }, [selectedGenres]);
 
   const generateRandomExcerpt = async () => {
-    setInTransition(true); // Inizia la transizione
+    setInTransition(true);
 
     if (nextBookData) {
       setTimeout(() => {
-        setBookData(nextBookData); // Imposta il libro pre-caricato come attuale
-        setNextBookData(null); // Resetta il prossimo estratto
-        setExcerptCount((prevCount) => prevCount + 1); // Incrementa il contatore solo quando l'utente vede l'estratto
-        preLoadNextExcerpt(); // Pre-carica il prossimo
+        setBookData(nextBookData);
+        setNextBookData(null);
+        setExcerptCount((prevCount) => prevCount + 1);
+        preLoadNextExcerpt();
         setLoading(false);
-        setInTransition(false); // Termina la transizione
-      }, 500); // Tempo per la transizione
+        setInTransition(false);
+      }, 500);
       return;
     }
 
     const randomGenre = getRandomGenre(selectedGenres);
-    const genreData = getGenreData(randomGenre);
+    const { title, excerpt, author, cover_src, isbn } =
+      await fetchExcerptFromSupabase(randomGenre);
 
-    if (genreData.length === 0) {
-      setLoading(false);
-      return;
-    }
-
-    let validExcerptFound = false;
-
-    while (!validExcerptFound) {
-      const randomBook = getRandomBookFromGenre(genreData);
-
-      if (!randomBook) {
-        setLoading(false);
-        return;
-      }
-
-      const { title, excerpt } = await fetchExcerptFromEndpoint(randomBook);
-
-      if (excerpt && excerpt !== "Estratto non disponibile") {
-        const author = findAuthorByTitle(genreData, randomBook.titolo);
-        validExcerptFound = true;
-        setBookData({
-          title,
-          author,
-          excerpt,
-          cover_src: randomBook.cover_src,
-          isbn: randomBook.isbn, // Include ISBN here
-        });
-
-        setExcerptCount((prevCount) => prevCount + 1); // Incrementa il contatore solo quando l'utente vede l'estratto
-        preLoadNextExcerpt(); // Pre-carica il prossimo estratto
-      }
+    if (excerpt && excerpt !== "Estratto non disponibile") {
+      setBookData({ title, author, excerpt, cover_src, isbn });
+      setExcerptCount((prevCount) => prevCount + 1);
+      preLoadNextExcerpt();
     }
 
     setLoading(false);
-    setInTransition(false); // Termina la transizione
+    setInTransition(false);
   };
 
   const preLoadNextExcerpt = async () => {
     const randomGenre = getRandomGenre(selectedGenres);
-    const genreData = getGenreData(randomGenre);
-
-    let validExcerptFound = false;
-    while (!validExcerptFound) {
-      const randomBook = getRandomBookFromGenre(genreData);
-
-      if (!randomBook) {
-        return;
-      }
-
-      const { title, excerpt } = await fetchExcerptFromEndpoint(randomBook);
-
-      if (excerpt && excerpt !== "Estratto non disponibile") {
-        const author = findAuthorByTitle(genreData, randomBook.titolo);
-        validExcerptFound = true;
-        setNextBookData({
-          title,
-          author,
-          excerpt,
-          cover_src: randomBook.cover_src,
-        });
-      }
+    const nextBook = await fetchExcerptFromSupabase(randomGenre);
+    if (nextBook.excerpt && nextBook.excerpt !== "Estratto non disponibile") {
+      setNextBookData(nextBook);
     }
   };
 
@@ -272,8 +195,9 @@ const ExcerptComponent = () => {
       title: bookData.title,
       author: bookData.author,
       cover_src: bookData.cover_src,
-      isbn: bookData.isbn, // Add the ISBN here
+      isbn: bookData.isbn,
       genres: genresToPass.join(","),
+      plot: bookData.plot,
     }).toString();
 
     router.push(`/book-details?${queryParams}`);
